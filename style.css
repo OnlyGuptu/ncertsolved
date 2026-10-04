@@ -1,0 +1,283 @@
+/* Custom Global Resets & Theme Colors (Light Mode) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background-color: #f8fafc; /* Crisp, clean soft-light background */
+    color: #1e293b; /* Premium slate dark text */
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+/* Nav Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 3rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0f172a;
+    cursor: pointer;
+}
+
+.logo span {
+    color: #2563eb;
+}
+
+.badge {
+    background-color: #eff6ff;
+    border: 1px solid #bfdbfe;
+    color: #2563eb;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+/* Hero Content headers */
+.hero-section {
+    margin-bottom: 3rem;
+}
+
+.hero-section h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 0.5rem;
+}
+
+.hero-section p {
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+/* Layer Display Management */
+.view-layer {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.hidden {
+    display: none !important;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Breadcrumb Navigation Buttons */
+.navigation-crumbs {
+    margin-bottom: 1.5rem;
+}
+
+.btn-back {
+    background-color: #ffffff;
+    color: #64748b;
+    border: 1px solid #cbd5e1;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn-back:hover {
+    color: #ffffff;
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+/* LAYER 1: Big Grid Subject Buttons */
+.subject-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.subject-card-btn {
+    padding: 2.5rem 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #0f172a;
+    text-align: left;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.subject-card-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    border-color: #cbd5e1;
+}
+
+/* Custom left borders matching your dynamic subject styling */
+.btn-science { border-left: 5px solid #10b981; }
+.btn-sst { border-left: 5px solid #f59e0b; }
+.btn-maths { border-left: 5px solid #3b82f6; }
+.btn-sanskrit { border-left: 5px solid #8b5cf6; }
+.btn-hindi { border-left: 5px solid #ec4899; }
+.btn-english { border-left: 5px solid #14b8a6; }
+
+/* LAYER 2: Chapter Buttons Layout */
+.chapters-buttons-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.chapter-select-btn {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    color: #1e293b;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+
+.chapter-select-btn:hover {
+    background-color: #f8fafc;
+    border-color: #2563eb;
+    padding-left: 1.8rem;
+}
+
+.chapter-select-btn::after {
+    content: "View Solutions →";
+    font-size: 0.85rem;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* LAYER 3: Final Q&A Boxes Stack */
+.solutions-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.solution-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 1.8rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+}
+
+.question-text {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #2563eb; /* High contrast link blue for clear viewing */
+    margin-bottom: 0.8rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.answer-text {
+    color: #334155; /* Solid deep grey for highly readable study text */
+    line-height: 1.6;
+    padding-left: 1.5rem;
+    border-left: 2px solid #e2e8f0;
+    white-space: pre-line; /* Keeps your natural keyboard enter breaks active! */
+}
+.ncert-table {
+    width: 100%;
+    max-width: 850px;
+    margin: 1.5rem auto;
+    border-collapse: collapse;
+    background: #ffffff;
+    font-size: 1rem;
+}
+
+.ncert-table th,
+.ncert-table td {
+    border: 1px solid #e2e8f0;
+    padding: 0.8rem 1rem;
+    text-align: left;
+}
+
+.ncert-table th {
+    font-weight: 700;
+    background-color: #f8fafc;
+}
+
+.ncert-table td:first-child,
+.ncert-table th:first-child {
+    text-align: center;
+    width: 90px;
+}
+
+@media (max-width: 600px) {
+    .ncert-table {
+        font-size: 0.85rem;
+    }
+
+    .ncert-table th,
+    .ncert-table td {
+        padding: 0.6rem;
+    }
+}
+.question-image {
+    max-width: 300px; /* Adjust this value to make it smaller or larger */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto; /* Centers the image inside the card */
+}
+/* Force card elements to stack vertically instead of stretching horizontally */
+.solution-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Ensure question text flows like normal paragraph text */
+.question-text {
+    display: block; /* Overrides any flex layout inside the question */
+    width: 100%;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.6;
+}
+
+/* Ensure answers flow vertically as well */
+.answer-text {
+    display: block;
+    width: 100%;
+    margin-top: 0.75rem;
+    white-space: normal;
+    word-break: break-word;
+}
+

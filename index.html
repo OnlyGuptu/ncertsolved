@@ -1,0 +1,138 @@
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 9 NCERT Solved Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Navigation Header -->
+    <nav class="navbar">
+        <div class="logo" onclick="showLayer('subject-view')">NCERT<span>Solved</span></div>
+        <div class="badge">Class 9 Portal</div>
+    </nav>
+
+    <div class="container" id="homepage-view">
+        
+
+        <section id="subject-view" class="view-layer">
+            <div class="hero-section">
+                <h1>Select a Subject</h1>
+                <p><p>Made by a student itself as I know what we students want in NCERT Website, Simple and Straight answers to a question for help. Thanks for visiting my website, it makes me motivated to make more websites like this and helps a LOT.</p></p>
+            </div>
+            <div class="subject-grid">
+                <button class="subject-card-btn btn-science" onclick="selectSubject('science')">Science</button>
+                <button class="subject-card-btn btn-sst" onclick="selectSubject('sst')">SST</button>
+                <button class="subject-card-btn btn-maths" onclick="selectSubject('maths')">Mathematics</button>
+                <button class="subject-card-btn btn-sanskrit" onclick="selectSubject('sanskrit')">Sanskrit</button>
+                <button class="subject-card-btn btn-hindi" onclick="selectSubject('hindi')">Hindi</button>
+                <button class="subject-card-btn btn-english" onclick="selectSubject('english')">English</button>
+            </div>
+        </section>
+
+        <!-- LAYER 2: Chapter Selection Screen -->
+        <section id="chapter-view" class="view-layer hidden">
+            <div class="navigation-crumbs">
+                <button class="btn-back" onclick="showLayer('subject-view')">← Back to Subjects</button>
+            </div>
+            <div class="hero-section">
+                <h1 id="chapter-title-heading">Subject Chapters</h1>
+                <p>Select a chapter block below to view its exercises and solutions.</p>
+            </div>
+            <div id="chapters-list-grid" class="chapters-buttons-grid">
+                <!-- Dynamically generated chapter buttons go here -->
+            </div>
+        </section>
+
+        <!-- LAYER 3: Final Solutions Screen -->
+        <section id="solution-view" class="view-layer hidden">
+            <div class="navigation-crumbs">
+                <button class="btn-back" onclick="showLayer('chapter-view')">← Back to Chapters</button>
+            </div>
+            <div class="hero-section">
+                <h1 id="final-solution-heading">Chapter Solutions</h1>
+                <p>Verified step-by-step solutions for your class notes.</p>
+            </div>
+            <div id="solutions-content-container" class="solutions-stack">
+                <!-- Final text solutions injected here -->
+            </div>
+        </section>
+
+    </div>
+    <!-- ========================================== -->
+    <!-- PRIVACY POLICY LAYER                       -->
+    <!-- ========================================== -->
+    <div id="privacy-view" class="view-layer hidden container">
+        <div class="navigation-crumbs">
+            <button class="btn-back" onclick="showLayer('homepage-view')">← Back to Homepage</button>
+        </div>
+        <div class="solution-card" style="margin-top: 1rem; background: #ffffff; border: 1px solid #e2e8f0; padding: 1.8rem; border-radius: 10px;">
+            <h2 style="color: #0f172a; margin-bottom: 1.5rem;">Privacy Policy</h2>
+            <div class="answer-text" style="border-left: none; padding-left: 0; color: #334155; line-height: 1.6;">
+                <p><strong>Last Updated: September 2026</strong></p><br>
+                <p>At <strong>NCERTSolved</strong>, accessible from <strong>ncertsolved.in</strong>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by NCERTSolved and how we use it.</p><br>
+                
+                <h3 style="color: #2563eb; margin: 1rem 0 0.5rem 0;">Log Files</h3>
+                <p>NCERTSolved follows a standard procedure of using log files. These files log visitors when they visit websites. The information collected by log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks.</p><br>
+                
+                <h3 style="color: #2563eb; margin: 1rem 0 0.5rem 0;">Our Advertising Partners</h3>
+                <p>Some of advertisers on our site may use cookies and web beacons. Our advertising partners include Google AdSense. Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on NCERTSolved.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- TERMS OF SERVICE LAYER                     -->
+    <!-- ========================================== -->
+    <div id="terms-view" class="view-layer hidden container">
+        <div class="navigation-crumbs">
+            <button class="btn-back" onclick="showLayer('homepage-view')">← Back to Homepage</button>
+        </div>
+        <div class="solution-card" style="margin-top: 1rem; background: #ffffff; border: 1px solid #e2e8f0; padding: 1.8rem; border-radius: 10px;">
+            <h2 style="color: #0f172a; margin-bottom: 1.5rem;">Terms of Service</h2>
+            <div class="answer-text" style="border-left: none; padding-left: 0; color: #334155; line-height: 1.6;">
+                <p><strong>1. Terms</strong></p>
+                <p>By accessing the website at <strong>ncertsolved.in</strong>, you are agreeing to be bound by these website Terms and Conditions of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws.</p><br>
+                
+                <p><strong>2. Use License</strong></p>
+                <p>Permission is granted to temporarily view the educational solutions on NCERTSolved for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title.</p><br>
+                
+                <p><strong>3. Disclaimer</strong></p>
+                <p>The materials on NCERTSolved are provided "as is". NCERTSolved makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability or fitness for a particular purpose.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- CONTACT US LAYER                           -->
+    <!-- ========================================== -->
+    <div id="contact-view" class="view-layer hidden container">
+        <div class="navigation-crumbs">
+            <button class="btn-back" onclick="showLayer('homepage-view')">← Back to Homepage</button>
+        </div>
+        <div class="solution-card" style="margin-top: 1rem; max-width: 600px; margin: 1rem auto; border-top: 4px solid #2563eb; background: #ffffff; border-left: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; padding: 1.8rem; border-radius: 10px;">
+            <h2 style="color: #0f172a; margin-bottom: 1rem; text-align: center;">Contact Us</h2>
+            <p style="color: #64748b; text-align: center; margin-bottom: 2rem;">Have any queries or found an error in our solutions? We can also make a custom website for you on a fee. Drop us an email.</p>
+            <div class="answer-text" style="border-left: none; padding-left: 0; text-align: center;">
+                <p style="font-size: 1.2rem; font-weight: 600; color: #2563eb;">contact.ncertsolved@gmail.com</p>
+                <p style="color: #64748b; margin-top: 0.5rem;">We usually respond back within 24-48 working hours.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- FOOTER LINKS                               -->
+    <!-- ========================================== -->
+   <footer style="text-align: center; padding: 0.8rem 0; border-top: 1px solid #e2e8f0; margin-top: 1rem; font-size: 0.85rem; color: #64748b;">
+    <p>© 2026 NCERTSolved. All rights reserved.</p>
+    <p style="margin-top: 0.2rem;">
+        <a href="#" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;" onclick="event.preventDefault(); showLayer('privacy-view')">Privacy Policy</a> | 
+        <a href="#" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;" onclick="event.preventDefault(); showLayer('terms-view')">Terms of Service</a> | 
+        <a href="#" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;" onclick="event.preventDefault(); showLayer('contact-view')">Contact Us</a>
+    </p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>

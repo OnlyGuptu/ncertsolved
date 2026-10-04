@@ -1,0 +1,2668 @@
+// Complete Error-Free NCERT Database with Integrated Copy Actions
+const ncertDatabase = {
+    science: {
+        title: "Science Chapters",
+        isBranching: false,
+        chapters: [
+            {
+                name: "Chapter 1: Exploration: Entering the World of Secondary Science",
+                solutions: [
+                    { q: "Notice", a: `Sorry, there are no questions in this chapter.` }
+                ]
+            },
+            {
+                name: "Chapter 2: Cell: The Building Block of Life",
+                solutions: [
+                    { 
+                        q: " Differentiate between the following pairs of terms based on the clues given in parentheses:", 
+                        a: `"i) Cell membrane and cell wall: Cell membrane is selectively permeable while cell wall is completely permeable.
+
+(ii) RER and SER: Rough endoplasmic reticulum is rough in texture because of the presence of ribosomes on it while smooth endoplasmic reticulum is comparatively smooth because of absence of ribosomes on it.
+
+(iii) Chloroplast and chromoplast: Chloroplast contains chlorophyll, the green pigment present in plants while chromoplast contains other pigments apart from green which help in providing colourful appearance to flowers and fruit"` 
+                    },
+                    {
+                        q: " Two similar animal cells are placed in two different solutions: <br> <br> Cell X is placed in pure water. <br> Cell Y is placed in a concentrated salt solution. <br> <br> Cells are observed after some time. Cell X swells, and Cell Y shrinks. Which statement provides the correct explanation for the above observations? <br> <br> (i) Salt molecules moved into Cell Y, causing it to shrink. <br> <br> (ii) Water moved into Cell X and more water moved out of Cell Y than the salt solution entered in it. <br> <br> (iii) Water moved into Cell X and moved out of Cell Y through the cell membrane. <br> <br> (iv) Solute movement caused osmosis in both cells.", 
+                        a: ` (iii) Water moves into Cell X and moves out of Cell Y through the cell membrane.
+
+                             Reason: Pure water is hypotonic, so water enters Cell X by osmosis and makes it swell. The salt solution is hypertonic, so water comes out of Cell Y, causing it to shrink.` 
+                    },
+                    {
+                        q: ". Look at the diagram of a cell in Fig. 2.20. Identify the parts labelled from (a) to (g) and correctly match them with their functions given below: <br> <br> (i) Controlling all the activities of a cell. <br> (ii) Site of cellular respiration. <br> (iii) Storage organelle that also provides rigidity to the cell. <br> (iv) Separates the cell contents from surroundings.",
+                        a: `The labelled parts are <br><br>(a) Mitochondria → (ii) Site of cellular respiration.<br>(b) Nucleus → (i) Controls all the activities of a cell.<br>(c) Golgi apparatus → (vi) Packs and stores materials received from ER.<br>(d) Chloroplast → (vii) Helps in manufacturing food.<br>(e) Cell membrane → (iv) Separates the cell contents from the surroundings.<br>(f) Cell wall → (v) Provides structural rigidity to the cell.<br>(g) Vacuole → (iii) Acts as a storage organelle and also provides rigidity to the cell. <br><br> Answer: (a)–(ii), (b)–(i), (c)–(vi), (d)–(vii), (e)–(iv), (f)–(v), (g)–(iii)`,
+                        image: "images/cell-fig-2-20.png" 
+                    },
+                    {
+                        q: `Which of the following option(s) of the pairs of cell organelles are correctly placed under the given categories?
+
+<table class="ncert-table">
+    <thead>
+        <tr>
+            <th>Option</th>
+            <th>Present in the plant cells</th>
+            <th>Absent in the animal cells</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>(i)</td>
+            <td>Leucoplast</td>
+            <td>Cell wall</td>
+        </tr>
+        <tr>
+            <td>(ii)</td>
+            <td>Mitochondria</td>
+            <td>Ribosome</td>
+        </tr>
+        <tr>
+            <td>(iii)</td>
+            <td>Cell wall</td>
+            <td>Golgi apparatus</td>
+        </tr>
+        <tr>
+            <td>(iv)</td>
+            <td>Lysosome</td>
+            <td>Endoplasmic reticulum</td>
+        </tr>
+    </tbody>
+</table>`,
+                        a: `The correct answer is **(i)**.
+                        
+Leucoplasts are present in plant cells, while the cell wall is absent in animal cells. The other options are incorrect because the organelles listed as absent in animal cells are actually present in them.`
+                    },
+                    {
+                        q: "Two students, Renu and Rohit, were having a discussion on the plastids. Renu emphasised that all parts of the plants, even roots, contain plastids. However, Rohit did not agree with the statement and told her that plastids are absent in plant roots since the roots are underground and do not need to perform photosynthesis. Who is correct? Justify your answer",
+                        a: "Renu is correct. <br> <br> Justification: Plastids are present in almost all plant cells, including roots. While chloroplasts (for photosynthesis) are absent in roots because they receive no sunlight, underground roots contain leucoplasts (a type of non-green plastid) that function to store food materials like starch, oils, or proteins (e.g., in potato and taro roots)." 
+                    },
+                    { q: "Mitochondria and chloroplasts are two important organelles in a plant cell. Discuss how these two organelles are structurally and functionally similar to each other, and different from each other.", a: `Similarities
+
+- Double membranes: Both are wrapped in two layers of membrane instead of just one.
+
+- Their own genetic kit: Both contain their own DNA and ribosomes, allowing them to make some of their own proteins independently.
+
+- Energy focus: Both function as energy converters inside the cell.
+
+Differences
+
+- Role: Chloroplasts make food using sunlight (photosynthesis), while mitochondria break down food to release usable energy for the cell (respiration).
+
+- Location: Chloroplasts are only found in plant cells and algae, whereas mitochondria are present in both plant and animal cells.
+
+Internal structures: Chloroplasts contain green chlorophyll and stack-like structures called thylakoids, while mitochondria have a deeply folded inner membrane called cristae to maximize surface area.` },
+                    { q: "Which of the following pairs of cell organelles contains DNA? <br><br> (i) Chloroplasts, Ribosomes <br> (ii) Mitochondria, Nucleus <br> (iii) Golgi bodies, Ribosomes <br> (iv) Nucleus, Lysosomes", a: "Correct Option: (ii) Mitochondria, Nucleus" },
+                    { q: "A researcher carried out an experiment in which she took two carrots of similar size. She placed one carrot in plain water and the other carrot of similar size. She placed one carrot in plain water and the other carrot observations. <br> <br> (i) What hypothesis does she want to test through this experiment? <br>(ii) What would you suggest for the improvement of this experiment? <br> (iii) Why does the carrot in plain water stay stiff and crunchy, but the carrot in concentrated salt solution become rubbery and limp?", a: " (i) She wants to test how water moves into or out of living plant cells by osmosis based on the concentration of the liquid outside.<br><br> (ii) She wants to test how water moves into or out of living plant cells by osmosis based on the concentration of the liquid outside. <br><br> (iii) In plain water: The liquid outside has more water than inside the carrot cells. Water enters the carrot cells by osmosis. This fills up the vacuoles and pushes against the cell wall (turgor pressure), keeping the carrot firm and crisp. <br> In salt solution: The liquid outside is more concentrated, so it has less water than inside the carrot cells. Water flows out of the carrot cells into the salt water. The cells lose pressure and shrink away from their walls, making the carrot soft and rubbery." },
+                    { q: "Indicate the presence or absence of following structures in bacterial and animal cells: ", a: "The answer is given in the table ", image: "images/talbe.png"},
+                    { q: `Carry out the following experiment: <br>
+Take four peeled potato halves and scoop each one out to make potato 
+cups. One of these potato cups should be made from a boiled potato. 
+Place each of the potato cups in a beaker containing water (Fig. 2.22).
+<br> Now, set up the experiment as follows:
+<br><br> (a) Keep Cup A empty.
+<br>(b) Add one teaspoon sugar in Cup B.
+<br>(c) Add one teaspoon salt in Cup C.
+<br>(d) Add one teaspoon sugar in the boiled potato in Cup D.
+<br><br> Observe the four potato cups at least two hours and answer the following
+questions:
+<br><br> (i) Explain why water gathers in the hollowed portion of Cup B and
+Cup C.
+<br>(ii) Why is Cup A necessary for this experiment?
+<br> (iii) Explain why water does not gather in the hollowed portions of
+Cups A and D. `, a: `(i) Why does water accumulate in the hollowed part of B and C?
+
+The water accumulates by means of osmosis. When sugar or salt is added in the cup, the concentration of this region becomes greater than the concentration of the normal water in the trough. The water accumulates naturally through the living potato cell membranes in order to reduce the concentration of sugar and salt.
+
+(ii) Why is potato A used in this investigation?
+
+Potato A is needed for control purposes. This is because it shows that water does not accumulate in the hollowed potato itself but a solute like sugar or salt is required.
+
+(iii) Why doesn’t water accumulate in the hollowed part of A and D?
+
+For potato A: No sugar or salt is added inside the hollowed part of this potato. Hence, there is no concentration gradient to accumulate water.
+
+For potato D: The boiling process destroys the cells and thus the membranes are destroyed. Thus, osmosis cannot take place due to lack of living selectively permeable membranes.`, image: "images/aloo.png" },
+                    { 
+                        q: "Identify the pair that incorrectly matches the cell organelle with its function.<br><br>(i) Ribosome — Protein synthesis<br>(ii) SER — Lipid and cellulose synthesis<br>(iii) Lysosome — Digestion of foreign agents", 
+                        a: "Answer: (ii) SER — Lipid and cellulose synthesis<br><br>Reason: The Smooth Endoplasmic Reticulum (SER) plays a role in the synthesis of lipids (fats) and hormones, while cellulose is produced by plant cells to construct the cell wall." 
+                    },
+                    { 
+                        q: "What outcome do you expect, if all the mitochondria are removed from a eukaryotic cell?", 
+                        a: "Mitochondria are known as the \"cell's powerhouses,\" tasked with producing ATP via cellular respiration. Without any mitochondria, the cell cannot generate enough energy (ATP) necessary for vital biological activities and metabolic functions, resulting in cell impairment and eventually cell death." 
+                    },
+                    { 
+                        q: "Which phenomenon inhibits the formation of tumors in the human body? Can plants also develop tumors? Explain.", 
+                        a: "Phenomenon: Contact inhibition halts tumor development in humans by ceasing cell division upon contact with adjacent cells.<br><br>In plants: Plant cells do not exhibit contact inhibition because of their stiff cell walls. Nonetheless, plants can still form tumors or galls, frequently induced by pathogens such as viruses, bacteria (e.g., Agrobacterium), or fungi that provoke unchecked cell proliferation." 
+                    },
+                    { 
+                        q: "The cell membrane of a cell is made up of proteins and lipids. Which cell organelles help in the synthesis of cell membrane? Write the path of these compounds from their site of synthesis to the cell membrane and show this through a labelled diagram.", 
+                        a: "The Endoplasmic Reticulum is crucial for lipid and protein synthesis. Smooth endoplasmic reticulum (SER) and rough endoplasmic reticulum (RER) produce the lipids and proteins of the cell membrane, respectively. The Golgi apparatus processes, organizes, and encases them in vesicles for transport.<br><br><b>Route:</b><br>Nucleus → SER/RER (Lipid/protein synthesis) → Transport Vesicle → Golgi Apparatus (Modification and packaging) → Secretory Vesicles → Plasma Membrane", 
+                        image: "images/g.jpg" 
+                    },
+                    { 
+                        q: "What would happen if gametes are formed by mitotic divisions?", 
+                        a: "If gametes were created through mitotic divisions instead of meiosis, they would be diploid (2n) instead of haploid (n). When two gametes of this kind combine during fertilization, the zygote will become tetraploid (4n).<br><br>In the subsequent generation, this doubling would persist, resulting in 8n, 16n, 32n, and so on. The cells would grow genetically unstable, becoming excessively large to operate correctly, and species survival would be challenging due to fatal chromosome imbalances. Genetic diversity would also diminish because mitosis creates identical replicas without any recombination." 
+                    },
+                    { 
+                        q: "A farmer, Deepa, was very happy with the harvest of amla (Indian Gooseberry) and lemons on her farm. However, she could sell only one-fourth of the produce in the local market. Recognising that a significant amount of produce may be lost post-harvest, she employed a traditional yet scientifically sound method to extend the shelf life of amla and lemons. She turned perishable produce into profitable products, such as pickles and sharbat. She used the excess produce to prepare pickles, murabbas, and sharbat by adding appropriate amounts of salt, sugar, or jaggery to small pieces of fruit and their juices. These were then stored in small glass bottles for sale, helping her prevent the wastage of post-harvest produce. This shift from farming to agro-processing would strengthen food security and boost the local economy, creating a sustainable model that cuts waste while increasing her income. Based on the above passage answer the following questions:<br><br>(i) Which scientific concept has the farmer applied in the preservation of the farm produce?<br>(ii) How does the addition of high concentrations of salt and sugar create an environment that prevents the growth of spoilage-causing bacteria and fungi?<br>(iii) Suggest a healthy recipe of this kind for food preservation.<br>(iv) What are the scientific values addressed in this case?", 
+                        a: "(i) The farmer utilized the concept of <b>osmosis</b> for preserving food.<br><br>(ii) Elevated levels of salt and sugar generate a hypertonic setting surrounding microorganisms. Water exits bacterial and fungal cells through osmosis, leading to dehydration that hampers their growth and stops spoilage.<br><br>(iii) <b>Nutritious amla pickle recipe:</b><br>• Use 500 g of chopped amla.<br>• Incorporate 2 tbsp mustard oil, 1 tbsp turmeric, 1 tbsp red chili powder, 2 tbsp salt, and 1 tbsp jaggery (as a substitute for extra sugar).<br>• Warm the oil and incorporate spices, then combine it with amla. Place in a clean, dry glass jar and expose to sunlight for several days. This preserves vitamin C and inhibits microbial growth, while also improving its taste.<br><br>(iv) The scientific values discussed include resource conservation (zero waste), utilization of scientific principles (osmosis for preservation), sustainability (agro-processing for food security), innovation (traditional knowledge combined with science), as well as economic awareness and entrepreneurship." 
+                    }
+                ]
+            },
+{ 
+    name: "Chapter 3: Tissues in Action", 
+    solutions: [
+        {
+            q: "Meristematic tissues divide repeatedly. What property of their cells allows them to do this?<br><br>(i) They have thick walls for protection.<br>(ii) They contain large vacuoles that store nutrients.<br>(iii) They have thin walls, dense cytoplasm and large prominent nucleus.<br>(iv) They are functionally differentiated cells.",
+            a: "(iii) They have thin walls, dense cytoplasm, and large, prominent nucleus."
+        },
+        {
+            q: "If a plant is unable to transport food from leaves to roots which tissue is malfunctioning?<br><br>(i) Xylem<br>(ii) Phloem<br>(iii) Epidermis<br>(iv) Sclerenchyma",
+            a: "(ii) Phloem"
+        },
+        {
+            q: "You can perform these two jumps (Fig. 3.21):<br>Straight-leg jump — keep knees and ankles stiff.<br>Normal jump — bend knees and ankles naturally.<br>How did your ankle, knee and hip positions differ between the two jumps?",
+            a: "In a straight-leg jump, the ankle, knee, and hip joints stay rigid and aligned, resulting in minimal to no bending. During a typical jump, the knees, hips, and ankles flex organically. This aids in shock absorption, supports balance, and enhances movement and elevation while jumping.",
+            image: "images/yoga.png"
+        },
+        {
+            q: "Which type of joint is involved when you bend your knees and ankles?<br><br>(i) Ball and socket<br>(ii) Hinge<br>(iii) Pivot",
+            a: "(ii) Hinge"
+        },
+        {
+            q: "In each of the following cases (A, B, C and D), choose the correct option as given below:<br>(i) Both (A) and (R) are true, and (R) is the correct explanation of (A).<br>(ii) Both (A) and (R) are true, but (R) is not the correct explanation of (A).<br>(iii) (A) is true, but (R) is false.<br>(iv) (A) is false, but (R) is true.<br><br><b>A. Assertion:</b> Epithelium is well-suited for gas exchange in the lungs.<br><b>Reason:</b> It consists of multiple layers of tall cells that slow down diffusion.<br><br><b>B. Assertion:</b> Cardiac muscle can contract continuously without fatigue.<br><b>Reason:</b> Cardiac muscle cells have a high number of mitochondria and an abundant blood supply.<br><br><b>C. Assertion:</b> Tendons connect bone to bone and allow joint movement.<br><b>Reason:</b> Tendons are made of tough connective tissue that transmits force from muscle to bone.<br><br><b>D. Assertion:</b> In a hinge joint, movement occurs primarily in one plane.<br><b>Reason:</b> The bone ends are shaped to allow sliding in all directions.",
+            a: "<b>A:</b> (iii) (A) is true, but (R) is false.<br><br><b>B:</b> (i) Both (A) and (R) are true, and (R) is the correct explanation of (A).<br><br><b>C:</b> (iv) (A) is false, but (R) is true.<br><br><b>D:</b> (iii) (A) is true, but (R) is false."
+        },
+        {
+            q: `Plot a graph between the age of a tree (in years) on the x-axis and the diameter of the tree (in cm) along with the number of annual rings formed over time on the y-axis, using the data given in Table 3.7.<br><br>
+<b>Table 3.7: Data related to the age of a teak tree, and corresponding increase in the diameter of stem and number of annual rings</b>
+<table class="ncert-table">
+    <thead>
+        <tr>
+            <th>S. No.</th>
+            <th>Age of the teak tree (Years)</th>
+            <th>DBH (Diameter at Breast Height) of tree (cm)</th>
+            <th>Number of annual rings formed</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>1.</td><td>5</td><td>4</td><td>5</td></tr>
+        <tr><td>2.</td><td>10</td><td>8</td><td>10</td></tr>
+        <tr><td>3.</td><td>30</td><td>24</td><td>20</td></tr>
+        <tr><td>4.</td><td>25</td><td>28</td><td>25</td></tr>
+        <tr><td>5.</td><td>30</td><td>32</td><td>30</td></tr>
+        <tr><td>6.</td><td>40</td><td>40</td><td>40</td></tr>
+    </tbody>
+</table><br>
+(i) Analyse the graph in terms of the diameter of the stem over time and share the interpretation.<br>
+(ii) What is the relation between the diameter of the teak tree to the annual rings formed?<br>
+(iii) Which specialised tissue is responsible for the girth of the stem and where is it located?`,
+            a: `<b>(i) Analysis of graph:</b><br>
+As the age of the tree increases, the diameter of the stem also increases. The increase is continuous over time, showing a steady growth in girth as the tree ages.<br><br>
+<b>(ii) Relationship between diameter and annual rings:</b><br>
+There is a positive correlation between the diameter of the tree and the number of annual rings. As more annual rings are formed each year, the diameter of the teak tree expands continuously.<br><br>
+<b>(iii) Specialised tissue and location:</b><br>
+<b>Lateral Meristem (Vascular Cambium and Cork Cambium)</b> is responsible for increasing the girth (secondary growth) of the stem. It is located in the lateral sides of the stem, specifically between the primary xylem and primary phloem.`
+        },
+    {
+    q: "Look at the given figure showing the debarked portion of a tree trunk. Answer the following questions based on the image:<br><br>(i) What is the immediate impact of removing the bark on the tree's defense?<br>(ii) Which tissue lies just below the bark, and how does its damage affect the plant?<br>(iii) What will happen to the overall growth and survival of the tree over time?<br>(iv) What assumptions are made regarding the extent of the damage?",
+    image: "images/fig 3.2.png",
+    a: "<b>(i) Immediate Impact:</b><br>The bark of a tree consists of cork cells (which are dead cells) that create the outermost protective layer. Once the bark is stripped away, the tree forfeits its primary layer of defense. The tree is subject to mechanical harm, assaults from pathogens and parasites, excessive moisture loss from the trunk, and harm from severe temperatures. The protective role of the dermal tissue system is entirely diminished.<br><br><b>(ii) Tissues Involved & Affected:</b><br>The lateral meristem (cork cambium) and phloem are positioned just below the bark. If the trunk sustains more damage, the phloem tissue will be impacted. Phloem transports nutrients from the leaves to the roots and various other sections of the plant. Injury to the phloem would halt the food supply, causing the roots and lower sections of the plant to starve and ultimately perish.<br><br><b>(iii) Long-term Effect on Growth:</b><br>If the tissues under the bark (primarily phloem and the lateral meristem) are harmed, the movement of nutrients from the leaves to the other parts of the plant would cease. The lateral meristem would be harmed, indicating the tree could no longer increase in diameter. Eventually, the tree would become weaker, cease growth, and might die as the roots would be deprived of their nutrients.<br><br><b>(iv) Key Assumptions:</b><br>We are presuming that the debarking is finished completely around the trunk (referred to as ring barking) and that it penetrates sufficiently to harm the phloem. We are also presuming that the xylem remains undamaged. If only a section of the bark was removed (not entirely around the trunk), some phloem would still be present, allowing the tree to potentially survive. If the xylem sustains damage as well, water transport would cease, leading to a quicker death of the tree. The extent and seriousness of the damage would greatly alter the result."
+    },
+    {
+    q: "Aamrapali observed that a young mango sapling’s stem bends flexibly during monsoon winds and does not break. Which tissue is responsible for this flexibility? Predict and provide your explanation of the impact if the existing tissue was replaced by sclerenchyma.",
+    a: "<b>Tissue Responsible:</b><br>The tissue that provides flexibility to the young mango sapling is <b>collenchyma</b>. Collenchyma cells are living and possess irregularly thickened cell walls at the corners. This provides mechanical support along with flexibility, allowing stems and leaves to bend without breaking in strong winds.<br><br><b>Impact of Replacement with Sclerenchyma:</b><br>Sclerenchyma cells are dead, thick-walled, and heavily lignified, providing rigid and unyielding mechanical support. If collenchyma were replaced by sclerenchyma, the young stem would become extremely hard, stiff, and brittle, losing its flexibility. As a result, the stem would likely snap or break under strong monsoon winds instead of bending safely."
+    },
+    {
+    q: "Sohan designed an experiment for the regeneration of sugarcane, where he used cuttings to grow sugarcane. He used two types of cuttings, type ‘A’ and type ‘B’ (Fig. 3.23). After a few weeks, type ‘B’ cuttings sprouted and developed into sugarcane plants, whereas the type ‘A’ cuttings did not sprout.<br><br>(i) Why were the type ‘B’ cuttings able to grow as sugarcane but type ‘A’ could not?<br>(ii) What difference was present in type ‘B’ compared to type ‘A’?<br>(iii) What observation or measurement was made to determine whether this change had an effect?<br>(iv) What parameters should be kept the same for both types of cuttings to ensure a fair comparison?",
+    image: "images/fig 3.23.png",
+    a: "<b>(i) Reason for growth in Type ‘B’:</b><br>Type ‘B’ cuttings were able to grow because they possessed nodes containing buds with active meristematic tissue, which can divide and differentiate into new roots and shoots. Type ‘A’ cuttings lacked nodes, so no new growth could occur.<br><br><b>(ii) Difference between Type ‘A’ and Type ‘B’:</b><br>Type ‘B’ cuttings included a node containing a bud, whereas Type ‘A’ cuttings consisted purely of internodal stem material without any nodes or buds.<br><br><b>(iii) Key Observation:</b><br>The observation made was whether the stem cuttings sprouted and developed into new sugarcane plants after a few weeks (Type ‘B’ sprouted, whereas Type ‘A’ did not).<br><br><b>(iv) Parameters to keep identical (Controlled Variables):</b><br>• Same soil type and soil moisture level<br>• Same amount and frequency of watering<br>• Same exposure to sunlight and ambient temperature<br>• Same length and thickness of the stem cuttings"
+},
+
+    {
+        q: "During the discussion in class, Rohan gives a statement that, “A tissue is a group of similar cells performing similar functions”. But Rajiv counter argues that, “this is true in case of simple tissues but little different in case of complex tissues”. Provide your explanation in view of the discussion in class.",
+        a: "<b>Explanation:</b><br>Both Rohan and Rajiv are correct in their contexts:<br>• <b>Simple Tissues:</b> As Rohan described, simple tissues (such as parenchyma, collenchyma, and sclerenchyma) are composed of a single type of cell that are structurally and functionally similar.<br>• <b>Complex Tissues:</b> As Rajiv pointed out, complex tissues (such as xylem and phloem) consist of more than one type of cell working together to perform a common function. For instance, xylem contains tracheids, vessels, xylem parenchyma, and xylem fibers.<br><br><b>Conclusion:</b> A tissue is defined as a group of similar or dissimilar cells that work together to perform a specific function."
+    },
+    {
+        q: "Coconut husk fibres are used for mats which are tough and fibrous. Which tissue has structural features suitable for providing this strength? Explain why living parenchyma couldn’t serve the same purpose.",
+        a: "<b>Tissue Responsible:</b><br>The <b>sclerenchyma tissue</b> gives coconut husk fibers their toughness. Sclerenchyma cells are non-living (dead) at maturity, closely packed with no intercellular spaces, and have extremely thick walls due to uniform lignin deposition, making them highly resilient and fibrous.<br><br><b>Why Parenchyma is Unsuitable:</b><br>Living parenchyma cells have thin primary cell walls, loose packing with intercellular spaces, and active living cellular contents. They are soft, flexible, and adapted for storage or photosynthesis rather than mechanical support. If parenchyma were used, the fibers would lack tensile strength, be soft, and disintegrate rapidly under stress."
+    },
+    {
+        q: "Vibha claims to her friend Neha that, “Meristematic cells are located only at the root and shoot apices”. What do you think about this statement? What question can Neha ask Vibha to help her understand further if the statement is incorrect?",
+        a: "<b>Evaluation of Statement:</b><br>Vibha's statement is <b>incorrect</b>. While apical meristems are found at the tips (apices) of roots and shoots, meristematic tissues are also present in other regions of the plant, such as intercalary meristems (at nodes or base of leaves) and lateral meristems/cambium (responsible for increasing girth).<br><br><b>Question Neha Can Ask:</b><br><i>“If meristematic cells are present only at the tips of roots and shoots, how does a stem increase in thickness (girth) or regenerate leaves and branches from nodes?”</i>"
+    },
+    {
+        q: "A plant cell and an animal cell are of the same size.<br>(i) Which cell will have a larger vacuole? Give reasons.<br>(ii) What assumptions are you making to answer the question above?",
+        a: "<b>(i) Cell with Larger Vacuole:</b><br>The <b>plant cell</b> will have a significantly larger vacuole (often occupying 50%–90% of the total cell volume).<br><b>Reason:</b> Plant cells require a large central vacuole to maintain turgidity, structural rigidity, and to store water, nutrients, and waste products. Animal cells typically have small, temporary vacuoles or none at all.<br><br><b>(ii) Assumptions Made:</b><br>• The plant cell is a fully mature/adult cell (as young plant cells have smaller vacuoles).<br>• Both cells are healthy and operating under normal physiological conditions.<br>• The comparison is made between typical plant and animal cell types."
+    },
+    {
+        q: "A textbook states, “Each plant tissue performs only one specific function”. What questions would you ask to critically examine the correctness of this statement? What examples of tissues would you take to find out the answers to these questions?",
+        a: "<b>Critical Questions to Ask:</b><br>1. <i>Do all plant tissues perform strictly a single role, or can individual tissues perform multiple distinct functions?</i><br>2. <i>Can a simple tissue simultaneously provide structural support, store nutrients, or perform photosynthesis?</i><br>3. <i>Do complex tissues contain different cell types that carry out distinct individual sub-tasks to achieve a common function?</i><br><br><b>Examples to Test the Statement:</b><br>• <b>Parenchyma:</b> Acts as storage tissue, carries out photosynthesis (chlorenchyma), and provides buoyancy in aquatic plants (aerenchyma).<br>• <b>Collenchyma:</b> Provides mechanical support and flexibility while retaining the ability to photosynthesize if chloroplasts are present.<br>• <b>Xylem:</b> Transports water/minerals and simultaneously provides structural and mechanical support to the plant body."
+    },
+    {
+        q: "A textbook states, “Each plant tissue performs only one specific function”. What questions would you ask to critically examine the correctness of this statement? What examples of tissues would you take to find out the answers to these questions?",
+        a: "<b>Critical Questions to Ask:</b><br>1. <i>Do all plant tissues perform strictly a single role, or can individual tissues perform multiple distinct functions?</i><br>2. <i>Can a simple tissue simultaneously provide structural support, store nutrients, or perform photosynthesis?</i><br>3. <i>Do complex tissues contain different cell types that carry out distinct individual sub-tasks to achieve a common function?</i><br><br><b>Examples to Test the Statement:</b><br>• <b>Parenchyma:</b> Acts as storage tissue, carries out photosynthesis (chlorenchyma), and provides buoyancy in aquatic plants (aerenchyma).<br>• <b>Collenchyma:</b> Provides mechanical support and flexibility while retaining the ability to photosynthesize if chloroplasts are present.<br>• <b>Xylem:</b> Transports water/minerals and simultaneously provides structural and mechanical support to the plant body."
+    }
+] 
+},
+{
+    name: "Chapter 4: Describing Motion Around Us",
+    solutions: [
+        {
+            q: " My father went to a shop from home which is located at a distance of 250 m on a straight road. On reaching there, he discovered that he forgot to carry a cloth bag. He came home to take it, went to the shop again, bought provisions and came back home. How much was the total distance travelled by him? What was his displacement from home?",
+            a: `<b> Let us follow the path one step at a time.</b> <br>
+Trip 1: Residence to Store = 250 m <br>
+Travel 2: Store to Residence = 250 m <br>
+Trip 3: House to Store = 250 m <br>
+Trip 4: Store to Residence = 250 m <br>
+Overall distance covered = 250 + 250 + 250 + 250 = 1000 m <br>
+Displacement = ending position – starting position <br>
+His father began at home and finished at home. <br>
+Thus, his starting point and ending point are identical. <br>
+Displacement is 0 m. <br>
+`
+        },
+        {
+            q: `A student runs from the ground floor to the fourth floor of a school
+building to collect a book and then comes down to their classroom on
+the second floor. If the height of each floor is 3 m, find: <br>
+(i) the total vertical distance travelled, and <br>
+(ii) their displacement from the starting point.`,
+            a: `Height per floor: 3 m. <br>
+First floor from the Ground Floor up to the fourth level.<br>
+The student climbs 4 floors.<br>
+The equation Distance Up = 4 3 is equivalent to 12 m.<br>
+
+The second phase involves moving from the 4th to the 2nd floor.<br>
+Students move down two floors, from 4 to 2.<br>
+
+The equation "Distance Up 2 3 = 6 m" is accurate.<br>
+The total vertical distance is 12 + 6 = 18 m.<br>
+(ii) Displacement:<br>
+The student's ultimate accommodation is on the 2nd floor, which is situated above the ground floor.<br>
+The displacement (upwards) is 2 floors, and when less than 3 meters is equal to 6 meters.<br>`
+        },
+        {
+            q: `A girl is riding her scooter and finds that its speedometer reading is
+constant. Is it possible for her scooter to be accelerating and if so, how? `,
+            a: `Yes, it is possible for the scooter to accelerate even if the speedometer reading is constant.This happens because velocity is a vector quantity, meaning it has both magnitude (speed) and direction. Acceleration is defined as the rate of change of velocity. If either the speed or the direction changes, acceleration occurs.If the girl rides her scooter at a constant speed along a curved path or a circular track, her direction of motion changes continuously at every point. Since her direction is changing, her velocity is changing, which means the scooter is accelerating (known as centripetal acceleration).
+
+`
+        },
+        {
+            q: `A car starts from rest and its velocity reaches 24 m s–1 in 6 s. Find the
+average acceleration and the distance travelled in these 6 s.`,
+            a: `<b>1. Given Information:</b><br>
+• Initial Velocity (u) = 0 m/s (starts from rest)<br>
+• Final Velocity (v) = 24 m/s<br>
+• Time (t) = 6 s<br><br>
+
+<b>2. Calculating Average Acceleration (a):</b><br>
+• Formula: a = (v - u) / t<br>
+• a = (24 - 0) / 6<br>
+• a = 24 / 6 = 4 m/s²<br>
+∴ Average acceleration = 4 m/s²<br><br>
+
+<b>3. Calculating Distance Travelled (s):</b><br>
+• Formula: s = ut + (1/2)at²<br>
+• s = (0 × 6) + (1/2 × 4 × 6²)<br>
+• s = 0 + (2 × 36) = 72 m<br>
+∴ Distance travelled = 72 m
+`
+        },
+        {
+            q: `A motorbike moving with initial velocity 28 m s–1 and constant
+acceleration stops after travelling 98 m. Find the acceleration of the
+motorbike and the time taken to come to a stop.`,
+            a: `<b>1. Given Information:</b><br>
+• Initial Velocity (u) = 28 m/s<br>
+• Final Velocity (v) = 0 m/s <span style="color: #64748b;">(Motorbike stops)</span><br>
+• Distance (s) = 98 m<br><br>
+
+<b>2. Finding the Acceleration (a):</b><br>
+• Formula: v² = u² + 2as<br>
+• 0² = (28)² + 2 × a × 98<br>
+• 0 = 784 + 196a<br>
+• -196a = 784<br>
+• a = 784 / -196 = <b>-4 m/s²</b><br>
+<span style="color: #475569; font-size: 0.95rem;"><i>*Note: The negative sign indicates deceleration (retardation) because the bike is slowing down.</i></span><br><br>
+
+<b>3. Finding the Time Taken (t):</b><br>
+• Formula: v = u + at<br>
+• 0 = 28 + (-4) × t<br>
+• 4t = 28<br>
+• t = 28 / 4 = <b>7 seconds</b><br><br>
+
+<span style="color: #16a34a; font-weight: 600;">∴ The retardation of the motorbike is 4 m/s² and it takes 7 seconds to stop.</span>
+`
+        },
+        {
+            q: ` Fig. 4.27 shows a position-time graph of two objects A and B that are
+moving along the parallel tracks in the same direction. Do objects
+A and B ever have equal velocity? Justify your answer.`,
+            a: "<b>Answer:</b> No, objects A and B never have equal velocity.<br><br><b>Explanation:</b><br>• On a position-time graph, the slope (gradient) represents the velocity of the object.<br>• <b>Object A:</b> The graph is a straight line with a steeper slope, showing it moves at a higher constant velocity.<br>• <b>Object B:</b> The graph is a straight line with a gentler slope, showing it moves at a lower constant velocity.<br><br>Since both lines are straight with different slopes, both objects maintain different, constant velocities at all times. <br><br><b>Note on Intersection:</b> Although the two lines intersect , this intersection indicates they share the same <i>position</i> at that instant, not the same velocity. Velocity depends strictly on the slope of the line.",
+            image: "images/fig 4.27.png"
+        },
+        {
+            q: `A graph in Fig. 4.28 shows the change in position with time for two
+objects A and B moving in a straight line from 0 to 10 seconds. Choose
+the correct option(s).
+(i) The average velocity of both over the 10 s time interval is equal
+since they have the same initial and final positions.
+(ii) The average speeds of both over the 10 s time interval are equal
+since both cover equal distance in equal time.
+(iii) The average speed of A over the 10 s time interval is lower than
+that of B since it covers a shorter distance than B in 10 seconds.
+(iv) The average speed of A over the 10 s time interval is greater than
+that of B since B’s speed is lower than A’s in some segments.`,
+            a: `<b>Correct Options: (i) and (ii) </b>
+
+<br><b> Why? </b>
+
+<br>(i) Statement (i) is correct: Both objects start and end at the exact same positions over the given time interval. Since average velocity depends solely on total displacement divided by total time, their average velocities are equal.
+
+<br>(ii) Statement (ii) is correct: Because both objects cover the same displacement in the same amount of time, their overall average speeds are identical.
+
+<br>(iii) Statement (iii) is incorrect: Object A does not cover less distance than Object B; both objects cover the exact same net distance to arrive at the same final position.
+
+<br>(iv) Statement (iv) is incorrect: Average speed is determined by total path length divided by total time, not by individual instantaneous motion segments.`,
+            image: "images/fig 4.28.png"
+        },
+        {
+            q: `A truck driver driving at the speed of 54 km/h notices a road sign
+with a speed limit of 40 km/h (Fig. 4.29) for trucks. He slows down
+to 36 km/h in 36 s. What was the distance travelled by him during this
+time? Assume the acceleration to be constant while slowing down`,
+            a: `<b>1. Formula:</b><br>Since acceleration is uniform, distance (s) is given by the average velocity formula:<br>s = ((u + v) / 2) &times; t<br><br><b>2. Unit Conversion:</b><br>&bull; u = 54 km/h = 54 &times; (5/18) = 15 m/s<br>&bull; v = 36 km/h = 36 &times; (5/18) = 10 m/s<br>&bull; t = 36 s<br><br><b>3. Calculation:</b><br>s = ((15 + 10) / 2) &times; 36<br>s = (25 / 2) &times; 36<br>s = 12.5 &times; 36 = 450 m<br><br><b>Answer:</b> The distance covered is 450 m.`,
+            image: "images/fig 4.29.png"
+        },
+        {
+            q: ` A car starts from rest and accelerates uniformly to 20 m/s in
+5 seconds. It then travels at 20 m/s for 10 seconds and finally
+applies the brake (with uniform acceleration) to stop in 6 seconds.
+Find the total distance travelled.`,
+            a: `<b>Phase 1: Acceleration (0 to 20 m/s in 5 s)</b><br>Given: u = 0 m/s, v = 20 m/s<br>S<sub>1</sub> = ((0 + 20) / 2) &times; 5 = 10 &times; 5 = 50 m<br><br><b>Phase 2: Constant Speed (20 m/s for 10 s)</b><br>S<sub>2</sub> = 20 &times; 10 = 200 m<br><br><b>Phase 3: Deceleration (20 m/s to 0 in 6 s)</b><br>S<sub>3</sub> = ((20 + 0) / 2) &times; 6 = 10 &times; 6 = 60 m<br><br><b>Total Distance:</b><br>S = 50 + 200 + 60 = 310 m`,
+        },
+        {
+            q: `A bus is travelling at 36 km/h when the driver sees an obstacle
+30 m ahead. The driver takes 0.5 seconds to react before pressing the
+brake. Once the brake is applied, the velocity of the bus reduces with
+constant acceleration of 2.5 m/s². Will the bus be able to stop before
+reaching the obstacle?`,
+            a: "<b>Unit Conversion:</b><br>36 km/h = 36 &times; (5/18) = 10 m/s<br><br><b>Step 1: Distance covered during reaction time</b><br>Reaction Distance (s<sub>1</sub>) = u &times; t = 10 m/s &times; 0.5 s = 5 m<br><br><b>Step 2: Braking Distance</b><br>Given: u = 10 m/s, v = 0 m/s, a = -2.5 m/s<sup>2</sup><br>Using v<sup>2</sup> = u<sup>2</sup> + 2as<sub>2</sub>:<br>0<sup>2</sup> = 10<sup>2</sup> + 2(-2.5)s<sub>2</sub><br>0 = 100 - 5s<sub>2</sub><br>5s<sub>2</sub> = 100 &rArr; s<sub>2</sub> = 20 m<br><br><b>Total Stopping Distance:</b><br>s = s<sub>1</sub> + s<sub>2</sub> = 5 m + 20 m = 25 m<br><br><b>Conclusion:</b><br>Since 25 m &lt; 30 m, yes, the bus stops safely."
+        },
+        {
+            q: `A student said, “The Earth moves around the Sun”. In this context,
+discuss whether an object kept on the Earth can be considered to be
+at rest.`,
+            a: "<b>Concept:</b><br>Rest and motion are relative terms that depend entirely on the observer's frame of reference.<br><br><b>Explanation:</b><br>&bull; <b>Earth's Frame of Reference:</b> An object placed in a room or on the ground appears to be at rest with respect to the Earth's surface.<br>&bull; <b>Sun's/Space Frame of Reference:</b> The same object is in continuous motion when viewed from space or relative to the Sun, as it moves along with the Earth during its rotation and orbital revolution."
+        },
+        {
+            q: `The velocity-time graph from 0 s to 120 s for a cyclist is shown in Fig. 4.30.
+Shade the areas (in different colours) representing the displacement of
+the cyclist
+(i) while cyclist is moving with constant velocity.
+(ii) when the velocity of cyclist is decreasing.
+Also, calculate the displacement and average acceleration in the 120 s
+time interval.`,
+            a: "<b>1. Graph Shading Instructions:</b><br>&bull; <b>Constant Velocity Region:</b> Shade the rectangular area under the graph between t = 20 s and t = 100 s.<br>&bull; <b>Decreasing Velocity Region:</b> Shade the trapezoidal area under the graph between t = 100 s and t = 120 s.<br><br><b>2. Displacement Calculation (Total Area Under Graph):</b><br>&bull; <b>Area 1 (Triangle, 0 &ndash; 20 s):</b> (1/2) &times; 20 &times; 3 = 30 m<br>&bull; <b>Area 2 (Rectangle, 20 &ndash; 100 s):</b> 80 &times; 3 = 240 m<br>&bull; <b>Area 3 (Trapezium, 100 &ndash; 120 s):</b> (1/2) &times; (3 + 2) &times; 20 = 50 m<br><br><b>Total Displacement:</b><br>s = 30 + 240 + 50 = 320 m<br><br><b>3. Average Acceleration:</b><br>Average Acceleration = [ (Final Velocity &minus; Initial Velocity) / Total Time ]<br>a = (2 &minus; 0) / 120 = 1/60 m/s<sup>2</sup>",
+        image: "images/fig 4.30.png"
+        },
+        {
+            q: `A girl is preparing for her first marathon by running on a straight
+road. She uses a smartwatch to calculate her running speed at
+different intervals. The graph (Fig. 4.31) depicts her velocity versus
+time. Estimate the distance she ran based on the graph.`,
+            a: "<b>Estimation Strategy:</b><br>To estimate the total distance, we calculate the area under the velocity-time curve (Fig. 4.31) across four distinct phases:<br><br><b>1. Phase 1 (0 &ndash; 1.5 h):</b><br>&bull; Approximate average velocity = 7.1 km/h<br>&bull; Distance<sub>1</sub> &approx; 7.1 &times; 1.5 = 10.65 km<br><br><b>2. Phase 2 (1.5 &ndash; 3 h):</b><br>&bull; Constant velocity = 7.5 km/h<br>&bull; Distance<sub>2</sub> = 7.5 &times; 1.5 = 11.25 km<br><br><b>3. Phase 3 (3 &ndash; 5.5 h):</b><br>&bull; Velocity drops linearly from 7.5 to 6.5 km/h (Average &approx; 7.0 km/h)<br>&bull; Distance<sub>3</sub> = 7.0 &times; 2.5 = 17.5 km<br><br><b>4. Phase 4 (5.5 &ndash; 7 h):</b><br>&bull; Constant velocity = 6.5 km/h<br>&bull; Distance<sub>4</sub> &approx; 6.5 &times; 1.5 = 9.75 km<br><br><b>Total Estimated Distance:</b><br>Total Distance &approx; 10.65 + 11.25 + 17.5 + 9.75 = 49.15 km",
+            image: "images/fig 4.31.png"
+        },
+      {
+    q: ": A body moves with a uniform velocity of 6 m/s for 2 minutes. It then accelerates uniformly at 1 m/s² for 14 seconds. Calculate the displacement in both phases and total displacement.",
+    a: "Phase 1: s1 = 6 × 120 = 720 m<br>Phase 2: s2 = 6(14) + 0.5(1)(14)² = 182 m<br>Total Displacement: 902 m"
+  },
+  {
+    q: ": A body moves with a uniform velocity of 6 m/s for 2 minutes. It then accelerates uniformly at 1 m/s² for 15 seconds. Calculate the displacement in both phases and total displacement.",
+    a: "Phase 1: s1 = 6 × 120 = 720 m<br>Phase 2: s2 = 6(15) + 0.5(1)(15)² = 202.5 m<br>Total Displacement: 922.5 m"
+  },
+  {
+    q: " A body moves with a uniform velocity of 6 m/s for 2 minutes. It then accelerates uniformly at 1 m/s² for 16 seconds. Calculate the displacement in both phases and total displacement.",
+    a: "Phase 1: s1 = 6 × 120 = 720 m<br>Phase 2: s2 = 6(16) + 0.5(1)(16)² = 224 m<br>Total Displacement: 944 m"
+  }
+]
+},
+            { name: "Chapter 5: Exploring Mixtures and Their Separation", solutions: [
+                { q: `Which of the following mixtures are correctly classified as
+homogeneous (Hm) and heterogeneous (Ht)? Choose the correct
+option.
+<br>(i) Air — Hm, Milk — Ht, Sugar solution — Hm, Smoke — Hm
+<br>(ii) Brass — Ht, Fog — Ht, Vinegar — Ht, Muddy water — Hm
+<br>(iii) Copper sulfate solution — Hm, Salt solution — Hm, Milk — Hm, Bronze — Hm
+<br>(iv) Muddy water — Ht, Milk — Ht, Blood — Ht, Brass — Hm`, a: `(iv) Muddy water — Ht, Milk — Ht, Blood — Ht, Brass — Hm is the answer to the MCQ` },
+                { q: `Choose the correct options, and explain the reason for the correct and
+incorrect options.
+<br>Which among the following mixtures show the Tyndall Effect?
+A mixture of:
+<br> (a) air and dust particles
+<br> (b) copper sulfate and water
+<br> (c) starch and water
+<br> (d) acetone and water
+<br> <b> Options -:</b>
+<br> (i) a and b | (ii) b and d | (iii) a and c | (iv) c and d `, a: `The correct option is (iii) a and c.` },
+                { q: `A mixture can be categorised as a solution, a suspension, or a colloid,
+each possessing distinct properties. Utilise the words or phrases
+provided in the box to fill in the Table 5.2. Words and phrases may be
+used more than once.
+<br><br><b>Words and Phrases </b><br>
+Large-sized particles; Particles remain evenly distributed; Small-sized particles
+(less than 1 nm diameter); Moderate-sized particles (1 – 1000 nm); Settles down
+when left undisturbed (more than 1000 nm in diameter); Does not settle down;
+Scatters light; Separates by filtration; Transparent; Salt solution; Milk; Sand in
+water; Smoke; Heterogeneous mixture; Cannot be separated by filtration; Mud;
+Butter; Brass. 
+<br> <br> <b>The table is provided in the image aswell as the answer.</b>`, a: `Answer gave in the image, thanks.`, image: "images/q fig.jpg" },
+                { q: `<b> Solve the following problems: </b><br>
+                    (i) A cake recipe uses dry ingredients, namely 75 g of sugar for
+420 g of all-purpose flour and 5 g of sodium hydrogencarbonate.
+Express the concentration of each component in the mixture using
+an appropriate method.
+<br> <br>(ii) A brass alloy contains 70% copper by mass. Calculate the quantities
+of copper and zinc present in 120 g of brass. `, a:  `<b>(i):</b> First,  Total weight of dried mix: 75g (Sugar), + 420g (All in one purpose flour) + 5g Sodium Hydrogencarbonate <b>(Simply you can write baking soda!)</b>
+<br> Percentage share of each item,
+<br>- <b> Sugar:</b> (75/100) x 100 = 15%
+<br>- <b> Flour:</b> (420/500) x 100 = 84%
+<br>- <b> Baking Soda (Sodium hydrogencarbonate): </b> (5/500) x 100 = 1%
+<br> <br> (ii) We know Brass is 70% Copper and The rest Is Zinc (30%)
+<br> For a 120g block of brass:
+<br> - <b>Copper:</b> 70% of 120g = (70/120) x 100 = 84g
+ <br>- <b> Zinc:</b> Simply, it is the remaining weight left so it would be 120g - 84g = 36g  
+` },
+{q: `The label on a cooking oil pack says one litre (910 g). If this oil is mixed
+with water, will it form a separate layer? If so, which substance will be
+on top? How will you separate the two layers? Also, draw the diagram
+of the apparatus used.`, a: `The oil will form a seperate layer, which forms above the water because it has lesser density that the water. The two layers can be seperated with the seperating funnel method. The diagram is given above  `, image: "images/fig funnel.png"},
+                { q: ` Assertion (A): Solutions do not exhibit the Tyndall effect.
+                    <br> <br> Reason (R): The particles in solutions are larger than 100 nm, so they
+cannot scatter light.
+<br> Choose the correct option:
+<br> (i) Both A and R are true, and R is the correct explanation of A
+<br> (ii) Both A and R are true, but R is not the correct explanation of A
+<br> (iii) A is true, but R is false. `, a: `Type solutions here.
+<br> (iv) A is false, but R is true.` },       
+                { q: `How would you separate the mixtures given in Table 5.3? Mention the
+reason for choosing your method. If a mixture cannot be separated,
+explain why.`, a: `<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; margin: 20px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <thead>
+        <tr style="background-color: #fcf6eb;">
+            <th style="border: 1px solid #cfa670; padding: 12px; text-align: left; color: #5c3a21; font-weight: bold;">Mixture</th>
+            <th style="border: 1px solid #cfa670; padding: 12px; text-align: left; color: #5c3a21; font-weight: bold;">Method of separation</th>
+            <th style="border: 1px solid #cfa670; padding: 12px; text-align: left; color: #5c3a21; font-weight: bold;">Reason for selection</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left; font-weight: 500; color: #333;">Mud from muddy water</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">Coagulation + Filtration</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">Adding alum makes tiny dirt particles clump together so they get heavy, sink, and easily get trapped by filter paper.</td>
+        </tr>
+        <tr style="background-color: #fafaf8;">
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left; font-weight: 500; color: #333;">Plasma from other components in the blood sample</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">Centrifugation</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">Spinning blood ultra-fast forces heavy blood cells to slide to the bottom, leaving the clear, liquid plasma layer on top.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left; font-weight: 500; color: #333;">Naphthalene and sand</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">Sublimation</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">Naphthalene skips the melting phase and turns straight into a gas when heated, leaving the normal sand behind in the dish.</td>
+        </tr>
+        <tr style="background-color: #fafaf8;">
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left; font-weight: 500; color: #333;">Chalk powder and common salt</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">Dissolution &rarr; Filtration &rarr; Evaporation</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">Salt dissolves in water but chalk won't. You can filter out the chalk pieces, then boil the water away to get dry salt back.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left; font-weight: 500; color: #333;">Common salt and water</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">Evaporation (or Distillation)</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">Boiling evaporates the water away to leave solid salt. If you actually want to collect and keep the pure water too, use distillation.</td>
+        </tr>
+        <tr style="background-color: #fafaf8;">
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left; font-weight: 500; color: #333;">Oil from water</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">Separating Funnel</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">They don't mix at all and split into two separate layers based on weight, letting you easily drain the water out from the bottom.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left; font-weight: 500; color: #333;">Pigments of the flower</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">Paper Chromatography</td>
+            <td style="border: 1px solid #cfa670; padding: 12px; text-align: left;">Different color dyes travel up filter paper at different speeds depending on how well they dissolve, making them split into distinct spots.</td>
+        </tr>
+    </tbody>
+</table>
+` },
+                { q: `Two miscible liquids, A and B, are present in a mixture. The boiling
+point of A is 60 °C and the boiling point of B is 90 °C. Suggest a method
+to separate them. Also, draw a labelled diagram of the method
+suggested`, a: `The method to seperate these 2 liquids is <b> Simple distillation, </b>
+<br> They mix perfect as they are miscible, but difference in their boiling points are >25 °C, A standard distillation setup give below will easily boil off Liquid A first without messing with Liquid B.
+ `, image: "images/fig distillation.png" },
+{q: `Compare evaporation, crystallization and distillation. In which
+situation, would you prefer each of these over the others?`, a: `<b>Evaporation </b> is great when you only care about saving the solid solute and don't mid the solvent vapourise in the air.
+<br><br> <b> Crystallisation</b> is the best choice when you want a highly pure solid. It's way better than evaporation for sensitive things because you don't risk overheating, burning or ruining the the solid. <b>However, it is time taking.</b>
+<br><br> <b>Distillation</b> is used when we need to save the liquid or seperate two liquids that are mixed together, since it catches the steam and condenses it back to the liquid form.`,},
+{q: `Blood is an example of a colloidal mixture
+    <br> <br>(i) What would happen if
+blood behaved like a true suspension inside the body?
+<br> (ii) In a blood
+sample, identify the dispersed phase and the dispersion medium.  `, a: `(i) If blood acted like a true suspension, the heavy blood cells would settle out and pool at the bottom of your veins every time you sat still or went to sleep. This would immediately block your blood flow and stop oxygen from reaching your organs. 
+<br><br> (ii) The dispersed phase consists of the blood cells (red cells, white cells, and platelets), while the dispersion medium is the liquid plasma they float in.`,},
+{q: `You are given a mixture of sand, common salt and naphthalene
+(Fig. 5.25a). The Fig. 5.25b depicts various steps used to separate the
+components of this mixture. Identify and write down the correct
+sequence of separation techniques.`, a: `<b> The correct order would be 3 --> 1 --> 2 </b>
+<br> Start with Setup 3 (Sublimation) to heat the mix so the naphthalene vaporises and separates out. Next, take whatever is left (sand and salt), mix it with water so the salt dissolves, and use Setup 1 (Filtration) to catch the sand. Finally, take that clear salty liquid and use Setup 2 (Evaporation) to boil away the water, leaving you with dry salt.
+ `, image: "images/fig 5.25.png"},
+{q: `Why is distillation an effective method for separating a mixture of
+water and acetone?`, a: `It works perfectly because water and acetone boil at completely different temperatures. Acetone has a really low boiling point of 56°C, while water needs to hit 100°C to boil. This massive temperature gap means all the acetone turns to vapor and moves over to the cooling flask long before the water even gets hot enough to start evaporating.`,},
+{q: `Answer the following questions with the help of the data given in
+Table 5.4
+<br> (i)What mass of potassium nitrate would be needed to prepare its
+saturated solution in 50 g of water at 40 °C?
+<br> (ii) A student makes a saturated solution of potassium chloride in
+water at 80 °C and leaves the solution to cool at room temperature
+(25 °C). What would she observe as the solution cools? Explain.
+<br> (iii) What is the effect of a change in temperature on the solubility of
+salts? Also, compare the changes in the solubility of the four given
+salts with increasing temperature from 10 °C to 80 °C. `, a: `(i) The chart says 100 g of water needs 62 g of potassium nitrate to max out at 40°C. Since we are using exactly half the water (50 g), we only need half the salt: 31 g. <br><br>(ii) She will see solid crystals of potassium chloride starting to appear and settle at the bottom. This happens because hot water can hold a lot of salt (54g at 80°C), but as it cools down to room temperature, its capacity drops significantly, forcing the extra dissolved salt to precipitate out. <br><br> (iii)For most salts, getting the water hotter means you can dissolve way more salt. Looking at the data: Potassium nitrate goes through a massive jump (surging from 21g to 167g). Ammonium chloride and Potassium chloride rise steadily. Sodium chloride barely cares about the heat—its solubility stays almost completely flat around 36g–37g.  `, image: "images/table 5.4.png"},
+{q: `Three students, A, B and C, are preparing sugar solutions for an
+experiment:
+<br><br> - Student A dissolves 20 g of sugar in 80 g of water.
+<br> - Student B dissolves 20 g of sugar in 100 g of water.
+<br> -  Student C dissolves 30 g of sugar in 80 g of water. 
+<br> <br> (i)  Calculate the mass percentage (% m/m) concentration of sugar in
+each student’s solution.
+<br> (ii) Whose solution is the most concentrated? Explain why. `, a: `Student A: 20 g sugar / 100 g total weight × 100 = 20% <br> Student B: 20 g sugar / 120 g total weight × 100 = 16.67% <br> Student C: 30 g sugar / 110 g total weight × 100 = 27.27% <br> <br> (ii) Student C made the strongest (most concentrated) solution. Their mix has the highest percentage of sugar relative to the total weight of the liquid.  `,},
+{q: `Examine Fig. 5.26.
+    <br> <br> (i) Identify the separation technique marked as ‘S’
+    <br> (ii) Label the apparatus A, B and C.
+    <br> (iii) Which of the following mixtures can be separated
+by the technique identified above? Use the data
+given in Table 5.5. Mixtures: 
+<br> (a) water — acetone        (b) water — salt
+<br>(c) acetone — alcohol       (d) sand — salt
+<br>(e) alcohol — chloroform    (f) alcohol — benzene  `, a: `<style>
+    .boiling-point-container {
+        font-family: Arial, sans-serif;
+        margin: 20px 0;
+        max-width: 800px;
+    }
+    .bp-table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        margin-bottom: 15px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        border: 1px solid #cfa670;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+    .bp-table th, .bp-table td {
+        border: 1px solid #eadecc;
+        padding: 12px;
+        text-align: center;
+    }
+    .bp-table tr:first-child th, .bp-table tr:first-child td {
+        border-top: none;
+    }
+    .bp-table tr:last-child th, .bp-table tr:last-child td {
+        border-bottom: none;
+    }
+    .bp-table th:first-child, .bp-table td:first-child {
+        border-left: none;
+        text-align: left;
+        background-color: #fcf6eb;
+        color: #5c3a21;
+        font-weight: bold;
+        width: 20%;
+    }
+    .bp-table th:last-child, .bp-table td:last-child {
+        border-right: none;
+    }
+    .bp-table thead tr th {
+        background-color: #fcf6eb;
+        color: #5c3a21;
+        font-weight: bold;
+    }
+    .answer-box {
+        background-color: #fafaf8;
+        border-left: 4px solid #cfa670;
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 0 8px 8px 0;
+    }
+    .answer-box h4 {
+        margin: 0 0 10px 0;
+        color: #5c3a21;
+    }
+    .answer-box ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .answer-box li {
+        margin-bottom: 8px;
+    }
+</style>
+
+<div class="boiling-point-container">
+    <!-- Exact Table Formatted from the Image -->
+    <table class="bp-table">
+        <tbody>
+            <tr>
+                <td>Solvent</td>
+                <td>Water</td>
+                <td>Acetone</td>
+                <td>Alcohol</td>
+                <td>Chloroform</td>
+                <td>Benzene</td>
+            </tr>
+            <tr>
+                <td>Temperature (&deg;C)</td>
+                <td>100 &deg;C</td>
+                <td>56 &deg;C</td>
+                <td>78 &deg;C</td>
+                <td>61 &deg;C</td>
+                <td>80 &deg;C</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Attached Answer Section -->
+    <div class="answer-box">
+        <h4>Which of the mixtures can be separated by Simple Distillation?</h4>
+        <p>Out of the options provided in the question, the mixtures that can be separated using this setup are:</p>
+        <ul>
+            <li><strong>(a) water &ndash; acetone:</strong> This works perfectly because water boils at 100&deg;C and acetone at 56&deg;C. Their boiling point difference is 44&deg;C, which easily clears the minimum 25&deg;C gap needed for simple distillation.</li>
+            <li><strong>(b) water &ndash; salt:</strong> This is a standard liquid-solid solution where only the water vaporises, leaving the non-volatile solid salt completely behind in the flask.</li>
+        </ul>
+        <p><em>Note:</em> Mixtures like (c) acetone-alcohol, (e) alcohol-chloroform, and (f) alcohol-benzene have boiling points that are too close together (less than a 25&deg;C difference), so they would require fractional distillation instead.</p>
+    </div>
+</div>
+`,},         
+            
+            ] },
+            { name: "Chapter 6: How Forces Affect Motion", solutions: [
+{q:`<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;"> Using a horizontal force F, a table is moved across the floor at a constant velocity. How much is the frictional force exerted by the floor on the table?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;">
+        The frictional force exerted by the floor is exactly equal to <strong>F</strong>, acting in the opposite direction. Since the table is moving at a completely constant velocity, its acceleration is zero. This means the net force must be zero, so your forward push and the floor's backward friction completely balance each other out.
+    </p>
+</div>
+`,},
+{q:`<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;"> For a ball moving on a smooth frictionless surface, choose the appropriate option that will make the following statements physically correct.</p>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #555; font-size: 0.95rem;">
+        <li>(i) If no net force is applied on the ball, the velocity of the ball will remain the same/increase/decrease.</li>
+        <li>(ii) If a net force is applied on the ball in the direction of its motion, the magnitude of the velocity of the ball will remain the same/increase/decrease.</li>
+        <li>(iii) If a net force is applied on the ball in a direction opposite to the direction of its motion, the magnitude of the velocity of the ball will remain the same/increase/decrease.</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 8px;"><strong>(i)</strong> The velocity of the ball will <strong>remain the same</strong>. (Since there is no friction to slow it down, it keeps rolling forever!)</li>
+        <li style="margin-bottom: 8px;"><strong>(ii)</strong> The magnitude of the velocity will <strong>increase</strong>.</li>
+        <li style="margin-bottom: 0;"><strong>(iii)</strong> The magnitude of the velocity will <strong>decrease</strong>.</li>
+    </ul>
+</div>
+`,},
+{q:`<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0 0 15px 0; color: #333; font-weight: bold;">3. Two blocks P and Q on a smooth horizontal surface are shown in Fig. 6.36a and Fig. 6.36b. Two forces of magnitudes 4 N and 5 N are acting in opposite directions on block P, while block Q is moving with a constant velocity.</p>
+    
+    <div style="display: flex; gap: 40px; justify-content: center; align-items: center; margin: 20px 0; padding: 10px; background: #fff; border-radius: 4px;">
+        <div style="text-align: center;">
+            <div style="display: flex; align-items: center; justify-content: center; position: relative;">
+                <span style="font-size: 14px; font-weight: bold; color: #d9534f; margin-right: 5px;">5 N &rarr;</span>
+                <div style="width: 60px; height: 40px; border: 2px solid #333; background: #f0f0f0; display: flex; align-items: center; justify-content: center; font-weight: bold; z-index: 2;">P</div>
+                <span style="font-size: 14px; font-weight: bold; color: #d9534f; margin-left: 5px;">&larr; 4 N</span>
+            </div>
+            <div style="width: 160px; height: 2px; background: #333; margin: 0 auto; margin-top: -2px;"></div>
+            <p style="margin: 5px 0 0 0; font-size: 12px; color: #666; font-weight: bold;">Fig. 6.36a</p>
+        </div>
+        
+        <div style="text-align: center;">
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <div style="width: 60px; height: 40px; border: 2px solid #333; background: #f0f0f0; display: flex; align-items: center; justify-content: center; font-weight: bold;">Q</div>
+            </div>
+            <div style="width: 100px; height: 2px; background: #333; margin: 0 auto;"></div>
+            <p style="margin: 5px 0 0 0; font-size: 12px; color: #666; font-weight: bold;">Fig. 6.36b</p>
+        </div>
+    </div>
+
+    <p style="margin: 0 0 10px 0; font-weight: bold; color: #444; font-size: 0.95rem;">Which of the following statement is correct?</p>
+    <ul style="margin: 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li style="margin-bottom: 5px;">(i) P experiences a net force and Q does not experience a net force.</li>
+        <li style="margin-bottom: 5px;">(ii) P does not experience a net force and Q experiences a net force.</li>
+        <li style="margin-bottom: 5px;">(iii) Both P and Q experience a net force.</li>
+        <li style="margin-bottom: 0;">(iv) Neither P nor Q experiences a net force.</li>
+    </ul>
+</div>
+
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        The correct choice is: <strong>(i) P experiences a net force and Q does not experience a net force.</strong>
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        Block P has unequal forces pulling it in opposite directions (5 N vs 4 N), leaving it with a net force of 1 N. Block Q is moving at a perfect, constant velocity, which always means its acceleration is zero and its net force is absolutely zero.
+    </p>
+</div>
+`,},
+{q:`<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;"> While practising for the snake boat race, 100 oarsmen are rowing a boat together. Out of these, 95 row backwards to propel the boat forward. But by mistake, 5 oarsmen row in the opposite direction. If each oarsman applies a horizontal force of 200 N, what is the net force on the snake boat?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        The net force on the snake boat is <strong>18,000 N in the forward direction</strong>.
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        Think of it like a giant tug-of-war on the boat: 95 rowers are pulling the right way, generating 19,000 N of forward force (95 &times; 200 N). Meanwhile, the 5 mistaken rowers are fighting them with 1,000 N of backward force (5 &times; 200 N). Subtracting the mistake gives a net forward push of 18,000 N.
+    </p>
+</div>
+`,},
+{q:`<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;"> When a net force acts on an object, we observe that the object accelerates:</p>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li>(i) opposite to the direction of force, with acceleration proportional to the force acting on the object.</li>
+        <li>(ii) opposite to the direction of force, with acceleration proportional to the mass of the object.</li>
+        <li>(iii) in the direction of force, with acceleration inversely proportional to the force acting on the object.</li>
+        <li>(iv) in the direction of force, with acceleration proportional to the force acting on the object.</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;">
+        The correct choice is <strong>(iv) in the direction of force, with acceleration proportional to the force acting on the object.</strong> According to Newton's 2nd law, objects always speed up or change direction in the exact path of the net push, and pushing harder directly creates a bigger acceleration.
+    </p>
+</div>
+`,},
+{q:`<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0 0 15px 0; color: #333; font-weight: bold;">6. The position-time graph for four objects A, B, C and D moving along a straight line are given in Fig. 6.37. A net force acts on:</p>
+    
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin: 20px 0; padding: 10px; background: #fff; border-radius: 4px;">
+        <div style="text-align: center;">
+            <div style="width: 80px; height: 80px; border-left: 2px solid #333; border-bottom: 2px solid #333; margin: 0 auto; position: relative; overflow: hidden;">
+                <svg width="80" height="80" style="position: absolute; left: 0; bottom: 0;">
+                    <path d="M 0 80 Q 40 70 80 10" stroke="#d9534f" stroke-width="2.5" fill="transparent"/>
+                </svg>
+            </div>
+            <p style="margin: 5px 0 0 0; font-size: 11px; color: #555; font-weight: bold;">Object A</p>
+        </div>
+        <div style="text-align: center;">
+            <div style="width: 80px; height: 80px; border-left: 2px solid #333; border-bottom: 2px solid #333; margin: 0 auto; position: relative;">
+                <div style="position: absolute; left: 0; bottom: 40px; width: 80px; height: 2px; background: #5bc0de;"></div>
+            </div>
+            <p style="margin: 5px 0 0 0; font-size: 11px; color: #555; font-weight: bold;">Object B</p>
+        </div>
+        <div style="text-align: center;">
+            <div style="width: 80px; height: 80px; border-left: 2px solid #333; border-bottom: 2px solid #333; margin: 0 auto; position: relative;">
+                <svg width="80" height="80" style="position: absolute; left: 0; bottom: 0;">
+                    <line x1="0" y1="80" x2="80" y2="10" stroke="#5bc0de" stroke-width="2" />
+                </svg>
+            </div>
+            <p style="margin: 5px 0 0 0; font-size: 11px; color: #555; font-weight: bold;">Object C</p>
+        </div>
+        <div style="text-align: center;">
+            <div style="width: 80px; height: 80px; border-left: 2px solid #333; border-bottom: 2px solid #333; margin: 0 auto; position: relative;">
+                <svg width="80" height="80" style="position: absolute; left: 0; bottom: 0;">
+                    <line x1="0" y1="20" x2="80" y2="80" stroke="#5bc0de" stroke-width="2" />
+                </svg>
+            </div>
+            <p style="margin: 5px 0 0 0; font-size: 11px; color: #555; font-weight: bold;">Object D</p>
+        </div>
+    </div>
+
+    <ul style="margin: 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li style="margin-bottom: 5px;">(i) Object A</li>
+        <li style="margin-bottom: 5px;">(ii) Object B</li>
+        <li style="margin-bottom: 5px;">(iii) Object C</li>
+        <li style="margin-bottom: 0;">(iv) Object D</li>
+    </ul>
+</div>
+
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        A net force acts on: <strong>(i) Object A</strong>
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        Object A's position-time graph is a curved line, which means its speed is changing over time—it is accelerating! In contrast, objects B, C, and D all show completely straight lines, meaning they are either moving at a single constant speed or standing perfectly still with zero net force.
+    </p>
+</div>
+`,},
+{q:`<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">7. A sailor jumps out from a small boat to the shore (Fig. 6.38). As the sailor jumps forward, will the boat move? If yes, in which direction and why.</p>
+</div>
+
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;">
+        <strong>Yes, the boat will move backward (away from the shore).</strong> This is a classic example of Newton's 3rd law (Action and Reaction). To launch forward onto the shore, the sailor's feet must push backward against the boat. As the boat pushes the sailor forward, it receives an equal and opposite force that kicks it back into the water.
+    </p>
+</div>
+`,},
+{q:`<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">8. During a high jump event, a landing mat or sand bed is placed for the athlete to fall upon (Fig. 6.39). Explain the reason behind it.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;">
+        The landing mat is there to <strong>increase the time</strong> it takes for the athlete to come to a complete stop. Sinking into a soft cushion slows down the deceleration process. According to Newton's 2nd law, stretching out that stopping time significantly lowers the impact force hitting the athlete's body, preventing serious injuries.
+    </p>
+</div>
+`,},
+{q:`<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;"> A hand cart loaded with vegetables collides with an identical but empty hand cart. During the collision, which cart exerts a larger force?</p>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li>(i) the loaded cart exerts a force of larger magnitude on the empty cart.</li>
+        <li>(ii) the empty cart exerts a force of larger magnitude on the loaded cart.</li>
+        <li>(iii) neither cart exerts a force on the other.</li>
+        <li>(iv) the loaded cart and the empty cart, both exert an equal magnitude of force on each other.</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;">
+        The correct option is <strong>(iv) the loaded cart and the empty cart, both exert an equal magnitude of force on each other.</strong> Newton's 3rd law states that forces always occur in perfectly equal and opposite pairs. No matter which cart is heavier or moving faster, the actual collision force they trade is exactly identical on both sides.
+    </p>
+</div>
+`,},
+{q:`<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">10. The acceleration-mass graph for the acceleration produced by a force on objects of different masses is plotted in Fig. 6.40. Plot the force-mass graph for this case.</p>
+</div>
+
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        The force-mass graph will simply be a <strong>flat, horizontal straight line at F = 10 N</strong>.
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        If you take any mass coordinate from the curve and multiply it by its acceleration value (F = m &times; a), you get the exact same constant force. For instance, at 1 kg mass, acceleration is 10 m/s&sup2;, which equals 10 N. Since the force remains a constant 10 N for every single mass, its graph is a perfectly flat line at the 10 N mark.
+    </p>
+</div>
+`,},
+{q: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0 0 15px 0; color: #333; font-weight: bold;">11. The velocity-time graph of an object of mass 10 kg moving along a straight line is shown in Fig. 6.41. Calculate the force acting on the object by using the graph.</p>
+    
+    <div style="width: 220px; height: 160px; margin: 20px auto; border-left: 2px solid #333; border-bottom: 2px solid #333; position: relative; background: linear-gradient(0deg, transparent 24%, #eee 25%, #eee 26%, transparent 27%), linear-gradient(90deg, transparent 24%, #eee 25%, #eee 26%, transparent 27%); background-size: 20px 20px;">
+        <svg width="220" height="160" style="position: absolute; left: 0; top: 0; overflow: visible;">
+            <line x1="0" y1="110" x2="160" y2="30" stroke="#d9534f" stroke-width="3" />
+            <circle cx="0" cy="110" r="4" fill="#333"/>
+            <text x="5" y="114" font-size="10" font-family:sans-serif; font-weight:bold;">10 m/s (t=0)</text>
+            <circle cx="160" cy="30" r="4" fill="#333"/>
+            <text x="125" y="24" font-size="10" font-family:sans-serif; font-weight:bold;">30 m/s (t=8s)</text>
+        </svg>
+        <div style="position: absolute; right: -50px; bottom: -5px; font-size: 11px; font-weight: bold;">Time (s)</div>
+        <div style="position: absolute; left: -35px; top: -20px; font-size: 11px; font-weight: bold;">Velocity (m s&sup1;)</div>
+    </div>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        The net force acting on the object is <strong>25 N</strong>.
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        First, find the acceleration by calculating the slope of the line: (30 m/s &minus; 10 m/s) / 8 s = 20 / 8 = 2.5 m/s&sup2;. Then, plug it into Newton's second law (F = m &times; a): 10 kg &times; 2.5 m/s&sup2; gives you a total net force of 25 N.
+    </p>
+</div>
+`},
+{q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;"> A bullet of mass 50 g moving with a speed of 100 m s–1 enters a heavy stationary wooden block and stops after penetrating a distance of 50 cm. Estimate the stopping force acting on the bullet.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        The estimated stopping force acting on the bullet is <strong>500 N</strong>.
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        Convert things to standard units first: mass = 0.05 kg (50g) and distance = 0.5 m (50cm). Using the motion equation v&sup2; = u&sup2; + 2as, we calculate: 0 = 100&sup2; + 2 &times; a &times; 0.5, giving an acceleration of -10,000 m/s&sup2;. Finally, using F = ma, the force is 0.05 kg &times; -10,000 m/s&sup2; = -500 N (the negative sign simply shows it opposes the motion).
+    </p>
+</div>
+`,},
+{q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;"> An ace footballer converted a penalty shot by kicking the football with a speed of 108 km h–1. The estimated force they imparted was 800 N. The mass of the football was 0.4 kg. Calculate the time of contact between their foot and the ball.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        The contact time between the foot and the ball is <strong>0.015 seconds</strong>.
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        First, convert the speed from km/h to m/s: 108 &times; (5/18) = 30 m/s. Since Force = mass &times; (change in velocity / time), we can set up the calculation: 800 N = 0.4 kg &times; (30 m/s / t). This simplifies down to 800 = 12 / t, which leaves us with a brief contact window of t = 0.015 seconds.
+    </p>
+</div>
+`,},
+{q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;"> An object of mass 2 kg moving with a constant velocity of 10 m s–1 encounters a rough patch where the force of friction on the object is 7 N. At the same time, an additional constant force of 3 N opposing the motion is applied. How much distance does it travel before stopping?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        The object travels a distance of <strong>10 meters</strong> before coming to a complete stop.
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        The total combined force fighting the motion is 10 N (7 N rough patch friction + 3 N additional opposition force). With a mass of 2 kg, the deceleration rate is -5 m/s&sup2; (Force/mass). Using the formula v&sup2; - u&sup2; = 2as, we write out 0 - 10&sup2; = 2 &times; (-5) &times; s, which simplifies cleanly to -100 = -10s, giving a total distance of 10 meters.
+    </p>
+</div>
+`,},
+{q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;"> A tractor pulls a harrow of mass m1 with a net force F resulting in an acceleration of a1. The same tractor pulls a trolley of mass m2 with a force F producing an acceleration of a2. If the tractor now pulls the trolley with the harrow placed on it (with the same force F), obtain an expression for the resulting acceleration.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        The final mathematical expression for the combined acceleration is: <strong>a = (a&ensp;&times;&ensp;a&ensp;) / (a&ensp;+&ensp;a&ensp;)</strong>
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        From Newton's second law, mass equals Force divided by acceleration (m = F/a). So, the individual sizes are m&ensp;= F/a&ensp; and m&ensp;= F/a&ensp;. Combined together, the system mass is (F/a&ensp; + F/a&ensp;). The final combined acceleration is Force divided by this total mass. The 'F' cancels out cleanly from the numerator and denominator, leaving you with the standard product-over-sum formula.
+    </p>
+</div>
+`,},
+{q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">16. When the pole of a bar magnet is brought close to a magnetic compass, the bar magnet and the compass needle (which is also a magnet) exert a magnetic force on each other. As per Newton’s third law of motion, both the forces are equal in magnitude and opposite in direction. However, the compass needle moves, whereas the bar magnet does not move (Fig. 6.42). Explain why.</p>
+</div>
+
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;">
+        Even though the magnetic forces acting on both objects are perfectly identical in strength, <strong>the bar magnet has vastly more mass</strong> than the lightweight compass needle. According to Newton's 2nd law, acceleration is inversely tied to mass. Because the bar magnet is heavy and has static table friction anchoring it down, its movement is completely microscopic, while the tiny needle spins freely.
+    </p>
+</div>
+`,},
+] },
+            { name: "Chapter 7: Work, Energy, and Simple Machines", solutions: [{q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">State whether True or False.</p>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li style="margin-bottom: 5px;">Work is said to be done when a force is applied, even if the object does not move.</li>
+        <li style="margin-bottom: 5px;">Lifting a bucket vertically upward results in positive work done on the bucket.</li>
+        <li style="margin-bottom: 5px;">The SI unit for both work and energy is joule (J).</li>
+        <li style="margin-bottom: 5px;">A motionless stretched rubber band has kinetic energy.</li>
+        <li style="margin-bottom: 0;">Energy can change from one form to another.</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 8px;"><strong>False:</strong> No movement means zero displacement, so scientifically, no work is done on the object.</li>
+        <li style="margin-bottom: 8px;"><strong>True:</strong> The upward lifting force and the upward movement are in the exact same direction.</li>
+        <li style="margin-bottom: 8px;"><strong>True:</strong> Energy is just the capacity to do work, so they share the exact same unit.</li>
+        <li style="margin-bottom: 8px;"><strong>False:</strong> It's stationary, so its kinetic energy is zero; instead, it stores potential energy.</li>
+        <li style="margin-bottom: 0;"><strong>True:</strong> Energy transfers shapes constantly, like electrical energy turning into light in a bulb.</li>
+    </ul>
+</div>
+`,},    
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Fill in the blanks.</p>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li style="margin-bottom: 5px;">Work done = ______ &times; ______ (in the direction of force).</li>
+        <li style="margin-bottom: 5px;">1 joule of work is done when a force of ______ newton displaces an object by 1 metre in the direction of the force.</li>
+        <li style="margin-bottom: 5px;">The expression for kinetic energy of a body of mass m and velocity v is ______.</li>
+        <li style="margin-bottom: 5px;">The potential energy of an object of mass m at a small height h from the Earth’s surface is ______.</li>
+        <li style="margin-bottom: 0;">Power is defined as the ______ at which work is done.</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 8px;">Force &times; Displacement</li>
+        <li style="margin-bottom: 8px;">1</li>
+        <li style="margin-bottom: 8px;">&frac12; mv&sup2;</li>
+        <li style="margin-bottom: 8px;">mgh</li>
+        <li style="margin-bottom: 0;">rate</li>
+    </ul>
+</div>
+`,},  
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">When a ball thrown upwards reaches its highest point, tick which of the following statement(s) are correct?</p>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li style="margin-bottom: 5px;">The force acting on the ball is zero.</li>
+        <li style="margin-bottom: 5px;">The acceleration of the ball is zero.</li>
+        <li style="margin-bottom: 5px;">Its kinetic energy is zero.</li>
+        <li style="margin-bottom: 0;">Its potential energy is maximum.</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        The correct statements are: <strong>Its kinetic energy is zero.</strong> and <strong>Its potential energy is maximum.</strong>
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        Even though the ball stalls for an instant at the top (making speed and kinetic energy zero), gravity never turns off! It is still accelerating downwards at 10 m/s&sup2; because of its weight. Since it's at the highest peak of its flight, all its energy has converted into maximum potential energy.
+    </p>
+</div>
+`,},  
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">For each of the following situations, identify the energy transformation that takes place: a truck moving uphill, unwinding of a watch spring, photosynthesis in green leaves, water flowing from a dam, burning of a matchstick, explosion of a fire cracker, speaking into a microphone, a glowing electric bulb, and a solar panel.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444; font-size: 0.95rem;">
+        <li style="margin-bottom: 6px;"><strong>Truck moving uphill:</strong> Chemical energy (fuel) &rarr; Kinetic energy &rarr; Potential energy.</li>
+        <li style="margin-bottom: 6px;"><strong>Unwinding watch spring:</strong> Elastic Potential energy &rarr; Kinetic energy.</li>
+        <li style="margin-bottom: 6px;"><strong>Photosynthesis:</strong> Light energy (Sun) &rarr; Chemical energy.</li>
+        <li style="margin-bottom: 6px;"><strong>Water flowing from a dam:</strong> Gravitational Potential energy &rarr; Kinetic energy.</li>
+        <li style="margin-bottom: 6px;"><strong>Burning a matchstick:</strong> Chemical energy &rarr; Thermal (heat) and Light energy.</li>
+        <li style="margin-bottom: 6px;"><strong>Firecracker explosion:</strong> Chemical energy &rarr; Sound, Light, and Thermal energy.</li>
+        <li style="margin-bottom: 6px;"><strong>Speaking into a mic:</strong> Sound energy &rarr; Electrical energy.</li>
+        <li style="margin-bottom: 6px;"><strong>Glowing electric bulb:</strong> Electrical energy &rarr; Light and Thermal energy.</li>
+        <li style="margin-bottom: 0;"><strong>Solar panel:</strong> Light energy &rarr; Electrical energy.</li>
+    </ul>
+</div>
+`,},  
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A student is slowly lifted straight up in an elevator from the ground level to the top floor of a building. Later, the same student climbs the staircase, all the way to the top. Given that the height of the building is h&thinsp;=&thinsp;72.5 m, acceleration due to gravity is g&thinsp;=&thinsp;10&thinsp;m&thinsp;s&ndash;2, and student’s mass is m&thinsp;=&thinsp;50 kg.</p>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li>Find the gain in the potential energy if the student is lifted straight up to the top.</li>
+        <li>Find the gain in the potential energy when the student climbs the stairs to the same top.</li>
+        <li>What do you conclude about the dependence of the potential energy on the path taken?</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 8px;">Gain = mgh = 50 &times; 10 &times; 72.5 = <strong>36,250 J</strong>.</li>
+        <li style="margin-bottom: 8px;">Gain = <strong>36,250 J</strong> (The vertical height reached is exactly the same).</li>
+        <li style="margin-bottom: 0;"><strong>Conclusion:</strong> Potential energy is entirely independent of the path taken. It only depends on the starting configuration and final vertical height.</li>
+    </ul>
+</div>
+`,},  
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A crane lifts a mass m to the 10th floor of a building in a certain time. It then raises the same mass to the 20th floor of the same building in double the time. How much more energy and power are required? Assume that the height of all floors is equal.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        It requires <strong>twice the energy</strong>, but the <strong>power required remains exactly the same</strong>.
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        Lifting the mass to the 20th floor means going double the vertical distance, which directly doubles the potential energy required (2 &times; E). However, because the crane takes double the time to do this double work, the rate of work (Power = Work / Time) stays perfectly identical to the first trip.
+    </p>
+</div>
+`,},  
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Which factors determine the energy required to raise a flag from the ground to the top of a tall flagpole using a pulley? Does raising the flag slowly or quickly change the amount of work done? If the speed at which the flag is raised is doubled, how does the power requirement change? Explain your answers.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;">
+        The energy is determined by the <strong>mass of the flag and the vertical height</strong> of the flagpole. Raising it quickly or slowly does not alter the work done—the mechanical output to combat gravity is always equal to mgh. However, if you double the speed, you finish the task in half the time, which means the <strong>power required instantly doubles</strong>.
+    </p>
+</div>
+`,},  
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A man of mass 60 kg rides a scooter of mass 100 kg. He accelerates the scooter to a velocity v. The next day, his son with a mass of 40 kg joins him as a passenger. If the scooter reaches the same speed on both days in the same time interval, what is the ratio of the fuel of the tank used on the two days? Assume that the energy transfer to the scooter happens entirely due to fuel, and no other losses occur due to air resistance and friction.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        The ratio of fuel used is <strong>4:5</strong> (or 0.8).
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        Fuel directly correlates with the kinetic energy (&frac12; mv&sup2;) needed to reach speed v. On Day 1, the total mass is 60 + 100 = 160 kg. On Day 2, adding the son brings the mass to 160 + 40 = 200 kg. Since speed is identical, the ratio of fuel is simply the ratio of their masses: 160 / 200 = 4 / 5.
+    </p>
+</div>
+`,},  
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0 0 10px 0; color: #333; font-weight: bold;">On a seesaw with sliding seats, a child is sitting on one side and an adult on the other side. The adult weighs twice that of the child. The seesaw however is balanced. Draw a figure which depicts this situation showing the distances from the fulcrum where the child and the adult are seated.</p>
+    </div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;">
+        According to the principle of levers (Load &times; Load Arm = Effort &times; Effort Arm), since the adult weighs twice as much as the child (2m &times; d = m &times; 2d), the <strong>adult must slide to exactly half the distance from the fulcrum</strong> compared to the child to keep the system perfectly balanced.
+    </p>
+</div>
+`, image: `images/seesaw.jpg` },  
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">The gravitational attraction on the surface of the Moon (lunar surface) is about 1/6 th of that on the surface of the Earth. An astronaut can throw a ball up to a height of 8 m from the surface of the Earth. How far up will the ball thrown with the same upward velocity travel from the surface of the Moon?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        The ball will travel a height of <strong>48 meters</strong> on the Moon.
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        Using the conservation of mechanical energy, the initial kinetic launch energy transforms completely into potential energy at the peak (&frac12; mv&sup2; = mgh &rarr; h = v&sup2; / 2g). This proves height is inversely linked to gravity. Since the Moon's gravity pull is 6 times weaker, the ball floats up 6 times higher (8 &times; 6 = 48 m).
+    </p>
+</div>
+`,},  
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A 10.0 kg block is moving on horizontal floor with negligible friction. As shown in the Fig. 7.37, a variable force is applied on the block in its direction of motion from its position at 0 m till 4 m. If the block had a kinetic energy of 180 J when it was at 0 m, find the block’s speed (i) at 0 m, and (ii) at 4 m. Does the block have negative acceleration in any portion of its motion?</p>
+    
+</div>
+
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 8px;"><strong>(i) Speed at 0 m:</strong> Since Kinetic Energy = 180 J, we set up 180 = &frac12; &times; 10 &times; v&sup2; &rarr; v&sup2; = 36 &rarr; <strong>6 m/s</strong>.</li>
+        <li style="margin-bottom: 8px;"><strong>(ii) Speed at 4 m:</strong> The total work done is the area of the trapezoid under the graph: Area = &frac12; &times; (2 + 4) &times; 50 = 150 J. The total Kinetic Energy at 4 m becomes 180 + 150 = 330 J. Solving for speed: 330 = &frac12; &times; 10 &times; v&sup2; &rarr; v&sup2; = 66 &rarr; <strong>8.12 m/s</strong>.</li>
+        <li style="margin-bottom: 0;"><strong>Negative Acceleration? No.</strong> Even though the pushing force gets smaller between 3 m and 4 m, it is still a positive force pushing the block forward. The block continues to speed up the whole time, so acceleration never becomes negative.</li>
+    </ul>
+</div>
+
+`, image: `images/fig 7.37.png`},  
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">The gravitational attraction on the surface of the Moon (lunar surface) is about 1/6 th of that on the surface of the Earth. An astronaut can throw a ball up to a height of 8 m from the surface of the Earth. How far up will the ball thrown with the same upward velocity travel from the surface of the Moon?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        The ball will travel a height of <strong>48 meters</strong> on the Moon.
+    </p>
+    <p style="margin: 0; line-height: 1.6; color: #666; font-size: 0.95rem;">
+        Using the conservation of mechanical energy, the initial kinetic launch energy transforms completely into potential energy at the peak (&frac12; mv&sup2; = mgh &rarr; h = v&sup2; / 2g). This proves height is inversely linked to gravity. Since the Moon's gravity pull is 6 times weaker, the ball floats up 6 times higher (8 &times; 6 = 48 m).
+    </p>
+</div>
+`,},  
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A 1000 kg car is moving along a road at a constant speed. Suddenly, the driver notices some obstruction ahead and applies the brakes to come to a complete stop. The graphical representation of motion of the car starting from the instant the driver spots the traffic ahead is shown in Fig. 7.38.</p>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li style="margin-bottom: 4px;">(i) Describe how the car moves between positions A and B.</li>
+        <li style="margin-bottom: 4px;">(ii) Calculate the kinetic energy of the car at A.</li>
+        <li style="margin-bottom: 4px;">(iii) State the work done by the brakes in bringing the car to a halt between B and C.</li>
+        <li style="margin-bottom: 0;">(iv) What does the kinetic energy of the car transform into?</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 8px;"><strong>(i) Motion A-B:</strong> The flat line means the car moves at a perfectly constant speed of 35 m/s. This represents the brief reaction time split-second before the driver physically hits the brake pedal.</li>
+        <li style="margin-bottom: 8px;"><strong>(ii) KE at A:</strong> KE = &frac12; mv&sup2; = &frac12; &times; 1000 &times; 35&sup2; = <strong>612,500 J</strong>.</li>
+        <li style="margin-bottom: 8px;"><strong>(iii) Work Done by Brakes:</strong> The brakes completely neutralize all forward motion down to zero, meaning the work done by braking friction is equal to <strong>&minus;612,500 J</strong>.</li>
+        <li style="margin-bottom: 0;"><strong>(iv) Transformation:</strong> The car's kinetic energy transforms completely into heat (thermal energy) and scraping sound energy inside the brake assemblies and tires.</li>
+    </ul>
+</div>
+`, image: `images/fig 7.38.png`},  
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">The potential energy-displacement graph of a 0.5 kg ball moving along a frictionless track is shown in Fig. 7.39. At O, the velocity of the ball is 0 m s&sup1; and potential energy is 30 J. Calculate the velocity of the ball at P, Q and R.</p>
+    
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0 0 10px 0; line-height: 1.6; color: #444;">
+        Since the ball is stationary at O, its total mechanical energy budget is locked at <strong>30 J</strong> (Kinetic Energy + Potential Energy = 0 + 30 = 30 J).
+    </p>
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444; font-size: 0.95rem;">
+        <li style="margin-bottom: 6px;"><strong>At P (PE = 10 J):</strong> KE = 30 &minus; 10 = 20 J. Solving for speed: 20 = &frac12; &times; 0.5 &times; v&sup2; &rarr; v&sup2; = 80 &rarr; <strong>8.94 m/s</strong>.</li>
+        <li style="margin-bottom: 6px;"><strong>At Q (PE = 20 J):</strong> KE = 30 &minus; 20 = 10 J. Solving for speed: 10 = &frac12; &times; 0.5 &times; v&sup2; &rarr; v&sup2; = 40 &rarr; <strong>6.32 m/s</strong>.</li>
+        <li style="margin-bottom: 0;"><strong>At R (PE = 40 J):</strong> The track graph at point R requires a potential energy of 40 J. Because our ball only has a total energy budget of 30 J, it physically cannot climb up to point R. It will stop and roll backward before ever reaching it. Velocity at R is <strong>impossible</strong> (mechanically unreachable).</li>
+    </ul>
+</div>
+`, image: `images/fig 7.39.png`},  
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A coconut of mass 1.5 kg falls from the top of a coconut tree onto the wet sand on a beach. The height of the tree is 10 m. On impact, the coconut comes to rest by making a depression in the sand.</p>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li style="margin-bottom: 4px;">(i) Calculate the velocity of the coconut just before it hits the sand.</li>
+        <li style="margin-bottom: 0;">(ii) Assume that the average resistive force of sand is 3000 N and all of the coconut’s energy is used to create the depression in the sand. Calculate the depth of the depression the coconut makes in the sand. Assume g = 10 m s&ndash;2.</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 8px;"><strong>(i) Velocity before hitting:</strong> Using conservation of energy (&frac12; mv&sup2; = mgh &rarr; v = &radic;(2gh)), we compute v = &radic;(2 &times; 10 &times; 10) = &radic;(200) = <strong>14.14 m/s</strong>.</li>
+        <li style="margin-bottom: 0;"><strong>(ii) Sand Depression Depth:</strong> The initial potential energy at the top of the tree is 1.5 &times; 10 &times; 10 = 150 J. The work done by the sand stopping force must balance this energy (Force &times; distance = Energy): 3000 &times; d = 150 &rarr; d = 150 / 3000 = <strong>0.05 meters (5 cm)</strong>.</li>
+    </ul>
+</div>
+`,},  
+                           
+            ] },
+            { name: "Chapter 8: Journey Inside the Atom", solutions: [{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">1. Choose the correct options and explain the reason for the correct and incorrect options in the context of Ernest Rutherford’s gold foil experiment:</p>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li style="margin-bottom: 4px;">(i) The experiment clearly showed the existence of neutrons in the nucleus.</li>
+        <li style="margin-bottom: 4px;">(ii) The results disproved the plum pudding model and led to the idea of a nucleus at the centre of the atom.</li>
+        <li style="margin-bottom: 4px;">(iii) The large deflection of a few alpha particles indicated that most of the mass of the atom and positive charge are packed into a tiny centre.</li>
+        <li style="margin-bottom: 0;">(iv) The way alpha particles were deflected showed that electrons move around the nucleus.</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 8px;"><strong>(i) Incorrect:</strong> The experiment only detected a dense positive core (nucleus); neutrons were discovered much later by James Chadwick in 1932.</li>
+        <li style="margin-bottom: 8px;"><strong>(ii) Correct:</strong> Bouncing back of alpha particles showed positive charge isn't evenly spread, completely disproving Thomson’s model and establishing the central nucleus.</li>
+        <li style="margin-bottom: 8px;"><strong>(iii) Correct:</strong> Large-angle deflections and direct rebounds proved that almost all mass and positive charge are concentrated in a miniscule space.</li>
+        <li style="margin-bottom: 0;"><strong>(iv) Incorrect:</strong> The deflection of positive alpha particles was caused by the positive nucleus repelling them; it did not map or show electronic motion directly.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">2. Which of the following statements are correct or incorrect according to the Bohr’s atomic model? Give a reason for each statement.</p>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li style="margin-bottom: 4px;">(i) Electrons lose energy while moving in fixed orbits and slowly fall into the nucleus.</li>
+        <li style="margin-bottom: 4px;">(ii) Electrons can exist anywhere around the nucleus with no fixed energy.</li>
+        <li style="margin-bottom: 4px;">(iii) Electrons revolve around the nucleus in orbits of fixed energy without losing energy.</li>
+        <li style="margin-bottom: 0;">(iv) Electrons can be found between energy levels as they move around the nucleus.</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 8px;"><strong>(i) Incorrect:</strong> Bohr's model states that while moving in a fixed allowed shell, an electron is in a stationary state and does not radiate or lose energy.</li>
+        <li style="margin-bottom: 8px;"><strong>(ii) Incorrect:</strong> Electrons cannot exist anywhere; they are strictly restricted to follow fixed specific circular paths called orbits or shells.</li>
+        <li style="margin-bottom: 8px;"><strong>(iii) Correct:</strong> This is a core postulate of Bohr’s model; stationary orbits keep the electron energy constant, ensuring atomic stability.</li>
+        <li style="margin-bottom: 0;"><strong>(iv) Incorrect:</strong> Electrons can only revolve within the defined allowed shells and are strictly forbidden from existing in the spaces between them.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">3. The composition of the nuclei of three atomic species X, Y, and Z are given as follows:</p>
+    <table style="width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 0.95rem; color: #444;">
+        <thead>
+            <tr style="background-color: #f2f2f2;">
+                <th style="border: 1px solid #ddd; padding: 8px; text-align: left;"></th>
+                <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">X</th>
+                <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Y</th>
+                <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Z</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">Number of protons</td>
+                <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">18</td>
+                <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">17</td>
+                <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">17</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">Number of neutrons</td>
+                <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">19</td>
+                <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">18</td>
+                <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">20</td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="margin: 8px 0 0 0; color: #555; font-size: 0.95rem;">Explain the relation between the following: (i) Y and Z, (ii) Z and X.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 8px;"><strong>(i) Relation between Y and Z (Isotopes):</strong> Both Y and Z have the same number of protons (17) but a different number of neutrons (Y has 18, Z has 20). Therefore, they are isotopes of the same element.</li>
+        <li style="margin-bottom: 0;"><strong>(ii) Relation between Z and X (Isobars):</strong> Z and X have different atomic numbers (protons) but share the same mass number of 37 (Z: 17 + 20 = 37; X: 18 + 19 = 37). Therefore, they are isobars.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">4. What conclusion did Rutherford draw about the position and characteristics of the atom’s positively charged part based on the few alpha particles that bounced back or were deflected at large angles in the gold foil experiment?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Nucleus Characteristics:</strong> Rutherford concluded that the positive charge and nearly all the mass of an atom are not spread out uniformly, but instead concentrated in an extremely dense, compact central core called the <strong>nucleus</strong>. The rest of the atom is almost completely empty space.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">5. Explain and arrange the following statements in the correct chronological order to show how atomic models have evolved over time.</p>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li style="margin-bottom: 4px;">(i) Bohr’s model proposed that electrons move in fixed orbits around the nucleus, each with a definite energy.</li>
+        <li style="margin-bottom: 4px;">(ii) Thomson’s model depicted the atom as a ‘plum pudding’ with electrons embedded in a sphere of positive charge.</li>
+        <li style="margin-bottom: 4px;">(iii) Rutherford’s model proposed that atoms have a dense central nucleus.</li>
+        <li style="margin-bottom: 0;">(iv) Dalton’s model described atoms as indivisible particles.</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Chronological Order:</strong> The correct scientific evolution timeline is <strong>(iv) &rarr; (ii) &rarr; (iii) &rarr; (i)</strong>. Dalton started with indivisible particles (1808), Thomson added subatomic embedded charges (1897), Rutherford discovered the dense inner nucleus (1911), and Bohr established stable energy levels (1913).</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">6. Electrons move around the nucleus in orbits. Why do they not fly away from the atom? Explain what keeps them attracted to the nucleus.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Electrostatic Attraction:</strong> Electrons carry a negative electrical charge, while the central nucleus contains protons carrying a positive electrical charge. The strong <strong>electrostatic force of attraction</strong> between these opposite charges keeps the electrons bound to the atom and prevents them from flying away.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">7. Assertion (A): The discovery of subatomic particles helped in understanding the atomic structure.<br>Reason (R): The number of electrons is equal to the number of protons in an atom.</p>
+    <p style="margin: 5px 0 0 0; color: #555; font-size: 0.95rem;">Choose the correct option: (i) Both A and R are true, and R is the correct explanation of A. (ii) Both A and R are true, but R is not the correct explanation of A. (iii) A is true, but R is false. (iv) A is false, but R is true.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Option: (ii)</strong> Both A and R are true, but R is not the correct explanation of A. The discovery of subatomic components (protons, electrons, neutrons) mapped out the structural framework of an atom, but the equality of electrons and protons simply explains why an atom maintains an overall neutral electric charge.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">8. Magnesium is essential for many biological processes, including muscle contraction. For an atom of magnesium with a mass number of 24 and atomic number 12, determine the number of (i) protons, (ii) neutrons, (iii) electrons, and also illustrate the arrangement of electrons in a magnesium atom.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>(i) Protons:</strong> Equal to the atomic number, which gives <strong>12 protons</strong>.</li>
+        <li style="margin-bottom: 4px;"><strong>(ii) Neutrons:</strong> Mass number minus atomic number (24 &minus; 12), which gives <strong>12 neutrons</strong>.</li>
+        <li style="margin-bottom: 4px;"><strong>(iii) Electrons:</strong> Equal to the proton count in a neutral atom, giving <strong>12 electrons</strong>.</li>
+        <li style="margin-bottom: 0;"><strong>Electronic Arrangement:</strong> Following Bohr-Bury rules, the 12 electrons fill the energy levels shell-by-shell to give a configuration of <strong>K=2, L=8, M=2</strong>.</li>
+    </ul>
+</div>
+`, image: "images/mg.png" },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">9. Find the following information for the elements shown in Fig. 8.17: (i) Name of the element, (ii) Symbol, (iii) Total number of electrons, (iv) Number of valence electrons, (v) Valency of the element, (vi) Number of protons, (vii) Atomic number.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>Atom (a) [Lithium]:</strong> (i) Lithium, (ii) Li, (iii) 3, (iv) 1, (v) 1, (vi) 3, (vii) Z = 3.</li>
+        <li style="margin-bottom: 4px;"><strong>Atom (b) [Carbon]:</strong> (i) Carbon, (ii) C, (iii) 6, (iv) 4, (v) 4, (vi) 6, (vii) Z = 6.</li>
+        <li style="margin-bottom: 4px;"><strong>Atom (c) [Oxygen]:</strong> (i) Oxygen, (ii) O, (iii) 8, (iv) 6, (v) 8 &minus; 6 = 2, (vi) 8, (vii) Z = 8.</li>
+        <li style="margin-bottom: 0;"><strong>Atom (d) [Neon]:</strong> (i) Neon, (ii) Ne, (iii) 10, (iv) 8, (v) 0 (stable octet), (vi) 10, (vii) Z = 10.</li>
+    </ul>
+</div>
+`, image: "images/img.png" },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">10. Both Rutherford’s and Bohr’s models have electrons orbiting the nucleus. Why did Rutherford’s model fail to explain atomic stability, while Bohr’s model succeeded?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Atomic Stability:</strong> In Rutherford's planetary model, accelerating circular electrons must continuously radiate electromagnetic energy, causing them to spiral inward and collapse into the nucleus. Bohr bypassed this limitation by postulating discrete <strong>stationary states (orbits)</strong> where mechanical rules keep electron energy fixed and radiationless during orbital motion.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">11. An atom <sup>70</sup>X has 31 electrons. How many neutrons are there in its nucleus?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Neutron Count:</strong> In a neutral atom, electrons equal protons, so protons = 31. Using Mass Number = Protons + Neutrons (70 = 31 + n), the total number of neutrons is 70 &minus; 31 = <strong>39 neutrons</strong>.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">12. An atom has 79 protons and a mass number of 197. Calculate (i) the number of neutrons, and (ii) the number of electrons.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 8px;"><strong>(i) Number of Neutrons:</strong> Mass number minus protons (197 &minus; 79) gives <strong>118 neutrons</strong>.</li>
+        <li style="margin-bottom: 0;"><strong>(ii) Number of Electrons:</strong> Equal to the number of protons in a neutral atomic state, giving <strong>79 electrons</strong>.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">13. Complete the Table 8.5:</p>
+    <table style="width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 0.95rem; color: #444;">
+        <thead>
+            <tr style="background-color: #f2f2f2;">
+                <th style="border: 1px solid #ddd; padding: 6px;">Atomic No.</th>
+                <th style="border: 1px solid #ddd; padding: 6px;">Mass No.</th>
+                <th style="border: 1px solid #ddd; padding: 6px;">Neutrons</th>
+                <th style="border: 1px solid #ddd; padding: 6px;">Protons</th>
+                <th style="border: 1px solid #ddd; padding: 6px;">Electrons</th>
+                <th style="border: 1px solid #ddd; padding: 6px;">Element Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">5</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">6</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td></tr>
+            <tr><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">14</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">7</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">Nitrogen</td></tr>
+            <tr><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">24</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">12</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td></tr>
+            <tr><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">15</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">16</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td></tr>
+            <tr><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">1</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">0</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td><td style="border: 1px solid #ddd; padding: 6px; text-align: center;">–</td></tr>
+        </tbody>
+    </table>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>Row 1 [Boron]:</strong> Mass No. = 5 + 6 = <strong>11</strong>; Protons = <strong>5</strong>; Electrons = <strong>5</strong>; Name = <strong>Boron</strong>.</li>
+        <li style="margin-bottom: 4px;"><strong>Row 2 [Nitrogen]:</strong> Atomic No. = <strong>7</strong>; Neutrons = 14 &minus; 7 = <strong>7</strong>; Protons = <strong>7</strong>.</li>
+        <li style="margin-bottom: 4px;"><strong>Row 3 [Magnesium]:</strong> Atomic No. = <strong>12</strong>; Neutrons = 24 &minus; 12 = <strong>12</strong>; Electrons = <strong>12</strong>; Name = <strong>Magnesium</strong>.</li>
+        <li style="margin-bottom: 4px;"><strong>Row 4 [Phosphorus]:</strong> Mass No. = 15 + 16 = <strong>31</strong>; Protons = <strong>15</strong>; Electrons = <strong>15</strong>; Name = <strong>Phosphorus</strong>.</li>
+        <li style="margin-bottom: 0;"><strong>Row 5 [Hydrogen]:</strong> Atomic No. = 1 &minus; 0 = <strong>1</strong>; Protons = <strong>1</strong>; Electrons = <strong>1</strong>; Name = <strong>Hydrogen</strong>.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">14. Element X has a mass number of 35 and contains 18 neutrons. Answer the following:</p>
+    <ul style="margin: 5px 0 0 0; padding-left: 20px; color: #555; font-size: 0.95rem; list-style-type: none;">
+        <li style="margin-bottom: 4px;">(i) How many electrons and protons does element X have?</li>
+        <li style="margin-bottom: 4px;">(ii) What is its atomic number?</li>
+        <li style="margin-bottom: 4px;">(iii) Identify the element X.</li>
+        <li style="margin-bottom: 4px;">(iv) Write its electronic configuration.</li>
+        <li style="margin-bottom: 4px;">(v) How many valence electrons does it have?</li>
+        <li style="margin-bottom: 4px;">(vi) What will be the mass number if two neutrons are added to its nucleus?</li>
+        <li style="margin-bottom: 0;">(vii) What will be the relation of X with the new atom?</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>(i) Electrons & Protons:</strong> Protons = 35 &minus; 18 = 17 protons; Electrons = <strong>17 electrons</strong>.</li>
+        <li style="margin-bottom: 4px;"><strong>(ii) Atomic Number:</strong> Equal to the proton count, giving <strong>Z = 17</strong>.</li>
+        <li style="margin-bottom: 4px;"><strong>(iii) Identify Element X:</strong> Atomic number 17 corresponds to <strong>Chlorine (Cl)</strong>.</li>
+        <li style="margin-bottom: 4px;"><strong>(iv) Electronic Configuration:</strong> Distributing 17 electrons yields <strong>2, 8, 7</strong>.</li>
+        <li style="margin-bottom: 4px;"><strong>(v) Valence Electrons:</strong> Outer shell contains <strong>7 valence electrons</strong>.</li>
+        <li style="margin-bottom: 4px;"><strong>(vi) New Mass Number:</strong> Initial mass 35 + 2 added neutrons = <strong>37</strong>.</li>
+        <li style="margin-bottom: 0;"><strong>(vii) Relation:</strong> They share the same atomic number (17) but have different mass numbers (35 and 37), making them <strong>isotopes</strong>.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">15. In an atom, there are 12 protons and 12 neutrons in the nucleus. Now, imagine that all the electrons are replaced with some hypothetical particles that have the same charge as electrons but are 500 times heavier. What effect will this replacement have on the atom’s: (i) Atomic number, (ii) Atomic mass, (iii) Mass number, (iv) Overall charge?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>(i) Atomic Number:</strong> <strong>No change</strong>; it is strictly defined by the 12 protons inside the nucleus.</li>
+        <li style="margin-bottom: 4px;"><strong>(ii) Atomic Mass:</strong> <strong>Increases significantly</strong>; the mass of 12 electrons becomes 500 times heavier, making a measurable subatomic mass contribution.</li>
+        <li style="margin-bottom: 4px;"><strong>(iii) Mass Number:</strong> <strong>No change</strong>; mass number counts only the total integer tally of nuclear nucleons (12p + 12n = 24).</li>
+        <li style="margin-bottom: 0;"><strong>(iv) Overall Charge:</strong> <strong>No change</strong>; the electrical charge of the replacement particle remains identical to a standard electron (&minus;1).</li>
+    </ul>
+</div>
+`, },
+
+            ] },
+            { name: "Chapter 9: Atomic Foundations of Matter", solutions: [ 
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A particular element (A) has one electron in its third shell. There is another element (B) with six electrons in its second shell.
+    <br>(i) How many electrons does A tend to give or take to become stable?
+    <br>(ii) What kind of ion would it form?
+    <br>(iii) How many electrons does B tend to give or take to become stable?
+    <br>(iv) What kind of ion would it form?
+    <br>(v) If A and B were to combine, what kind of bond would be formed?
+    <br>(vi) What would be the formula for the compound thus formed?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>(i) Atomic Number / Electrons:</strong> Element A has configuration 2, 8, 1, so it tends to <strong>give 1 electron</strong> to become stable.</li>
+        <li style="margin-bottom: 4px;"><strong>(ii) Type of Ion:</strong> By losing 1 negative electron, it forms a positive ion, which is a <strong>cation</strong> (A<sup>+</sup>).</li>
+        <li style="margin-bottom: 4px;"><strong>(iii) Electrons for B:</strong> Element B has configuration 2, 6, so it tends to <strong>take 2 electrons</strong> to complete its outer shell octet.</li>
+        <li style="margin-bottom: 4px;"><strong>(iv) Type of Ion for B:</strong> By gaining 2 negative electrons, it forms a negative ion, which is an <strong>anion</strong> (B<sup>2&minus;</sup>).</li>
+        <li style="margin-bottom: 4px;"><strong>(v) Type of Bond:</strong> A complete transfer of electrons from a metal-like element (A) to a non-metal element (B) results in an <strong>ionic bond</strong>.</li>
+        <li style="margin-bottom: 0;"><strong>(vi) Chemical Formula:</strong> Exchanging and criss-crossing their valencies (A<sup>1+</sup> and B<sup>2&minus;</sup>) yields the formula <strong>A<sub>2</sub>B</strong>.</li>
+    </ul>
+</div>
+`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">An element X has six electrons in its outer shell and forms a diatomic molecule.
+    <br>(i) Why would that be so?
+    <br>(ii) What kind of bond would it form?
+    <br>(iii) Draw the structure of the molecule it would form.
+    <br>(iv) A certain other element Y has two electrons in its second shell. Draw the structure of the molecule that X would form with Y.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>(i) Reason for Diatomic Molecule:</strong> Element X requires 2 more valence electrons to achieve a stable octet structure. By sharing 2 electrons with another identical X atom, both achieve stability.</li>
+        <li style="margin-bottom: 4px;"><strong>(ii) Type of Bond:</strong> Because two pairs of valence electrons are shared between the interacting atoms, it forms a <strong>double covalent bond</strong>.</li>
+        <li style="margin-bottom: 4px;"><strong>(iii) Structure of X<sub>2</sub> Molecule:</strong> It is structurally represented by sharing two electron pairs, written as <strong>X = X</strong> or <strong>:X::X:</strong>.</li>
+        <li style="margin-bottom: 0;"><strong>(iv) Structure of YX Molecule:</strong> Element Y (configuration 2, 2) transfers its 2 valence electrons entirely to X (configuration 2, 6), creating an ionic layout written as <strong>[Y]<sup>2+</sup>[:X:]<sup>2&minus;</sup></strong> or formula unit <strong>YX</strong>.</li>
+    </ul>
+</div>
+`, image:`images/omgg.jpg`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">You want to design a new ionic compound, where the total positive charge is 6+ and the total negative charge is 6&minus;. Which of the following combinations gives the correct number of ions?
+    <br>(i) 2 Al<sup>3+</sup> and 3 Cl<sup>&minus;</sup>
+    <br>(ii) 3 Mg<sup>2+</sup> and 1 PO<sub>4</sub><sup>3&minus;</sup>
+    <br>(iii) 2 Fe<sup>3+</sup> and 3 O<sup>2&minus;</sup>
+    <br>(iv) 3 Ca<sup>2+</sup> and 2 SO<sub>4</sub><sup>2&minus;</sup></p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Option:</strong> <strong>(iii) 2 Fe<sup>3+</sup> and 3 O<sup>2&minus;</sup></strong>. The total positive charge is 2 &times; (+3) = +6, and the total negative charge is 3 &times; (&minus;2) = &minus;6, which matches perfectly.</li>
+    </ul>
+</div>
+`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Choose the correct statement(s) and correct the false statement(s).
+    <br>(i) Elements are made up of molecules and compounds are made up of atoms.
+    <br>(ii) The molecule of a compound is always made up of two or more atoms of the same kind.
+    <br>(iii) One molecule of nitrogen gas contains three nitrogen atoms.
+    <br>(iv) Water is made of two hydrogen atoms, covalently bonded with one oxygen atom.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>(i) False:</strong> Elements are made up of atoms (or molecules of the same atom), while compounds are made up of different atoms combined.</li>
+        <li style="margin-bottom: 4px;"><strong>(ii) False:</strong> The molecule of a compound is always composed of two or more atoms of <strong>different</strong> kinds chemically bonded together.</li>
+        <li style="margin-bottom: 4px;"><strong>(iii) False:</strong> One molecule of stable nitrogen gas (N<sub>2</sub>) contains exactly <strong>two</strong> nitrogen atoms held by a triple bond.</li>
+        <li style="margin-bottom: 0;"><strong>(iv) True:</strong> Water (H<sub>2</sub>O) consists exactly of two individual hydrogen atoms sharing their single valence electron pairs covalently with one oxygen atom.</li>
+    </ul>
+</div>
+`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Write the chemical formulae for the following compounds.
+    <br>(i) Aluminium nitrate
+    <br>(ii) Calcium oxide
+    <br>(iii) Ferric oxide</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>(i) Aluminium nitrate:</strong> <strong>Al(NO<sub>3</sub>)<sub>3</sub></strong></li>
+        <li style="margin-bottom: 4px;"><strong>(ii) Calcium oxide:</strong> <strong>CaO</strong></li>
+        <li style="margin-bottom: 0;"><strong>(iii) Ferric oxide:</strong> <strong>Fe<sub>2</sub>O<sub>3</sub></strong></li>
+    </ul>
+</div>
+`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Write the formulae of the compounds formed from the following pairs of ions.
+    <br>(i) Ca<sup>2+</sup> and Br<sup>&minus;</sup>
+    <br>(ii) Al<sup>3+</sup> and CO<sub>3</sub><sup>2&minus;</sup>
+    <br>(iii) K<sup>+</sup> and SO<sub>4</sub><sup>2&minus;</sup>
+    <br>(iv) NH<sub>4</sub><sup>+</sup> and Cl<sup>&minus;</sup></p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>(i) Ca<sup>2+</sup> and Br<sup>&minus;</sup>:</strong> <strong>CaBr<sub>2</sub></strong></li>
+        <li style="margin-bottom: 4px;"><strong>(ii) Al<sup>3+</sup> and CO<sub>3</sub><sup>2&minus;</sup>:</strong> <strong>Al<sub>2</sub>(CO<sub>3</sub>)<sub>3</sub></strong></li>
+        <li style="margin-bottom: 4px;"><strong>(iii) K<sup>+</sup> and SO<sub>4</sub><sup>2&minus;</sup>:</strong> <strong>K<sub>2</sub>SO<sub>4</sub></strong></li>
+        <li style="margin-bottom: 0;"><strong>(iv) NH<sub>4</sub><sup>+</sup> and Cl<sup>&minus;</sup>:</strong> <strong>NH<sub>4</sub>Cl</strong></li>
+    </ul>
+</div>
+`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Which of the following, in Fig. 9.18, correctly represents Cl<sup>&minus;</sup> ion (Atomic number of chlorine = 17).</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Representation:</strong> The option showing an electron shell arrangement of <strong>2, 8, 8</strong>. A neutral chlorine atom has 17 electrons (2, 8, 7), so gaining 1 electron to become a Cl<sup>&minus;</sup> ion fills the valence shell to 8 electrons.</li>
+    </ul>
+</div>
+`, image: `images/fig 9.18.png`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Determine the formula unit mass of the following substances.
+    <br>(i) Ammonium nitrate (NH<sub>4</sub>NO<sub>3</sub>)
+    <br>(ii) Phosphoric acid (H<sub>3</sub>PO<sub>4</sub>)
+    <br>(iii) Sodium hydrogencarbonate (NaHCO<sub>3</sub>)</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>(i) Ammonium nitrate (NH<sub>4</sub>NO<sub>3</sub>):</strong> <strong>80 u</strong> &nbsp;&xrarr;&nbsp; (14 &times; 2) + (1 &times; 4) + (16 &times; 3) = 28 + 4 + 48.</li>
+        <li style="margin-bottom: 4px;"><strong>(ii) Phosphoric acid (H<sub>3</sub>PO<sub>4</sub>):</strong> <strong>98 u</strong> &nbsp;&xrarr;&nbsp; (1 &times; 3) + 31 + (16 &times; 4) = 3 + 31 + 64.</li>
+        <li style="margin-bottom: 0;"><strong>(iii) Sodium hydrogencarbonate (NaHCO<sub>3</sub>):</strong> <strong>84 u</strong> &nbsp;&xrarr;&nbsp; 23 + 1 + 12 + (16 &times; 3) = 23 + 1 + 12 + 48.</li>
+    </ul>
+</div>
+`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Write the formulae for the compounds formed by the reaction of:
+    <br>(i) Magnesium and nitrogen
+    <br>(ii) Lithium and nitrogen
+    <br>(iii) Sodium and sulfur
+    <br>(iv) Aluminium and oxygen</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>(i) Magnesium and nitrogen:</strong> <strong>Mg<sub>3</sub>N<sub>2</sub></strong></li>
+        <li style="margin-bottom: 4px;"><strong>(ii) Lithium and nitrogen:</strong> <strong>Li<sub>3</sub>N</strong></li>
+        <li style="margin-bottom: 4px;"><strong>(iii) Sodium and sulfur:</strong> <strong>Na<sub>2</sub>S</strong></li>
+        <li style="margin-bottom: 0;"><strong>(iv) Aluminium and oxygen:</strong> <strong>Al<sub>2</sub>O<sub>3</sub></strong></li>
+    </ul>
+</div>
+`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Complete the Table 9.3 by writing the formulae of the compounds formed by the cations on the left and the anions at the top.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <table style="width: 100%; border-collapse: collapse; text-align: center; color: #444; font-size: 14px; font-family: Arial, sans-serif;">
+        <thead>
+            <tr style="background-color: #cfa670; color: white;">
+                <th style="padding: 8px; border: 1px solid #cfa670;">Cations / Anions</th>
+                <th style="padding: 8px; border: 1px solid #cfa670;">NO<sub>3</sub><sup>&minus;</sup></th>
+                <th style="padding: 8px; border: 1px solid #cfa670;">SO<sub>4</sub><sup>2&minus;</sup></th>
+                <th style="padding: 8px; border: 1px solid #cfa670;">PO<sub>4</sub><sup>3&minus;</sup></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold; background-color: #fff;">NH<sub>4</sub><sup>+</sup></td>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; background-color: #fff;">NH<sub>4</sub>NO<sub>3</sub></td>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; background-color: #fff;">(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub></td>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; background-color: #fff;">(NH<sub>4</sub>)<sub>3</sub>PO<sub>4</sub></td>
+            </tr>
+            <tr>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold; background-color: #fff;">Li<sup>+</sup></td>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; background-color: #fff;">LiNO<sub>3</sub></td>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; background-color: #fff;">Li<sub>2</sub>SO<sub>4</sub></td>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; background-color: #fff;">Li<sub>3</sub>PO<sub>4</sub></td>
+            </tr>
+            <tr>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold; background-color: #fff;">Al<sup>3+</sup></td>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; background-color: #fff;">Al(NO<sub>3</sub>)<sub>3</sub></td>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; background-color: #fff;">Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub></td>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; background-color: #fff;">AlPO<sub>4</sub></td>
+            </tr>
+            <tr>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold; background-color: #fff;">Cu<sup>2+</sup></td>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; background-color: #fff;">Cu(NO<sub>3</sub>)<sub>2</sub></td>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; background-color: #fff;">CuSO<sub>4</sub></td>
+                <td style="padding: 8px; border: 1px solid #e0e0e0; background-color: #fff;">Cu<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">5.3 g of sodium carbonate and 6.0 g of acetic acid react to produce 2.2 g of carbon dioxide, 0.9 g of water, and 8.2 g of sodium acetate. Verify whether the law of conservation of mass is valid.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>Mass of Reactants:</strong> 5.3 g (Sodium carbonate) + 6.0 g (Acetic acid) = <strong>11.3 g</strong></li>
+        <li style="margin-bottom: 4px;"><strong>Mass of Products:</strong> 2.2 g (Carbon dioxide) + 0.9 g (Water) + 8.2 g (Sodium acetate) = <strong>11.3 g</strong></li>
+        <li style="margin-bottom: 0;"><strong>Verification Conclusion:</strong> Because the total initial mass of the combined reactants equals the final mass of the accumulated products, the <strong>Law of Conservation of Mass is valid</strong>.</li>
+    </ul>
+</div>
+`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">If a species has 11 protons, 12 neutrons and 10 electrons then:
+    <br>(i) what is its atomic number and mass number?
+    <br>(ii) is it neutral, a cation or an anion? Explain.
+    <br>(iii) write its electronic configuration.
+    <br>(iv) name the species.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>(i) Atomic Number & Mass Number:</strong> Atomic Number = <strong>11</strong> (defined by protons). Mass Number = 11 protons + 12 neutrons = <strong>23</strong>.</li>
+        <li style="margin-bottom: 4px;"><strong>(ii) Electrical State:</strong> It is a <strong>cation</strong>. It has 11 positive protons and only 10 negative electrons, leaving a net positive charge of +1.</li>
+        <li style="margin-bottom: 4px;"><strong>(iii) Electronic Configuration:</strong> <strong>2, 8</strong> (distributed across the K and L shells for 10 total electrons).</li>
+        <li style="margin-bottom: 0;"><strong>(iv) Name of the Species:</strong> <strong>Sodium ion (Na<sup>+</sup>)</strong>.</li>
+    </ul>
+</div>
+`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Two elements, A and B, have the following configurations —
+    <br>A: 2, 8, 5 
+    <br>B: 2, 8, 7
+    <br>(i) Which element is more reactive?
+    <br>(ii) Will A and B form ionic or covalent bonds when they combine? Explain using electron transfer or sharing.
+    <br>(iii) Predict the formula of the compound they would form.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>(i) Most Reactive Element:</strong> Element <strong>B</strong> is more reactive because it only needs to gain 1 single electron to complete its stable outer octet shell, whereas element A requires 3 electrons.</li>
+        <li style="margin-bottom: 4px;"><strong>(ii) Type of Bonding:</strong> They will form <strong>covalent bonds</strong>. Both A and B are non-metals requiring electrons to complete their octets; they will achieve stability by mutually sharing electron pairs instead of transferring them.</li>
+        <li style="margin-bottom: 0;"><strong>(iii) Chemical Formula:</strong> Element A has a valency of 3, and element B has a valency of 1. Criss-crossing their respective valencies yields the formula <strong>AB<sub>3</sub></strong>.</li>
+    </ul>
+</div>
+`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Assertion (A): Copper sulfate conducts electricity in the molten state but not in the solid state.
+    <br>Reason (R): Copper and sulfate ions are fixed in the lattice in molten state, while in solid state they can move freely.
+    <br>Choose the correct option:
+    <br>(i) Both A and R are true, and R is the correct explanation of A.
+    <br>(ii) Both A and R are true, but R is not the correct explanation of A.
+    <br>(iii) A is true, but R is false.
+    <br>(iv) A is false, but R is true.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Option:</strong> <strong>(iii) A is true, but R is false</strong>. The assertion is completely correct because ionic compounds conduct electricity only when ions are free to move. However, the reason statement is false because ions can move freely in the molten state, whereas they are rigidly locked inside the crystal lattice in the solid state.</li>
+    </ul>
+</div>
+`},
+                {q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">The species <sup>27</sup>Al, <sup>80</sup>Br<sup>&minus;</sup> and <sup>201</sup>Hg<sup>2+</sup> have 13, 35 and 80 protons, respectively. How many electrons and neutrons do they have?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>For <sup>27</sup>Al:</strong> Neutrons = 27 &minus; 13 = <strong>14 neutrons</strong>. Electrons = <strong>13 electrons</strong> (neutral atom).</li>
+        <li style="margin-bottom: 4px;"><strong>For <sup>80</sup>Br<sup>&minus;</sup>:</strong> Neutrons = 80 &minus; 35 = <strong>45 neutrons</strong>. Electrons = 35 + 1 = <strong>36 electrons</strong> (gained 1 negative electron charge).</li>
+        <li style="margin-bottom: 0;"><strong>For <sup>201</sup>Hg<sup>2+</sup>:</strong> Neutrons = 201 &minus; 80 = <strong>121 neutrons</strong>. Electrons = 80 &minus; 2 = <strong>78 electrons</strong> (lost 2 valence electrons).</li>
+    </ul>
+</div>
+`},
+
+            ] },
+            { name: "Chapter 10: Sound Waves: Characteristics and Applications", solutions: [{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Which observation best supports the idea that sound is a mechanical wave?
+    <br>(i) Sound shows reflection
+    <br>(ii) Sound needs a medium to propagate
+    <br>(iii) Sound has frequency
+    <br>(iv) Sound carries energy</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Option:</strong> (ii) Sound needs a medium to propagate</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">For a sound wave propagating in a medium, increasing its frequency will increase its
+    <br>(i) wavelength
+    <br>(ii) speed
+    <br>(iii) number of compressions per second
+    <br>(iv) time period</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Option:</strong> (iii) number of compressions per second</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">If 20 compressions pass a point in 4 seconds, the frequency is
+    <br>(i) 80 Hz
+    <br>(ii) 5 Hz
+    <br>(iii) 10 Hz
+    <br>(iv) 0.2 Hz</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Option:</strong> (ii) 5 Hz</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">In a room, the reflected sound reaches the ear 0.05 s after its production. Will it produce an echo or reverberation? Justify your answer.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Result:</strong> Reverberation. The time gap of 0.05 s is less than the 0.1 s required by the human ear to distinguish a distinct echo.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Graphs representing two sound waves are given in Fig. 10.30. If the scales on the X and Y axes of the two graphs are the same, which of the two sound waves has (i) greater wavelength, and (ii) smaller amplitude?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>(i) Greater wavelength:</strong> Wave (a)</li>
+        <li style="margin-bottom: 0;"><strong>(ii) Smaller amplitude:</strong> Wave (a)</li>
+    </ul>
+</div>
+`, image: `images/fig graph XD.png ` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">The sound waves emitted by three sources A, B and C are represented in Fig. 10.31. If the frequency of A is maximum and C is minimum, identify the corresponding curves, and mark A, B and C on them.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>Curve A (Maximum Frequency):</strong> Red curve</li>
+        <li style="margin-bottom: 4px;"><strong>Curve B:</strong> Green curve</li>
+        <li style="margin-bottom: 0;"><strong>Curve C (Minimum Frequency):</strong> Blue curve</li>
+    </ul>
+</div>
+`, image: `images/bruh.jpg` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Draw a graph to represent a sound wave for which the density amplitude is 3 units and wavelength is 4 cm.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Graph details:</strong> Plot a standard wave curve where the peak height equals 3 units on the vertical density axis, and one full wave cycle spans 4 cm horizontally.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">In a movie, while showing the explosion of a spacecraft in space, a flash of light is shown along with sound at the same time. What are the errors in this depiction?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>Error 1:</strong> Space is a vacuum, so sound cannot travel and no explosion audio should be heard.</li>
+        <li style="margin-bottom: 0;"><strong>Error 2:</strong> Light travels much faster than sound, so the visual flash would arrive way before any sound.</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A source produces a sound wave of wavelength 3.44 m. If the wave travels with a speed of 344 m s<sup>–1</sup> find its time period.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>Frequency:</strong> 344 m s<sup>&minus;1</sup> / 3.44 m = 100 Hz</li>
+        <li style="margin-bottom: 0;"><strong>Time Period:</strong> 1 / 100 Hz = 0.01 s</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A ship searching for a sunken ship sent a sonar signal and detected an echo after 5 s. If ultrasonic wave travels at 1525 m s<sup>–1</sup> in seawater, approximately how far down in the ocean is the wreckage of the sunken ship located?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>One-way time:</strong> 5 s / 2 = 2.5 s</li>
+        <li style="margin-bottom: 0;"><strong>Distance (Depth):</strong> 1525 m s<sup>&minus;1</sup> &times; 2.5 s = 3812.5 m</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A vehicle is fitted with an ultrasonic distance sensor as part of parking assistance system which provides echolocation, while the driver is reversing the vehicle. It emits ultrasonic wave (about 40 kHz) which is reflected by the obstacle. When the warning beep starts sounding at a distance of 1.2 m from the obstacle, how much time is taken by ultrasonic wave to travel to the obstacle and come back? Assume the speed of ultrasonic wave in air to be 345 m s<sup>–1</sup>.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>Total roundtrip distance:</strong> 2 &times; 1.2 m = 2.4 m</li>
+        <li style="margin-bottom: 0;"><strong>Total roundtrip time:</strong> 2.4 m / 345 m s<sup>&minus;1</sup> = 0.00696 s</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">The speed of sound in air is about 331 m s<sup>–1</sup> at 0 ºC and nearly 344 m s<sup>–1</sup> at 22 ºC. Roughly how much extra time will the sound of thunder take to travel a distance of 1720 m, if the air temperature changes from 22 ºC to 0 ºC? Assume that all other conditions remain unchanged.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>Time at 22 ºC:</strong> 1720 m / 344 m s<sup>&minus;1</sup> = 5 s</li>
+        <li style="margin-bottom: 4px;"><strong>Time at 0 ºC:</strong> 1720 m / 331 m s<sup>&minus;1</sup> = 5.196 s</li>
+        <li style="margin-bottom: 0;"><strong>Extra time:</strong> 5.196 s &minus; 5 s = 0.196 s</li>
+    </ul>
+</div>
+`, },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">The variation of density of medium for a sound wave propagating with a speed of 340 m s<sup>–1</sup> is shown in Fig. 10.32. Calculate the wavelength and frequency of the sound wave.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>Wavelength:</strong> 8 cm / 2 = 4 cm = 0.04 m</li>
+        <li style="margin-bottom: 0;"><strong>Frequency:</strong> 340 m s<sup>&minus;1</sup> / 0.04 m = 8500 Hz</li>
+    </ul>
+</div>
+`, image: `images/tf.png` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">The graphical representation of two sound waves A and B propagating at the same speed of 345 m s<sup>–1</sup> is shown in Fig. 10.33. What is the wavelength of each of them? Also, calculate their frequencies.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 4px;"><strong>Wave A:</strong> Wavelength = 2.5 cm = 0.025 m; Frequency = 345 m s<sup>&minus;1</sup> / 0.025 m = 13800 Hz</li>
+        <li style="margin-bottom: 0;"><strong>Wave B:</strong> Wavelength = 5.0 cm = 0.05 m; Frequency = 345 m s<sup>&minus;1</sup> / 0.05 m = 6900 Hz</li>
+    </ul>
+</div>
+`, image: `images/xd.jpg` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Two identical sound sources are placed at A and B — one in air and one submerged in water (Fig. 10.34). Both produce sounds at the same time, which travel horizontally to the vertical side of the cliff and come back. If the time taken by the sound to return to A is 4.5 times than that of B, what is the ratio between the speeds of sound in air and water?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Ratio of speed (Air : Water):</strong> 1 : 4.5 (or 2 : 9)</li>
+    </ul>
+</div>
+`, },
+            ] },
+
+            { name: "Chapter 11: Reproduction: How Life Continues", solutions: [{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A flower's anthers are removed before it matures. Later, pollen from another plant of the same species is dusted onto its stigma and seeds are produced. Which process has been ensured here?<br>
+    (i) Self-pollination<br>
+    (ii) Cross-pollination<br>
+    (iii) Fertilisation<br>
+    (iv) Tissue culture</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Option:</strong> (ii) Cross-pollination</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Removing the anthers prevents the flower from self-pollinating. Introducing pollen from a separate plant of the same species ensures cross-pollination.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Arrange the following stages of sexual reproduction in plants in the correct order:<br>
+    (i) Pollen germination on stigma<br>
+    (ii) Fertilisation<br>
+    (iii) Pollination<br>
+    (iv) Formation of zygote</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Order:</strong> (iii) &rarr; (i) &rarr; (ii) &rarr; (iv)</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> First, pollen is transferred to the stigma (Pollination). The pollen then grows a tube down the style (Pollen germination on stigma). This tube delivers the male gamete to fuse with the egg cell (Fertilisation), which results in the initial single cell of the new generation (Formation of zygote).</li>
+    </ul>
+</div>
+`, image: `images/w.png` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Assertion (A): The zygote formed after fertilisation immediately attaches to the uterus wall.<br>
+    Reason (R): The uterus wall is always prepared to receive the zygote.<br>
+    (i) Both A and R are true, and R is the correct explanation of A.<br>
+    (ii) Both A and R are true, but R is not the correct explanation of A.<br>
+    (iii) A is true, but R is false.<br>
+    (iv) A is false, but R is true.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Option:</strong> (iv) A is false, but R is true.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Assertion (A) is false because the zygote divides into an embryo while traveling down the oviduct for a few days before it implants in the uterus wall. Reason (R) is true because the inner lining of the uterus thickens and enriches itself with blood vessels during every menstrual cycle to prepare for a potential zygote.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Why does asexual reproduction produce offsprings that are genetically identical to the parent?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Core Reason:</strong> It involves only a single parent and uses mitosis, ensuring no mixing of genetic traits or gamete fusion.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Since there is only one parent, there is no second source of DNA to combine or mix traits. The cell division process responsible for this growth is mitosis, which replicates the parent's genetic material exactly, resulting in clones.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Explain why the menstrual cycle stops during pregnancy.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Biological Mechanism:</strong> Persistent high levels of pregnancy hormones keep the uterine lining intact to support the developing embryo.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Once a zygote implants, the body releases specific pregnancy hormones. These hormones maintain the thick, nutrient-rich inner lining of the uterus to feed the growing baby. Because this lining is actively being preserved, it does not break down and shed, which pauses the regular monthly period.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Why are flowers that bloom at night white or light in colour as compared to flowers that bloom during the day?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Evolutionary Adaptation:</strong> White or pale colors reflect moonlight and starlight efficiently, making them visible to night-active pollinators.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Bright pigments like red or yellow are difficult to see in complete darkness. White or light-colored petals reflect ambient night light, making them pop out against dark green foliage. These flowers also rely heavily on strong, aromatic fragrances to help nocturnal insects find them by smell.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Why do vegetatively propagated plants tend to be more vulnerable to diseases than sexually reproduced plants?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Genetic Reason:</strong> Vegetatively propagated plants are exact genetic clones of the single parent plant and lack variation.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Sexual reproduction mixes traits from two parents, creating unique gene combinations that might resist a disease. Because vegetative propagation uses pieces of the same plant, every offspring inherits the exact same vulnerabilities. If a pest or virus breaks through the defenses of one plant, it can effortlessly wipe out the entire crop of clones.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">If all flowers in a type of plant were only capable of self-pollination, how would it affect the genetic diversity over several generations? Explain.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Long-term Trend:</strong> Genetic diversity would decrease significantly because the same genetic material is recycled repeatedly within the same plant line.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Self-pollination means the plant keeps fertilizing itself. Without incoming pollen from an outside source, there is no way to introduce fresh genetic traits. Over time, this locks in specific genes, eliminates variation, and makes it hard for the species to adapt to new environments.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A farmer wants to produce a large number of genetically identical plants quickly. Suggest suitable reproduction methods and explain why they are effective.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Recommended Methods:</strong> Stem cutting, grafting, layering, or using laboratory tissue culture techniques.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> These vegetative propagation methods allow the farmer to bypass the slower process of growing from seeds. They utilize mitosis to regenerate a full plant from an existing shoot or stem. This guarantees the new plants mature quickly while retaining the high-yield or desirable qualities of the parent.</li>
+    </ul>
+</div>
+
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Suresh prepares slides with pollen grains in different sugar concentrations (0%, 2.5%, 5%, 7.5%, 10%) to study the germination of pollen.<br>
+    (i) What are the different hypotheses which can be tested using this set-up?<br>
+    (ii) What parameters should be kept the same in this set-up?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px; list-style-type: disc;"><strong>(i) Hypotheses to Test:</strong> "Pollen grains require an optimal sugar concentration to sprout pollen tubes successfully" or "An extreme sugar concentration can slow down or completely prevent germination."</li>
+        <li style="margin-bottom: 10px; list-style-type: disc;"><strong>(ii) Constant Parameters:</strong> The plant species providing the pollen, the incubation temperature, the volume of liquid in each drop, and the total observation period.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Sugar provides nutrients and creates an osmotic pressure that signals the pollen grain to grow its tube. By testing different percentages, Suresh can find the exact value where germination peaks. Keeping variables like temperature constant ensures that sugar concentration is the only factor affecting the growth.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Look at the picture given below and think in line with the given prompts and find out which type(s) of pollination might have been followed in these flowers<br>
+    Tomato: Stamens cover the stigma.<br>
+    Wheat: Flowers open after pollination.<br>
+    Papaya: Male and female flowers are often borne on different papaya trees.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 12px; list-style-type: none; margin-left: -20px;">
+            <table style="width: 100%; border-collapse: collapse; margin-bottom: 15px; font-size: 0.9em; text-align: left; background-color: #ffffff; border: 1px solid #e0e0e0;">
+                <thead>
+                    <tr style="background-color: #f5f0e6; border-bottom: 2px solid #cfa670;">
+                        <th style="padding: 8px; border: 1px solid #e0e0e0; color: #333;">Plant Variety</th>
+                        <th style="padding: 8px; border: 1px solid #e0e0e0; color: #333;">Structural Features / Prompts</th>
+                        <th style="padding: 8px; border: 1px solid #e0e0e0; color: #333;">Pollination Method Determined</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold;">Tomato</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0;">Stamens physically cover the stigma.</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; color: #27ae60; font-weight: bold;">Self-pollination</td>
+                    </tr>
+                    <tr style="background-color: #faf8f5;">
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold;">Wheat</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0;">Flowers only open up after pollination concludes.</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; color: #27ae60; font-weight: bold;">Self-pollination</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold;">Papaya</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0;">Male and female flowers grow on completely separate trees.</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; color: #d35400; font-weight: bold;">Cross-pollination</td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+        <li style="margin-bottom: 5px;"><strong>Tomato:</strong> Exhibits <strong>Self-pollination</strong>. Because the stamens build an enclosed shell directly surrounding the stigma, the pollen lands right on its own female organs.</li>
+        <li style="margin-bottom: 5px;"><strong>Wheat:</strong> Exhibits <strong>Self-pollination</strong>. Since the flowers remain physically closed until pollination concludes, outside pollen is blocked, forcing self-pollination.</li>
+        <li style="margin-bottom: 0;"><strong>Papaya:</strong> Must undergo <strong>Cross-pollination</strong>. Because the male and female organs are located on completely separate trees, wind or insects are required to carry the pollen over.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">12. In the lower Himalayan region of northern India, apples are an important cash crop that contribute significantly to farmer's livelihoods. The fruit yield in apple cultivation is declining continuously, associated with climate change and a significant decline in the population of natural pollinators. A researcher-farmer group set up two experimental apple orchards at two distinct locations: Places A and B. In apple orchards at Place A, they allowed natural pollinators to pollinate the flowers of the apple. In apple orchards at Place B, they applied mixed farming techniques of beekeeping. Along with honey, the farmer yielded apples. The yield of apples is depicted in Fig. 11.24, in terms of fruit setting (number of fruits/the total number of corresponding fruit-bearing branches) and fruit drop (premature falling of developing fruits) in the two types of experimental places of apple orchards.<br>
+    (i) What are the hypotheses the researcher-farmers group has thought of for this investigation?<br>
+    (ii) What are the different parameters in the experiment?<br>
+    (iii) Compare and analyse the data of two experimental orchards Places A and B, in terms of high yields of apple fruits.<br>
+    (iv) Based on your analysis, what do you infer from the data?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 12px; list-style-type: none; margin-left: -20px;">
+            <table style="width: 100%; border-collapse: collapse; margin-bottom: 15px; font-size: 0.9em; text-align: left; background-color: #ffffff; border: 1px solid #e0e0e0;">
+                <thead>
+                    <tr style="background-color: #f5f0e6; border-bottom: 2px solid #cfa670;">
+                        <th style="padding: 8px; border: 1px solid #e0e0e0; color: #333;">Experimental Location</th>
+                        <th style="padding: 8px; border: 1px solid #e0e0e0; color: #333;">Pollination Method</th>
+                        <th style="padding: 8px; border: 1px solid #e0e0e0; color: #333;">Fruit Setting Rate</th>
+                        <th style="padding: 8px; border: 1px solid #e0e0e0; color: #333;">Premature Fruit Drop</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold;">Place A</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0;">Natural Pollinators Only</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; color: #c0392b; font-weight: bold;">26%</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; color: #c0392b;">35%</td>
+                    </tr>
+                    <tr style="background-color: #faf8f5;">
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold;">Place B</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0;">Managed Beekeeping (Mixed Farming)</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; color: #27ae60; font-weight: bold;">40%</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; color: #27ae60;">8%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+        <li style="margin-bottom: 8px; list-style-type: none; margin-left: -20px;"><strong>(i) Tested Hypotheses:</strong> Setting up managed beehives within an orchard can overcome the decline in wild pollinators, boosting successful fruit setting and reducing premature fruit dropping.</li>
+        <li style="margin-bottom: 8px; list-style-type: none; margin-left: -20px;"><strong>(ii) Tracked Parameters:</strong>
+            <br>&bull; <em>Independent Parameter:</em> The choice of pollination management (wild local pollinators vs. introduced bee colonies).
+            <br>&bull; <em>Dependent Parameters:</em> The percentage of successful fruit setting and the percentage of premature fruit drop.
+        </li>
+        <li style="margin-bottom: 8px; list-style-type: none; margin-left: -20px;"><strong>(iii) Data Comparison:</strong> As shown in the structured table above, Place B hit a fruit set of 40% compared to Place A's 26%. Furthermore, Place B reduced premature fruit dropping down to just 8%, whereas Place A lost 35% of its developing fruit early.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><strong>(iv) Final Inference:</strong> Integrating beekeeping into orchards significantly improves fruit yield. It provides an effective way to protect crops from pollinator loss while giving farmers an extra source of income from honey.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">13. A student claims, "In humans, ovulation always happens on day 14 of the menstrual cycle". Critically examine this claim and state whether the claim is correct or not. Give at least two reasons for your answer.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Scientific Critique:</strong> The student's claim is <strong>incorrect</strong> because day 14 is just a biological average, not a rigid rule for every individual.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Reason 1: Variable Cycle Lengths:</em> The 14th-day milestone assumes a perfect 28-day model. Healthy cycles frequently vary between 21 to 35 days, which naturally shifts the actual day of egg release forward or backward.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Reason 2: Hormonal Sensitivity:</em> The delicate hormonal balance that triggers ovulation is sensitive to external disruptions. Common everyday variables like emotional stress, sudden illness, or changes in diet can delay or accelerate the cycle.</li>
+    </ul>
+</div>
+` },
+
+            ] },
+            { name: "Chapter 12: Patterns in Life: Diversity and Classification", solutions: [{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Meena and Hari observed an animal in their garden. Hari called it an insect while Meena said it was an earthworm. Choose the correct option which confirms that it is an insect.<br>
+    (i) Bilateral symmetrical body<br>
+    (ii) Body with jointed legs<br>
+    (iii) Cylindrical body<br>
+    (iv) Body with little segmentation</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Option:</strong> (ii) Body with jointed legs</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> The presence of jointed appendages is the defining characteristic feature of phylum Arthropoda (insects), whereas earthworms belong to phylum Annelida and have cylindrical, segmented bodies without jointed legs.</li>
+    </ul>
+</div>
+` },
+
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Sponges represent one of the simplest animal body plans. Their bodies lack true tissues and organs. Which feature of sponge cells supports its classification under the animal kingdom?<br>
+    (i) Absence of mitochondria<br>
+    (ii) Ability to photosynthesise<br>
+    (iii) Presence of a cell membrane<br>
+    (iv) Presence of a cell wall</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Option:</strong> (iii) Presence of a cell membrane</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Sponges are multicellular heterotrophs made of eukaryotic cells that lack a cell wall, bound instead by a cell membrane. Options (ii) and (iv) describe plants, while option (i) is incorrect as animal cells require mitochondria for energy.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Observe two different animals in your immediate environment. What features help you distinguish between them? How do these features help place them into different groups?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Distinguishing Features:</strong> Presence or absence of a backbone, body covering, and locomotion mechanism.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> For example, if we compare a butterfly and a bird, the butterfly has jointed legs and an exoskeleton, putting it under invertebrates (Arthropoda). The bird possesses feathers, hollow bones, and an internal backbone, which classifies it as a vertebrate (Aves).</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">How would a scientist justify choosing cellular organisation as a more fundamental characteristic for the basis of classification rather than the presence of xylem and phloem?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Justification:</strong> Cellular organisation applies universally to all living life forms, whereas xylem and phloem are specialized tissue structures found only in a specific subsection of multi-cellular plants.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> A classification system looks at the broadest, most foundational layers first. Determining whether a cell has a true nucleus (eukaryote) or is single-celled splits all life perfectly. Vascular tissues like xylem and phloem appear much further down the line as an evolutionary step within the plant kingdom alone.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">You find an unlabelled slide of a single-celled organism that has a well-defined nucleus and multiple cilia. Which group would it most likely belong to? Give reasons.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Assigned Group:</strong> Kingdom Protista</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Reasons:</em> By definition, Whittaker's system places all single-celled eukaryotic organisms under Protista. The presence of a "well-defined nucleus" confirms it is a eukaryote rather than a prokaryote (Monera), and structures like cilia are typical locomotion tools used by aquatic protists like Paramecium.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">How does the diversity of organisms contribute to the balance and stability of an ecosystem?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Ecological Mechanism:</strong> A diverse species pool builds complex food webs, ensures efficient nutrient recycling, and establishes multi-layered environmental defenses.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Every functional group handles a unique task: algae release oxygen, fungi cycle raw soil nutrients, and animal vectors pollinate flora. If an ecosystem is rich in biodiversity, it features alternative pathways for energy flow, meaning it can easily handle the loss or decline of a single species without collapsing.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">If all unicellular organisms were grouped into a single kingdom, what problems would arise?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Resulting Problems:</strong> It would mix radically different cell architectures (prokaryotes and eukaryotes) and contradictory survival strategies into an unorganized cluster.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Forcing primitive bacteria (which lack a true membrane-bound nucleus) into the same taxonomic bucket as highly complex single-celled protozoans or yeasts obscures their deep evolutionary divergence and defeats the purpose of logical grouping.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Viruses were studied in earlier classes. Why are they not placed in any of the five kingdoms? Give reasons.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Core Taxonomic Reason:</strong> Viruses lack cellular organization and remain entirely inert outside of a living biological host.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Reasons:</em> Whittaker's five-kingdom classification criteria require classified organisms to possess functional cellular units. Because viruses are acellular particles made simply of genetic strings inside a protein wrap, and lack an independent metabolic engine, they sit on the borderline between the living and non-living worlds.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">If you were asked to revise the five kingdom classification, would you create a separate category for viruses or keep them outside the system? Justify your answer and explain what this indicates about the evolving nature of scientific classification.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Proposed Revision & Justification:</strong> They should remain outside or be explicitly categorized under a non-cellular domain. Since classification systems track cellular lineages and metabolic networks, adding acellular packets into cellular kingdoms skews the criteria.</li>
+        <li style="margin-bottom: 0;"><strong>Evolving Nature of Science:</strong> This dilemma demonstrates that classification is an ongoing process of reasoning. As new genetic tech exposes hidden variations, systems must adjust to fit real biological truths rather than sticking to static buckets.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Viruses contain genetic material like living organisms but lack cellular organisation. Which features prevent them from fitting into the five kingdom system? What does this tell us about the limitations of classification systems?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Excluding Features:</strong> Acellular nature, lack of independent cellular organelles, absent metabolic machinery, and inability to replicate outside a host.</li>
+        <li style="margin-bottom: 0;"><strong>System Limitations:</strong> This shows that human-made classification models use rigid structural assumptions that can fail when dealing with borderline, non-standard biological entities.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Both pteridophytes and bryophytes lack flowers and seeds, yet they are placed in different groups. Explain this classification using their key features.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Bryophytes:</strong> Lack vascular tissues (xylem/phloem) and possess an undifferentiated or weakly differentiated body using root-like rhizoids instead of true vegetative organs.</li>
+        <li style="margin-bottom: 0;"><strong>Pteridophytes:</strong> Possess fully developed vascular transport pipelines alongside differentiated true roots, stems, and leaves, placing them an evolutionary tier above bryophytes.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">In the classification hierarchy, which group — class or genus — has fewer members but more features in common? Explain your answer.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Group:</strong> Genus</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> The taxonomic hierarchy narrows down from broad categories at the top to specific units at the base. A class is a high-level bucket gathering multiple varied orders together, whereas a genus sits near the base, grouping only closely related species that share a tight web of genetic similarities.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A scientist discovers a new organism with the characteristic features of locomotion and autotrophic nutrition. Which character(s) would help the scientist identify the organism belonging to Protista according to the five kingdom classification?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Key Identification Traits:</strong> Checking if the organism is unicellular and eukaryotic (possessing a true, membrane-bound nucleus).</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Locomotion and autotrophic capability can appear in plants or bacteria. Confirming the cell structure is a single-celled eukaryote rules out multicellular plants (Plantae) and prokaryotic blue-green algae (Monera), pointing to Protista (like Euglena).</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">A researcher identified a unicellular eukaryotic organism as fungi. What identification key would you suggest according to the five kingdom classification to keep a unicellular organism in the Kingdom Fungi?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Suggested Identification Key:</strong> Verify the presence of a cell wall composed of chitin alongside an absorptive heterotrophic mode of nutrition.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> While most single-celled eukaryotes land in Protista, if an organism like yeast features a structural chitin cell wall and absorbs organic nutrients from its surroundings instead of ingesting them, it belongs in Kingdom Fungi.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">During a long-term ecological study, students examined organisms collected from three different environments — a freshwater pond, damp soil near decaying logs and the digestive tract of animals. Instead of naming organisms directly, scientists recorded only structural, cellular and nutritional features as given in the table below.<br><br>
+    Based on the case study, answer the following questions —<br>
+    (i) Identify one organism that clearly belongs to the Kingdom Fungi. State one observation that supports your answer.<br>
+    (ii) Which organism would be placed in the Kingdom Monera? Mention one characteristic that justifies this placement.<br>
+    (iii) Organisms R and Q are both eukaryotic, yet they are placed in different kingdoms. Analyse the criteria that separate them.<br>
+    (iv) Explain why organism S cannot be classified using the mode of nutrition alone.<br>
+    (v) Organism T does not fit into any of the five kingdoms. Which fundamental characteristic used in classification does it lack and what does this reveal about the limitations of classification systems?<br>
+    (vi) If classification were based only on habitat, which organisms might be incorrectly grouped together? Explain the scientific consequences of such a classification.<br>
+    (vii) Imagine scientists discover a new organism that is multicellular, eukaryotic, lacks chlorophyll and absorbs nutrients from a host externally. Should it be placed under fungi or animalia? Justify your reasoning using classification criteria.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 12px; list-style-type: none; margin-left: -20px;">
+            <table style="width: 100%; border-collapse: collapse; margin-bottom: 15px; font-size: 0.9em; text-align: left; background-color: #ffffff; border: 1px solid #e0e0e0;">
+                <thead>
+                    <tr style="background-color: #f5f0e6; border-bottom: 2px solid #cfa670;">
+                        <th style="padding: 8px; border: 1px solid #e0e0e0; color: #333;">Organisms</th>
+                        <th style="padding: 8px; border: 1px solid #e0e0e0; color: #333;">Key Observations / Criteria Recorded</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold;">P</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0;">Microscopic; no true nucleus; rigid cell covering; survives high salinity and temperature</td>
+                    </tr>
+                    <tr style="background-color: #faf8f5;">
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold;">Q</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0;">Multicellular; filamentous body; cell wall present; no chlorophyll; grows on dead organic matter</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold;">R</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0;">Unicellular; true nucleus; contractile vacuole present; moves using flagella; shows photosynthesis in light but heterotrophic in the absence of light</td>
+                    </tr>
+                    <tr style="background-color: #faf8f5;">
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold;">S</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0;">Multicellular; well-differentiated tissues; backbone present; aquatic respiration during early life stage</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0; font-weight: bold;">T</td>
+                        <td style="padding: 8px; border: 1px solid #e0e0e0;">Acellular; contains genetic material; remains inactive outside a host cell</td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+        <li style="margin-bottom: 8px; list-style-type: none; margin-left: -20px;"><strong>(i) Fungi Identification:</strong> Organism <strong>Q</strong> belongs to Fungi. Key supporting observations include its multicellular filamentous body, presence of a cell wall, lack of chlorophyll, and saprophytic growth on dead matter.</li>
+        <li style="margin-bottom: 8px; list-style-type: none; margin-left: -20px;"><strong>(ii) Monera Identification:</strong> Organism <strong>P</strong> belongs to Monera. The absolute lack of a true nucleus confirms its prokaryotic nature.</li>
+        <li style="margin-bottom: 8px; list-style-type: none; margin-left: -20px;"><strong>(iii) Separation Criteria (R vs Q):</strong> Organism R is unicellular and an autotroph/heterotroph mix, placing it in Protista. Organism Q is multicellular and purely saprophytic, separating it into Fungi.</li>
+        <li style="margin-bottom: 8px; list-style-type: none; margin-left: -20px;"><strong>(iv) S Classification Challenge:</strong> Organism S is a heterotroph, a trait shared by fungi, animals, and some bacteria. Mode of nutrition alone cannot distinguish its complex tissue systems and backbone.</li>
+        <li style="margin-bottom: 8px; list-style-type: none; margin-left: -20px;"><strong>(v) T Exclusion:</strong> Organism T lacks cellular organization. This highlights that standard classification rules fail when mapping acellular structures.</li>
+        <li style="margin-bottom: 8px; list-style-type: none; margin-left: -20px;"><strong>(vi) Habitat Errors:</strong> Organisms P, R, and the larval stage of S could be grouped together as "aquatic". This creates unscientific groups that ignore structural differences and evolutionary history.</li>
+        <li style="margin-bottom: 0; list-style-type: none; margin-left: -20px;"><strong>(vii) New Organism Placement:</strong> It belongs under <strong>Fungi</strong>. Its multicellular, eukaryotic nature, lack of chlorophyll, and absorptive lifestyle match fungal features rather than the ingestive nature of Animalia.</li>
+    </ul>
+</div>
+` },
+                
+                
+            ]
+         },
+            { name: "Chapter 13: Earth as a System: Energy, Matter, and Life", solutions: [{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Choose the most appropriate option to describe the role of biogeochemical cycles in an ecosystem.<br>
+    (i) To provide food directly to all organisms.<br>
+    (ii) To recycle essential nutrients between biotic and abiotic components.<br>
+    (iii) To create new elements for use by living things.<br>
+    (iv) To remove pollutants and toxins from the organism.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Option:</strong> (ii) To recycle essential nutrients between biotic and abiotic components.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Biogeochemical cycles circulate finite natural resources like carbon, nitrogen, oxygen, and water through the living (biotic) and non-living (abiotic) elements of the planetary system, ensuring they remain constantly accessible to sustain life.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Which of the following is primarily responsible for warming of the Earth?<br>
+    (i) Solar radiation is immediately absorbed by carbon dioxide, which then releases it as heat.<br>
+    (ii) The atmosphere's tiny particles absorb incoming solar radiation.<br>
+    (iii) The Earth's surface absorbs solar radiation, which is then re-radiated and trapped by greenhouse gases.<br>
+    (iv) The Earth's environment is heated only by the solar radiation reflected by the clouds.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Correct Option:</strong> (iii) The Earth's surface absorbs solar radiation, which is then re-radiated and trapped by greenhouse gases.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Explanation:</em> Incoming shortwave solar radiation passes through the clear atmosphere and is absorbed by the surface. The warmed ground then re-radiates this thermal energy as longwave infrared radiation, which is intercepted and retained by greenhouse gases like carbon dioxide, methane, and water vapour.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Explain how climate change affects the water cycle. Illustrate with examples.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Core Impact:</strong> Rising global atmospheric temperatures accelerate evaporation and expand the capacity of the air to store moisture, leading to severe disruptions in precipitation and runoff trends.</li>
+        <li style="margin-bottom: 5px;"><strong>Example 1 (Intensified Monsoons & Droughts):</strong> Higher thermal energy increases water vapour storage, fueling cloud bursts and flooding rains in specific regions (such as an unpredictable, intense southwest monsoon in India), while leaving other inland zones trapped in severe droughts.</li>
+        <li style="margin-bottom: 0;"><strong>Example 2 (Glacial Melt & Groundwater Loss):</strong> Rising temperatures accelerate the melting of critical mountain glaciers, temporarily bloating rivers but lowering dry-season flows in the long run. Additionally, sudden heavy downpours generate rapid surface runoff that leads to soil erosion instead of trickling down to recharge vital underground aquifers.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Describe how albedo affects the Earth's surface temperature and its climate.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Albedo Function:</strong> Albedo measures the fraction of incoming solar radiation that a surface reflects back out into space. It directly dictates how much thermal energy the planet retains.</li>
+        <li style="margin-bottom: 5px;"><strong>High Albedo Impact:</strong> Light-colored surfaces like snow (0.80–0.90) and ice bounce most sunlight back, keeping polar areas cold. However, when global warming melts this ice, it reveals dark ocean water below.</li>
+        <li style="margin-bottom: 0;"><strong>Low Albedo Impact:</strong> Dark surfaces like open oceans or black soils have low albedo values. They absorb the vast majority of incoming solar rays and convert them to heat. This creates a warming loop: less ice leads to more absorption, raising local temperatures and accelerating further climate shifts.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">How are mountain and valley breezes formed? Suppose there are two mountains, one covered with grass and another covered with barren rocks; would the temperature of the two mountain breezes be different? If so, how?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Formation Process:</strong> During the day, mountain slopes heat up quickly under sunlight, causing the air over them to rise and drawing cooler air up from the valley floor as a **valley breeze**. At night, the slopes radiate heat away rapidly, making the air cold and dense so it sinks down into the valley as a **mountain breeze**.</li>
+        <li style="margin-bottom: 5px;"><strong>Breeze Variation:</strong> Yes, the mountain breeze coming off the barren rock mountain will be noticeably different than the one from the grass-covered mountain.</li>
+        <li style="margin-bottom: 0;"><strong>Thermal Contrast:</strong> Barren rock has a low albedo and high thermal mass, meaning it absorbs a massive amount of solar energy during the day and re-radiates it intensely at night. Grass surfaces stay significantly cooler due to vegetation shade and moisture loss from plant transpiration. As a result, the nighttime breeze moving down the barren rock mountain will start warmer and transfer more re-radiated heat down into the valley floor.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">You have witnessed weather phenomena, such as winds, storms, rainfall, etc. Which atmospheric layer is mainly responsible for such phenomena and what is the primary reason for its occurrence?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Responsible Layer:</strong> The Troposphere (extending from ground level up to roughly 12 km).</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Primary Reason:</em> The troposphere is heated from the ground up by the Earth's surface, causing temperature to drop steadily with altitude (~6.5°C/km). This vertical temperature difference forces warm, moist air to rise and cold air to sink, driving convection currents, storm formations, and active cloud precipitation.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Explain the processes involved in the nitrogen cycle. How would life on Earth be affected if nitrogen were not cycled?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Cycle Processes:</strong> 
+            <br>&bull; <em>Fixation:</em> Bacteria like Rhizobium convert unreactive atmospheric N<sub>2</sub> into ammonia.
+            <br>&bull; <em>Nitrification:</em> Soil microbes turn ammonia into nitrites and usable nitrates.
+            <br>&bull; <em>Assimilation:</em> Plants absorb these nitrates to build vital biological proteins.
+            <br>&bull; <em>Ammonification:</em> Decomposers break down dead matter, returning ammonia to the soil.
+            <br>&bull; <em>Denitrification:</em> Specific bacteria convert excess nitrates back into N<sub>2</sub> gas.
+        </li>
+        <li style="margin-bottom: 0;"><strong>Impact of Cycle Failure:</strong> If this loop stopped, structural nitrogen would remain locked in dead organic waste or stay trapped as unreactive gas in the atmosphere. Plants would be unable to absorb nutrients, halting the production of essential amino acids, proteins, and DNA across all trophic layers and triggering a total crash of global food webs.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">What are the impacts of deforestation on the Earth's oxygen and carbon cycles? What are the other consequences of deforestation?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Impact on Cycles:</strong> Stripping away large forest systems reduces photosynthesis, which cuts down on global oxygen generation and slows the removal of CO<sub>2</sub> from the air. Burning or leaving cut trees to decay releases large amounts of stored carbon back into the atmosphere, directly altering the greenhouse balance.</li>
+        <li style="margin-bottom: 0;"><strong>Other Consequences:</strong> Deforestation reduces local plant transpiration, which can cause regional rainfall to decline and disrupt the water cycle. It alters the land's surface albedo, and removes the root networks that hold topsoil together, leading to severe soil erosion and widespread habitat loss across the biosphere.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Explain with suitable diagram the path that carbon takes to go back to the atmosphere. You may start from plants using CO₂ from the atmosphere.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Carbon Pathways:</strong> Plants first absorb CO<sub>2</sub> from the atmosphere to manufacture sugars through photosynthesis. This carbon then takes three main paths back into the air:</li>
+        <li style="margin-bottom: 5px; list-style-type: circle;"><strong>Respiration:</strong> Both the plants and the consumers that eat them break down these sugars for energy, directly breathing CO<sub>2</sub> back into the air.</li>
+        <li style="margin-bottom: 5px; list-style-type: circle;"><strong>Decomposition:</strong> When these organisms die, micro-decomposers break down their remains, releasing carbon back into the atmosphere.</li>
+        <li style="margin-bottom: 0; list-style-type: circle;"><strong>Combustion:</strong> Organic matter buried over millions of years turns into fossil fuels (coal, oil, gas). When humans extract and burn these fuels for industrial energy, that stored carbon is released back into the atmosphere on a very short time scale.</li>
+    </ul>
+</div>
+`, image:`images/yay.png` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Why is an excess of CO₂ in the atmosphere considered undesirable even though it is required by plants?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Core Problem:</strong> While plants use CO<sub>2</sub> for basic photosynthesis, human emissions have completely overwhelmed the capacity of natural carbon sinks to absorb it.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Systemic Side Effects:</em> This excess gas traps too much re-radiated infrared heat, intensifying the greenhouse effect. This drives global warming, melts critical glaciers, and leads to rising sea levels that threaten coastal cities. It also makes oceans more acidic as they absorb the extra gas, which harms coral reefs and disrupts global farming systems through unpredictable weather.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">How is heat lost from the surface of the Earth? What is its significance?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Loss Mechanism:</strong> The Earth's surface cools down by re-radiating absorbed solar energy back out toward space as longwave infrared radiation. Heat is also transferred vertically through the air via convection currents and latent heat exchange during water evaporation.</li>
+        <li style="margin-bottom: 0;"><strong>Climatic Significance:</strong> This cooling balancing act prevents solar energy from building up indefinitely. By interacting with greenhouse gases that temporarily trap a portion of this outgoing infrared energy, it maintains a stable, mild global temperature that allows life to thrive.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">If the Earth were a flat disc instead of a sphere, how would the patterns of solar radiation and temperature be different?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Hypothetical Changes:</strong> If the Earth were a flat disc facing the Sun directly, solar rays would strike the entire surface at the exact same perpendicular angle.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Scientific Consequences:</em> This uniform angle would distribute solar energy evenly across the planet, erasing the natural temperature drop we see from the warm equator to the freezing poles. Without these heating differences, the planet would lose the pressure systems that drive global winds, planetary planetary wind belts, and ocean currents, flattening out global weather systems entirely.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Suppose there is a rise in atmospheric temperature on Earth. How would this affect the cryosphere, hydrosphere and biosphere?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Cryosphere Link:</strong> Warmer air temperatures accelerate the melting of mountain glaciers, ice sheets, and polar sea cover, rapidly shrinking the planet's ice reserves.</li>
+        <li style="margin-bottom: 5px;"><strong>Hydrosphere Link:</strong> This melting ice dumps vast amounts of freshwater into the oceans, which changes water salinity and drives up global sea levels. Warmer ocean waters also evaporate faster, overloading the atmosphere with moisture and intensifying storms.</li>
+        <li style="margin-bottom: 0;"><strong>Biosphere Link:</strong> Rapidly changing habitats force land and marine species to adapt or face decline, disrupting fragile food webs. Shifting rainfall patterns directly threaten crop yields, while warming oceans can trigger widespread coral bleaching.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Explain how the Earth's atmosphere helps in maintaining a suitable temperature for life to survive on the Earth.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 0;"><strong>Atmospheric Regulation:</strong> The atmosphere acts as a two-way thermal shield. During the day, it absorbs and scatters a portion of incoming solar rays, while the ozone layer blocks dangerous UV radiation, keeping the surface from overheating.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Greenhouse Insulation:</em> At night, the warmed surface re-radiates this energy out as infrared light. Greenhouse gases like carbon dioxide and water vapour trap a portion of this heat instead of letting it escape into space. This insulation keeps the planet from plunging into freezing temperatures, maintaining a stable climate where life can survive.</li>
+    </ul>
+</div>
+` },
+                { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Describe the interrelationship between different spheres of the Earth. Illustrate with example how these spheres function in a delicate balance.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Interconnected System:</strong> The Earth functions as a single unified system where the geosphere, hydrosphere, cryosphere, atmosphere, and biosphere are constantly linked through moving matter and energy loops.</li>
+        <li style="margin-bottom: 0;"><strong>Illustrative Example:</strong> Consider how winter snowfall in the mountains connects these spheres. A drop in winter snow (**cryosphere**) reduces the volume of freshwater feeding mountain lakes and streams during the summer (**hydrosphere**). This water shortage leaves less moisture in the surrounding soil (**geosphere**), which stunts grass growth and reduces food food available for grazing herds (**biosphere**). This shows how a shift in one sphere triggers a domino effect across the entire system.</li>
+    </ul>
+</div>
+` },
+               
+            ] }
+        ]
+    },
+    sanskrit: {
+        title: "Sanskrit Chapters",
+        isBranching: false,
+        chapters: [
+            { name: "Notice", solutions: [{ q: "Are solutions available?", a: `Sorry, the solutions for this subject are currently under development.` }] }
+        ]
+    },
+    hindi: {
+        title: "Hindi (हिंदी) खंड",
+        isBranching: true,
+        branches: [
+            { 
+                name: "गद्य खंड (Prose)", 
+                chapters: [
+                    { name: "1. दो बैलों की कथा (प्रेमचंद्र)", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "2. क्या लिखूँ?", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "3. संवादहीन", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "4. ऐसी भी बातें होती हैं", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "5. आखिरी चट्टान तक", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "6. रीढ़ की हड्डी", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "7. मैं और मेरा देश", solutions: [{ q: "Q?", a: `Text.` }] }
+                ] 
+            },
+            { 
+                name: "काव्य खंड (Poetry)", 
+                chapters: [
+                    { name: "8. पद (रैदास)", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "9. राम-लक्ष्मण-परशुराम संवाद", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "10. भारति, जय, विजयकरे!", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "11. झाँसी की रानी", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "12. घर की याद", solutions: [{ q: "Q?", a: `Text.` }] }
+                ] 
+            }
+        ]
+    },
+    english: {
+        title: "English Sections",
+        isBranching: true,
+        branches: [
+            { 
+                name: "Prose (Chapters)", 
+                chapters: [
+                    { name: "Chapter 1: How I Taught My Grandmother to Read", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Chapter 2: The Pot Maker", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Chapter 3: Winds of Change", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Chapter 4: Vitamin-M", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Chapter 5: The World of Limitless Possibilities", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Chapter 6: Twin Melodies", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Chapter 7: Carrier of Words", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Chapter 8: Follow That Dream", solutions: [{ q: "Q?", a: `Text.` }] }
+                ] 
+            },
+            { 
+                name: "Poetry (Poems)", 
+                chapters: [
+                    { name: "Poem: Bharat Our Land", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Poem: Gifts of Grace", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Poem: Canvas of Soil", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Poem: I Cannot Remember My Mother", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Poem: Nine Gold Medals", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Poem: A Friend Found in Music", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Poem: Words", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Poem: Believe in Yourself", solutions: [{ q: "Q?", a: `Text.` }] }
+                ] 
+            }
+        ]
+    },
+    maths: {
+        title: "Mathematics Section",
+        isBranching: true,
+        branches: [
+            {
+                name: "Ganita Prakash (P1)",
+                chapters: [
+                    { name: "Chapter 1", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
+                    { name: "Chapter 2", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
+                    { name: "Chapter 3", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
+                    { name: "Chapter 4", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
+                    { name: "Chapter 5 : I'm Up And Round and Round", solutions: [  
+                        { q: `z`, a: `` }] },
+                    { name: "Chapter 6", solutions: [{ q: ``, a: `` }] },
+                    { name: "Chapter 7", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
+                    { name: "Chapter 8", solutions:[{ q: "The Solutions are under development", a: `Sorry :<` }] },
+                ]
+            },
+            {
+                name: `Ganita Prakash Part 2`,
+                chapters: [
+                    { name: "Chapter 1", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
+                    { name: "Chapter 2", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
+                    { name: "Chapter 3", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
+                    { name: "Chapter 4", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
+                    { name: "Chapter 5", solutions: [{ q: "", a: `` }] },
+                    { name: "Chapter 6", solutions: [{ q: "", a: `` }] },
+                    { name: "Chapter 7", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
+                    { name: "Chapter 8", solutions:[{ q: "The Solutions are under development", a: `Sorry :<` }] },
+                ]
+            },    
+        ]
+    },
+        sst: {
+        title: "Social Science Section" ,
+        isBranching: true,
+        branches: [
+            {
+                name: "Social Science",
+                chapters: [
+                    { name: "Chapter 1", solutions: [{ q: "Q?", a: `Text.` }] },
+                    { name: "Chapter 2", solutions: [{ q: "Q?", a: `Text.` }] },
+                    { name: "Chapter 3", solutions: [{ q: "Q?", a: `Text.` }] },
+                    { name: "Chapter 4", solutions: [{ q: "Q?", a: `Text.` }] },
+                    { name: "Chapter 5", solutions: [{ q: "Q?", a: `Text.` }] },
+                    { name: "Chapter 6", solutions: [{ q: "Q?", a: `Text.` }] },
+                    { name: "Chapter 7", solutions: [{ q: "Q?", a: `Text.` }] },
+                    { name: "Chapter 8", solutions: [{ q: "Q?", a: `Text.` }] }
+                ]
+            }
+        ]
+    }
+};
+
+
+let currentSubjectKey = "";
+
+function getLayerElement(rawId) {
+    let el = document.getElementById(rawId);
+    if (!el) el = document.getElementById(rawId.replace('-', ' '));
+    if (!el) el = document.getElementById(rawId.replace(' ', '-'));
+    return el;
+}
+
+function showLayer(layerId) {
+    document.querySelectorAll('.view-layer').forEach(layer => layer.classList.add('hidden'));
+    const target = getLayerElement(layerId);
+    if (target) target.classList.remove('hidden');
+}
+
+function selectSubject(subjectKey) {
+    currentSubjectKey = subjectKey;
+    const data = ncertDatabase[subjectKey];
+    document.getElementById('chapter-title-heading').innerText = data.title;
+    const grid = getLayerElement('chapters-list-grid');
+    if (!grid) return;
+    grid.innerHTML = '';
+    
+    if (data.isBranching) {
+        data.branches.forEach((branch, index) => {
+            grid.innerHTML += `<button class="chapter-select-btn" style="border-left: 5px solid #2563eb;" onclick="selectBranch('${index}')">📂 ${branch.name}</button>`;
+        });
+    } else {
+        data.chapters.forEach((chapter, index) => {
+            grid.innerHTML += `<button class="chapter-select-btn" onclick="selectChapter(${index})">${chapter.name}</button>`;
+        });
+    }
+    showLayer('chapter-view');
+}
+
+function selectBranch(branchIndex) {
+    const branchData = ncertDatabase[currentSubjectKey].branches[branchIndex];
+    document.getElementById('chapter-title-heading').innerText = branchData.name + " Chapters";
+    const grid = getLayerElement('chapters-list-grid');
+    if (!grid) return;
+    grid.innerHTML = '';
+    branchData.chapters.forEach((chapter, index) => {
+        grid.innerHTML += `<button class="chapter-select-btn" onclick="selectBranchChapter(${branchIndex}, ${index})">${chapter.name}</button>`;
+    });
+}
+
+function selectBranchChapter(branchIndex, chapterIndex) {
+    const chapterData = ncertDatabase[currentSubjectKey].branches[branchIndex].chapters[chapterIndex];
+    document.getElementById('final-solution-heading').innerText = chapterData.name;
+    const stack = getLayerElement('solutions-content-container');
+    if (!stack) return;
+    stack.innerHTML = '';
+    
+    chapterData.solutions.forEach((sol, idx) => {
+        const uniqueId = `ans-branch-${idx}`;
+        stack.innerHTML += `
+            <div class="solution-card">
+                <div class="question-text"><span>Q${idx + 1}.</span> ${sol.q}</div>
+                <div id="${uniqueId}" class="answer-text">${sol.a}</div>
+                <button class="btn-back" style="margin-top: 1rem; font-size: 0.85rem; padding: 0.4rem 0.8rem;" onclick="copyTextToClipboard('${uniqueId}', this)">📋 Copy Answer</button>
+            </div>
+        `;
+    });
+    showLayer('solution-view');
+}
+
+function selectChapter(chapterIndex) {
+    const chapterData = ncertDatabase[currentSubjectKey].chapters[chapterIndex];
+    document.getElementById('final-solution-heading').innerText = chapterData.name;
+    const stack = getLayerElement('solutions-content-container');
+    if (!stack) return;
+    stack.innerHTML = '';
+    
+    chapterData.solutions.forEach((sol, idx) => {
+        const uniqueId = `ans-std-${idx}`;
+        stack.innerHTML += `
+            <div class="solution-card">
+                <div class="question-text">
+                    <span>Q${idx + 1}.</span> ${sol.q}
+                </div>
+                ${sol.image ? `
+                    <img 
+                        src="${sol.image}" 
+                        class="question-image"
+                        alt="Question diagram"
+                    >
+                ` : ''}
+                <div id="${uniqueId}" class="answer-text">${sol.a}</div>
+                <button 
+                    class="btn-back" 
+                    style="margin-top: 1rem; font-size: 0.85rem; padding: 0.4rem 0.8rem;" 
+                    onclick="copyTextToClipboard('${uniqueId}', this)"
+                >
+                    📋 Copy Answer
+                </button>
+            </div>
+        `;
+    });
+    showLayer('solution-view');
+}
+
+function copyTextToClipboard(elementId, buttonElement) {
+    const textToCopy = document.getElementById(elementId).innerText;
+    navigator.clipboard.writeText(textToCopy).then(() => {
+        const originalText = buttonElement.innerHTML;
+        buttonElement.innerHTML = "✅ Copied!";
+        buttonElement.style.backgroundColor = "#10b981";
+        buttonElement.style.color = "#ffffff";
+        buttonElement.style.borderColor = "#10b981";
+        setTimeout(() => {
+            buttonElement.innerHTML = originalText;
+            buttonElement.style.backgroundColor = "";
+            buttonElement.style.color = "";
+            buttonElement.style.borderColor = "";
+        }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy text: ', err);
+    });
+}
