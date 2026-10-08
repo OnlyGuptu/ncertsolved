@@ -2474,13 +2474,163 @@ given in Table 5.5. Mixtures:
                     { name: "Chapter 5: The World of Limitless Possibilities", solutions: [{ q: "Q?", a: `Text.` }] }, 
                     { name: "Chapter 6: Twin Melodies", solutions: [{ q: "Q?", a: `Text.` }] }, 
                     { name: "Chapter 7: Carrier of Words", solutions: [{ q: "Q?", a: `Text.` }] }, 
-                    { name: "Chapter 8: Follow That Dream", solutions: [{ q: "Q?", a: `Text.` }] }
+                    { name: "Chapter 8: Follow That Dream", solutions: [{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Check Your Understanding</h2>
+    <p style="margin: 0 0 12px 0; color: #333; font-weight: bold;">I State whether the following sentences are true or false. Share your answers with your classmates and teacher.</p>
+    <ol style="margin: 0; padding-left: 20px; line-height: 1.6; color: #333;">
+        <li style="margin-bottom: 5px;">Reaching the peak of skill in a field typically demands a focused and intense dedication for about a decade.</li>
+        <li style="margin-bottom: 5px;">The mother believes that significant effort and personal sacrifices are essential for turning aspirations into reality.</li>
+        <li style="margin-bottom: 5px;">The path to achieving the deepest desires has very little difficulty or a few obstacles.</li>
+        <li style="margin-bottom: 5px;">The mother is of the opinion that a person's life goals and hopes can evolve over time.</li>
+        <li style="margin-bottom: 5px;">Having a strong network of individuals can be a hurdle in pursuing one's ambition.</li>
+        <li style="margin-bottom: 5px;">The mother feels that pursuing a major life goal will not involve any financial expense or sacrifice.</li>
+        <li style="margin-bottom: 0;">For many individuals, their aspirations remain just wishes because they don't move beyond mere daydreaming.</li>
+    </ol>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ol style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>True</strong> (The text explicitly mentions that reaching a world-class standard requires at least ten years of single-minded pursuit).</li>
+        <li style="margin-bottom: 5px;"><strong>True</strong> (The mother states that effort and sacrifice are what differentiate greatness from the ordinary).</li>
+        <li style="margin-bottom: 5px;"><strong>False</strong> (The text describes the path as an uphill journey that requires negotiating a maze of hurdles).</li>
+        <li style="margin-bottom: 5px;"><strong>True</strong> (The mother shares from experience that life itself can change a person's dreams).</li>
+        <li style="margin-bottom: 5px;"><strong>False</strong> (The text points out that a support network is vital, explicitly referencing how Oscar winners thank their groups).</li>
+        <li style="margin-bottom: 5px;"><strong>False</strong> (The mother advises her daughter to carefully count the costs, including financial investments).</li>
+        <li style="margin-bottom: 0;"><strong>True</strong> (The text notes that for many people, dreams remain dreams because they never progress past wishful thinking).</li>
+    </ol>
+</div>
+` }, 
+{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Critical Reflection</h2>
+    <p style="margin: 0 0 12px 0; color: #333; font-weight: bold;">I Read the extracts given below and answer the questions that follow.</p>
+    <p style="margin: 0 0 12px 0; color: #555; font-style: italic; line-height: 1.5; background-color: #fff; padding: 10px; border-radius: 4px; border: 1px solid #e0e0e0; border-left: 3px solid #666;">
+        1. It starts with a passion for a particular interest, then comes the conviction that it is imperative to realise it. Count the cost in years of effort, financial investments and sacrifice. Then if it is still burning in your blood and you are ready to commit yourself to the task, plunge. It could be in any field—sports, science, arts, business, or design. The road may be uphill most of the way and often you are buoyed up only by the knowledge that you are doing what you love best and are doing the right thing. When stamina is running out, the prospect of success will keep you on track.
+    </p>
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #333; list-style-type: none;">
+        <li style="margin-bottom: 10px;"><strong>(i)</strong> Complete the analogy with a suitable word from the extract.<br>enthusiasm: passion:: belief: ________________</li>
+        <li style="margin-bottom: 10px;"><strong>(ii)</strong> Choose the correct option to complete the following sentence appropriately.<br>The author says that a realistic assessment of effort, investment and sacrifice is crucial for preventing ________________.<br>
+            <div style="padding-left: 15px; margin-top: 4px; font-weight: normal; color: #555;">
+                A. the need for external support network<br>
+                B. an early abandonment of the dream<br>
+                C. initial excitement from fading over time<br>
+                D. others from questioning one's commitment
+            </div>
+        </li>
+        <li style="margin-bottom: 10px;"><strong>(iii)</strong> Complete the following with the correct option from those given in the brackets.<br>The word 'plunge' as used in the extract indicates a ________________ (complete/gradual) involvement in a task.</li>
+        <li style="margin-bottom: 10px;"><strong>(iv)</strong> Complete the sentence with an appropriate reason.<br>The author's emphasis on 'when you are doing what you love best and are doing the right thing' works as a form of intrinsic motivation because ________________.</li>
+        <li style="margin-bottom: 0;"><strong>(v)</strong> Mention one motivating factor besides 'prospect of success', that might keep a person on track, despite running out of stamina.</li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444; list-style-type: none;">
+        <li style="margin-bottom: 8px;"><strong> (i) Answer:</strong> conviction</li>
+        <li style="margin-bottom: 8px;"><strong> (ii) Answer:</strong> B. an early abandonment of the dream</li>
+        <li style="margin-bottom: 8px;"><strong>(iii) Answer:</strong> complete</li>
+        <li style="margin-bottom: 8px;"><strong>  (iv) Answer:</strong> doing something out of pure passion brings internal satisfaction and deep joy, which creates a natural pool of endurance that does not depend on external validation, rewards, or praise.</li>
+        <li style="margin-bottom: 0;"><strong> (v) Answer:</strong> The deep knowledge and inner reassurance that you are doing what you love best and are doing the right thing.</li>
+    </ul>
+</div>
+` },
+{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Critical Reflection</h2>
+    <p style="margin: 0 0 12px 0; color: #333; font-weight: bold;">Read the extract given below and answer the questions that follow.</p>
+    <p style="margin: 0 0 12px 0; color: #555; font-style: italic; line-height: 1.5; background-color: #fff; padding: 10px; border-radius: 4px; border: 1px solid #e0e0e0; border-left: 3px solid #666;">
+        2. From my own experience, life itself may change a person's dreams. These hopes and aspirations are no less than the original dream of younger days. To fulfil them you will need to negotiate a path through a maze of hurdles. The dream will take a much longer time to realise, and the people who are participants in your dreamscape would be many more.
+    </p>
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #333; list-style-type: none;">
+        <li style="margin-bottom: 10px;"><strong>(i)</strong> Complete the sentence appropriately.<br>The phrase 'life itself may change a person's dreams' suggests that dreams are not static but rather ________________ (evolving/dynamic).</li>
+        <li style="margin-bottom: 10px;"><strong>(ii)</strong> What does the author mean by, 'hopes and aspirations are no less than the original dream of younger days'?</li>
+        <li style="margin-bottom: 10px;"><strong>(iii)</strong> Identify the phrase from the extract that indicates a complex and challenging journey.</li>
+        <li style="margin-bottom: 10px;"><strong>(iv)</strong> Complete the sentence with an appropriate reason.<br>The author says, 'people who are participants in your dreamscape would be many more' because ________________.</li>
+        <li style="margin-bottom: 0;"><strong>(v)</strong> What is the tone of the author in this extract?<br>
+            <div style="padding-left: 15px; margin-top: 4px; font-weight: normal; color: #555;">
+                A. appreciative and celebratory<br>
+                B. excited and cheerful<br>
+                C. optimistic and encouraging<br>
+                D. eager and inquisitive
+            </div>
+        </li>
+    </ul>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444; list-style-type: none;">
+        <li style="margin-bottom: 8px;"><strong>(i) Answer:</strong> evolving</li>
+        <li style="margin-bottom: 8px;"><strong>(ii) Answer:</strong> The author means that the modified goals and hopes we choose to follow later in life hold the exact same deep value, importance, and validity as the initial dreams of our childhood or youth.</li>
+        <li style="margin-bottom: 8px;"><strong>(iii) Answer:</strong> 'a maze of hurdles'</li>
+        <li style="margin-bottom: 8px;"><strong>(iv) Answer:</strong> as goals evolve with maturity, they naturally branch out into professional collaborations, adult responsibilities, or community projects that involve a much wider circle of people to accomplish.</li>
+        <li style="margin-bottom: 0;"><strong>(v) Answer:</strong> C. optimistic and encouraging</li>
+    </ul>
+</div>
+` },
+{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Answer the Following Questions</h2>
+    <p style="margin: 0; color: #333; font-weight: bold;">(i) The letter begins thus, 'By all means follow that dream'. What do you think Ming must have written to her mother about?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;"><strong>(i) Answer:</strong> Ming must have written to her mother expressing a deep, newfound passion or a big ambition for her future career that she wanted to pursue fiercely, looking for her mother's approval, support, and advice.</p>
+</div>
+` },
+{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Answer the Following Questions</h2>
+    <p style="margin: 0; color: #333; font-weight: bold;">(ii) How can one attain an international level of skill in any field? Mention any two ways.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;"><strong>(ii) Answer:</strong> One can attain an international level of skill by (a) pursuing the subject singularly and intensively for at least ten years, and (b) investing significant effort, financial resources, and personal sacrifice along an uphill journey.</p>
+</div>
+` },
+{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Answer the Following Questions</h2>
+    <p style="margin: 0; color: #333; font-weight: bold;">(iii) What differentiates the mere dreamers from actual achievers?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;"><strong>(iii) Answer:</strong> Mere dreamers settle for wishful thinking, never progress past simple daydreaming, and often trade their dreams for safety or comfort zones. Actual achievers accept a burning conviction, count the true costs in advance, and courageously plunge into action to face a maze of hurdles.</p>
+</div>
+` },
+{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Answer the Following Questions</h2>
+    <p style="margin: 0; color: #333; font-weight: bold;">(iv) How does Ming's mother use critical questions and personal anecdotes to persuade Ming and convey her message effectively?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;"><strong>(iv) Answer:</strong> The mother asks critical questions to make Ming evaluate if her goal is worth years of effort and sacrifice. She shares her personal anecdote about taking ten years to publish this collection of letters to serve as an authentic, achievable model of perseverance.</p>
+</div>
+` },
+{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Answer the Following Questions</h2>
+    <p style="margin: 0; color: #333; font-weight: bold;">(v) How does Ming's mother balance encouragement with caution in her advice?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;"><strong>(v) Answer:</strong> The mother balances encouragement by telling Ming to go ahead if a burning conviction courses through her veins, but inserts strong caution by warning her about long timelines, heavy financial costs, changing dreams, and unexpected global disruptions like war or family survival duties.</p>
+</div>
+` },
+{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Answer the Following Questions</h2>
+    <p style="margin: 0; color: #333; font-weight: bold;">(vi) In the letter, Ming's mother specifically addresses the challenges people face in pursuing their dreams. Do you think this advice is still relevant in contemporary society? If yes, why? If no, why not?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;"><strong>(vi) Answer:</strong> Yes, this advice remains highly relevant today because even though digital platforms allow people to showcase talents much faster, mastering any complex field still requires a major time commitment. Contemporary youth face intense competition, high financial stress, and sudden career market changes where grit and focus are absolutely necessary.</p>
+</div>
+` },
+{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Answer the Following Questions</h2>
+    <p style="margin: 0; color: #333; font-weight: bold;">(vii) What 'costs' in terms of effort, sacrifice, and time are you willing or unwilling to invest to pursue your goals?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444; list-style-type: none;">
+        <li style="margin-bottom: 5px;"><strong>Willing to invest:</strong> I am completely willing to invest long hours of hard work, daily practice, and the sacrifice of short-term comfort to build true skill.</li>
+        <li style="margin-bottom: 0;"><strong>Unwilling to invest:</strong> I am completely unwilling to sacrifice my physical or mental health metrics, break my core ethical principles, or neglect my family relationships.</li>
+    </ul>
+</div>
+` },
+
+] }
                 ] 
             },
             { 
                 name: "Poetry (Poems)", 
                 chapters: [
-                    { name: "Poem: Bharat Our Land", solutions: [{ q: "Q?", a: `Text.` }] }, 
+                    { name: "Poem: Bharat Our Land", solutions: [{ q: ``, a: `` },
+
+                    ] },
+                     
                     { name: "Poem: Gifts of Grace", solutions: [{ q: "Q?", a: `Text.` }] }, 
                     { name: "Poem: Canvas of Soil", solutions: [{ q: "Q?", a: `Text.` }] }, 
                     { name: "Poem: I Cannot Remember My Mother", solutions: [{ q: "Q?", a: `Text.` }] }, 
@@ -2497,15 +2647,14 @@ given in Table 5.5. Mixtures:
         isBranching: true,
         branches: [
             {
-                name: "Ganita Prakash (P1)",
+                name: "Ganita Prakash (Part 1)",
                 chapters: [
                     { name: "Chapter 1", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
                     { name: "Chapter 2", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
                     { name: "Chapter 3", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
                     { name: "Chapter 4", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
-                    { name: "Chapter 5 : I'm Up And Round and Round", solutions: [  
-                        { q: `z`, a: `` }] },
-                    { name: "Chapter 6", solutions: [{ q: ``, a: `` }] },
+                    { name: "Chapter 5 : I'm Up And Round and Round", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
+                    { name: "Chapter 6", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
                     { name: "Chapter 7", solutions: [{ q: "The Solutions are under development", a: `Sorry :<` }] },
                     { name: "Chapter 8", solutions:[{ q: "The Solutions are under development", a: `Sorry :<` }] },
                 ]
@@ -2528,23 +2677,124 @@ given in Table 5.5. Mixtures:
         sst: {
         title: "Social Science Section" ,
         isBranching: true,
-        branches: [
+        branches: [ 
             {
-                name: "Social Science",
+                name: "Geography",
                 chapters: [
-                    { name: "Chapter 1", solutions: [{ q: "Q?", a: `Text.` }] },
-                    { name: "Chapter 2", solutions: [{ q: "Q?", a: `Text.` }] },
-                    { name: "Chapter 3", solutions: [{ q: "Q?", a: `Text.` }] },
-                    { name: "Chapter 4", solutions: [{ q: "Q?", a: `Text.` }] },
-                    { name: "Chapter 5", solutions: [{ q: "Q?", a: `Text.` }] },
+                    { name: "Chapter 1: Understanding Social Science", solutions: [{ q: "No QNAs", a: `No Excersises in This chapter!` }] },
+                    { name: "Chapter 2: Shaping of the Earth’s Surface", solutions: [{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">What are the sources of energy that are required to cause movements associated with the internal forces of the Earth?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Core Heat Source:</strong> The movements driven by the Earth's internal forces are powered by intense heat originating from the planet's core.</li>
+        <li style="margin-bottom: 0;"><strong>Convection Mechanism:</strong> This extreme heat warms the molten material within the mantle, creating massive, continuous convection currents where hot material rises and cooler material sinks. These strong thermal currents act as a subterranean engine that pushes and pulls the tectonic plates, causing the outer crust to shift.</li>
+    </ul>
+</div>
+` },
+                        { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Relate various physiographic divisions you have studied in the earlier grades with various endogenic forces responsible for their origin.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Mountain Building:</strong> Internal or endogenic forces operating within the Earth—specifically plate movements like folding and faulting—are directly responsible for creating major macro-landforms such as mountains, plains, and valleys.</li>
+        <li style="margin-bottom: 0;"><strong>Tectonic Collisions:</strong> For instance, when two massive continental landmasses move toward each other at a convergent boundary, the immense pressure buckles the crust. This specific endogenic force drives the formation of majestic fold mountain ranges, a prime example being the Himalaya.</li>
+    </ul>
+</div>
+` },
+                        { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Why and where do earthquakes occur frequently? Is it possible to predict earthquakes?</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Geographic Distribution:</strong> Earthquakes occur frequently along plate boundaries—the edges where tectonic plates meet and slide past, pull apart, or crash into one another. A vast majority of these seismic events take place around the Pacific Ocean in a highly active region famously known as the Ring of Fire.</li>
+        <li style="margin-bottom: 0;"><strong>Predictability Limitations:</strong> While modern geologists study plate maps to pinpoint high-risk zones and help cities manage potential disasters, exactly predicting their timing remains incredibly difficult. Historically, scholars like Varāhamihira attempted to track environmental clues like animal behaviour, clouds, and wind changes to signal them, reflecting an early attempt to blend observation with cosmological reasoning.</li>
+    </ul>
+</div>
+` },
+                        { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">"Plate movements are responsible for the distribution of earthquakes and volcanoes." Explain.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Boundary Dynamics:</strong> Tectonic plates are in a state of slow, constant motion driven by mantle convection. The intense friction, pressure, and structural cracking that happen where these massive slabs of solid rock interact create the perfect conditions for geological instability.</li>
+        <li style="margin-bottom: 0;"><strong>Seismic Realities:</strong> When plates pull apart at divergent boundaries, magma forces its way up to create new crust, and when plates collide at convergent boundaries, tectonic activity triggers severe volcanic eruptions and earthquakes. Because these violent releases of sub-crustal energy are concentrated right along the margins where plates grind together, most of the world's volcanoes and earthquakes align perfectly with plate borders.</li>
+    </ul>
+</div>
+` },
+                        { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">Draw and label a diagram of a meander and a delta.</p>
+</div>
+`, a: `<div style="max-width: 600px; margin: 20px auto; border: 1px solid #ddd; border-radius: 6px; overflow: hidden; background-color: #fff;">
+  
+
+  <div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+      <li style="margin-bottom: 5px;">
+        <strong>Meander and Delta Features:</strong> A meander is a winding curve or loop formed in the middle or lower course of a river due to lateral erosion on outer banks and sediment deposition on inner banks. A delta is a fan-shaped or triangular landform created at a river's mouth where it slows down, enters a sea or lake, and deposits its remaining load.
+      </li>
+      <li style="margin-bottom: 0;">
+        <strong>Visual Presentation:</strong> The structural configurations, layout, and labeling criteria for both of these water-formed landscape modifications are illustrated below.
+      </li>
+    </ul>
+  </div>
+
+  <div style="padding: 15px; text-align: center; background-color: #fafafa; border-top: 1px solid #eee;">
+    <img src="images/aa.png" alt="Meander and Delta Diagram" style="max-width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 4px;">
+  </div>
+
+</div>
+`,  },
+                        { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">How are deforestation and erosion associated with each other? Explain.</p>
+</div>
+`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>Loss of Soil Anchor:</strong> Deforestation severely accelerates surface erosion by removing the vital root networks that naturally anchor the soil together. Without this protective root system and vegetation cover, the raw land is left completely exposed and vulnerable.</li>
+        <li style="margin-bottom: 0;"><strong>Environmental Domino Effect:</strong> Once the vegetation is stripped away, natural forces like heavy rainfall and strong winds can easily wear down and sweep the fertile topsoil away. This lack of root stability on hillsides and slopes noticeably increases the risk of sudden natural disasters like landslides.</li>
+    </ul>
+</div>
+` },
+                        { q: ``, a: `` },
+                        { q: ``, a: `` },
+                        { q: ``, a: `` },
+                        { q: ``, a: `` },
+                        { q: ``, a: `` },
+                        { q: ``, a: `` },
+                        { q: ``, a: `` },
+                        { q: ``, a: `` },
+                        { q: ``, a: `` },
+
+                    ]
+                 },
+                    { name: "Chapter 3: Atmosphere and Climate", solutions: [{ q: "Q?", a: `Text.` }] },
+                     ]
+            },
+            {   
+                name: `History`,     
+                chapters: [
+                { name: "Chapter 4", solutions: [{ q: "Q?", a: `Text.` }] },
+                { name: "Chapter 5", solutions: [{ q: "Q?", a: `Text.` }] },
+                ]
+                        
+            },
+            { 
+                name: `Political Science`,
+                chapters: [        
                     { name: "Chapter 6", solutions: [{ q: "Q?", a: `Text.` }] },
                     { name: "Chapter 7", solutions: [{ q: "Q?", a: `Text.` }] },
-                    { name: "Chapter 8", solutions: [{ q: "Q?", a: `Text.` }] }
                 ]
+            },
+            { 
+                name: `Economics`,
+                chapters: [        
+                    { name: "Chapter 6", solutions: [{ q: "Q?", a: `Text.` }] },
+                    { name: "Chapter 7", solutions: [{ q: "Q?", a: `Text.` }] },
+                ]
+            },
+            ]
             }
-        ]
-    }
-};
+    };
 
 
 let currentSubjectKey = "";
@@ -2572,7 +2822,7 @@ function selectSubject(subjectKey) {
     
     if (data.isBranching) {
         data.branches.forEach((branch, index) => {
-            grid.innerHTML += `<button class="chapter-select-btn" style="border-left: 5px solid #2563eb;" onclick="selectBranch('${index}')">📂 ${branch.name}</button>`;
+            grid.innerHTML += `<button class="chapter-select-btn" style="border-left: 5px solid #2563eb;" onclick="selectBranch('${index}')"> ✅ ${branch.name}</button>`;
         });
     } else {
         data.chapters.forEach((chapter, index) => {
