@@ -1,4 +1,4 @@
-`<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,32 +10,166 @@
 
     <!-- Top Navigation Header -->
     <nav class="navbar">
-        <div class="logo" onclick="showLayer('subject-view')">NCERT<span>Solved</span></div>
-        <div class="badge">Class 9 Portal</div>
+        <div class="nav-left">
+            <div class="logo" onclick="goToHome()">NCERT<span>Solved</span></div>
+            <div class="badge">Class 9 • 2026-27</div>
+        </div>
+        <div class="nav-right">
+            <button class="nav-action-btn search-trigger-btn" onclick="focusSearch()" title="Search questions (Ctrl + K)">
+                <span class="btn-icon">🔍</span>
+                <span class="btn-text">Search</span>
+                <kbd class="shortcut-pill">Ctrl+K</kbd>
+            </button>
+            <button class="nav-action-btn feedback-trigger-btn" onclick="openFeedbackModal()" title="Send Feedback">
+                <span class="btn-icon">💬</span>
+                <span class="btn-text">Feedback</span>
+            </button>
+        </div>
     </nav>
 
-    <div class="container" id="homepage-view">
-        
+    <!-- Quick Subject Tabs Navigation Bar -->
+    <div class="tabs-nav-bar" id="subject-tabs-bar">
+        <div class="tabs-scroll-container">
+            <button class="nav-tab active" data-tab="all" onclick="filterByTab('all')">
+                <span class="tab-icon">🌐</span> All Subjects
+            </button>
+            <button class="nav-tab" data-tab="science" onclick="filterByTab('science')">
+                <span class="tab-icon">🔬</span> Science
+            </button>
+            <button class="nav-tab" data-tab="sst" onclick="filterByTab('sst')">
+                <span class="tab-icon">🌍</span> Social Science
+            </button>
+            <button class="nav-tab" data-tab="maths" onclick="filterByTab('maths')">
+                <span class="tab-icon">📐</span> Mathematics
+            </button>
+            <button class="nav-tab" data-tab="english" onclick="filterByTab('english')">
+                <span class="tab-icon">📖</span> English
+            </button>
+        </div>
+    </div>
 
+    <div class="container" id="homepage-view">
+
+        <!-- LAYER 1: Welcome & Subject Selection Screen -->
         <section id="subject-view" class="view-layer">
             <div class="hero-section">
-                <h1>Select a Subject</h1>
-                <p><p>Made by a student itself as I know what we students want in NCERT Website, Simple and Straight answers to a question for help. Thanks for visiting my website, it makes me motivated to make more websites like this and helps a LOT.</p></p>
+                <div class="hero-pill">
+                    <span class="pill-dot"></span> Class 9 NCERT Solutions Hub
+                </div>
+                <h1 class="hero-title">
+                    Simple, Direct &amp; <span class="gradient-text">Copy-Ready Solutions</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Straightforward, verified textbook solutions designed by students. Zero clutter, no paywalls — just crisp, exam-ready answers with 1-click copy for your notes.
+                </p>
+
+                <!-- Search Bar -->
+                <div class="search-box-container">
+                    <div class="search-input-wrapper">
+                        <span class="search-input-icon">🔍</span>
+                        <input type="text" id="global-search-input" placeholder="Search questions, topics, chapters (e.g. cell, erosion, troposphere)..." autocomplete="off" oninput="handleSearch(this.value)">
+                        <button id="search-clear-btn" class="search-clear-btn hidden" onclick="clearSearch()" title="Clear">✕</button>
+                        <span class="search-shortcut-hint"><kbd>Ctrl</kbd> <kbd>K</kbd></span>
+                    </div>
+
+                    <!-- Search Results Box -->
+                    <div id="search-results-container" class="search-results-container hidden">
+                        <div class="search-results-header">
+                            <span id="search-results-count" class="search-results-count">Search Results</span>
+                            <button class="btn-close-results" onclick="clearSearch()">✕ Close</button>
+                        </div>
+                        <div id="search-results-list" class="search-results-list"></div>
+                    </div>
+                </div>
+
+                <div class="features-pills">
+                    <span class="feat-pill"><span class="feat-icon">⚡</span> 1-Click Copy</span>
+                    <span class="feat-pill"><span class="feat-icon">🎯</span> Straightforward Answers</span>
+                    <span class="feat-pill"><span class="feat-icon">🖼️</span> Clean Diagrams &amp; Tables</span>
+                    <span class="feat-pill"><span class="feat-icon">✨</span> 100% Free Resource</span>
+                </div>
             </div>
+
             <div class="subject-grid">
-                <button class="subject-card-btn btn-science" onclick="selectSubject('science')">Science</button>
-                <button class="subject-card-btn btn-sst" onclick="selectSubject('sst')">SST</button>
-                <button class="subject-card-btn btn-maths" onclick="selectSubject('maths')">Mathematics</button>
-                <button class="subject-card-btn btn-sanskrit" onclick="selectSubject('sanskrit')">Sanskrit</button>
-                <button class="subject-card-btn btn-hindi" onclick="selectSubject('hindi')">Hindi</button>
-                <button class="subject-card-btn btn-english" onclick="selectSubject('english')">English</button>
+                <!-- Science Card -->
+                <button class="subject-card-btn card-science" onclick="selectSubject('science')">
+                    <div class="card-header">
+                        <div class="card-icon-wrapper icon-science">🔬</div>
+                        <span class="card-tag">12 Chapters</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Science</h3>
+                        <p class="card-desc">Physics, Chemistry, and Biology solutions with in-text questions, exercises, and labelled cell diagrams.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span>Explore Chapters</span>
+                        <span class="card-arrow">→</span>
+                    </div>
+                </button>
+
+                <!-- Social Science Card -->
+                <button class="subject-card-btn card-sst" onclick="selectSubject('sst')">
+                    <div class="card-header">
+                        <div class="card-icon-wrapper icon-sst">🌍</div>
+                        <span class="card-tag">4 Branches</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Social Science</h3>
+                        <p class="card-desc">Geography (Shaping the Earth's Surface), History, Political Science &amp; Economics with disaster plans.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span>Explore Chapters</span>
+                        <span class="card-arrow">→</span>
+                    </div>
+                </button>
+
+                <!-- Mathematics Card -->
+                <button class="subject-card-btn card-maths" onclick="selectSubject('maths')">
+                    <div class="card-header">
+                        <div class="card-icon-wrapper icon-maths">📐</div>
+                        <span class="card-tag">Ganita Prakash</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Mathematics</h3>
+                        <p class="card-desc">Ganita Prakash Parts 1 &amp; 2 chapter exercises, step-by-step methods, and concept clarifications.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span>Explore Chapters</span>
+                        <span class="card-arrow">→</span>
+                    </div>
+                </button>
+
+                <!-- English Card -->
+                <button class="subject-card-btn card-english" onclick="selectSubject('english')">
+                    <div class="card-header">
+                        <div class="card-icon-wrapper icon-english">📖</div>
+                        <span class="card-tag">Prose &amp; Poetry</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">English</h3>
+                        <p class="card-desc">Extract-based questions, critical reflections, chapter comprehension, and structured poetry analyses.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span>Explore Chapters</span>
+                        <span class="card-arrow">→</span>
+                    </div>
+                </button>
+            </div>
+
+            <!-- Creator Note Callout -->
+            <div class="creator-banner">
+                <div class="creator-avatar">💡</div>
+                <div class="creator-content">
+                    <h4>From One Student to Another</h4>
+                    <p>“I created this website because I know what we students actually need in an NCERT site: simple, direct answers without endless popups or fluff. Thanks for visiting — your support motivates me to keep improving this resource!”</p>
+                </div>
             </div>
         </section>
 
         <!-- LAYER 2: Chapter Selection Screen -->
         <section id="chapter-view" class="view-layer hidden">
             <div class="navigation-crumbs">
-                <button class="btn-back" onclick="showLayer('subject-view')">← Back to Subjects</button>
+                <button class="btn-back" onclick="goToHome()">← Back to Subjects</button>
             </div>
             <div class="hero-section">
                 <h1 id="chapter-title-heading">Subject Chapters</h1>
@@ -61,12 +195,98 @@
         </section>
 
     </div>
+
+    <!-- Floating Feedback & Back to Top Buttons -->
+    <div class="floating-controls">
+        <button id="back-to-top-btn" class="floating-btn back-to-top-btn hidden" onclick="scrollToTop()" title="Back to top">
+            ↑
+        </button>
+        <button class="floating-btn feedback-floating-btn" onclick="openFeedbackModal()" title="Share Feedback">
+            <span class="btn-icon">💬</span>
+            <span class="floating-btn-text">Feedback</span>
+        </button>
+    </div>
+
+    <!-- Interactive Feedback Modal -->
+    <div id="feedback-modal" class="modal-overlay hidden" onclick="closeFeedbackOnOverlay(event)">
+        <div class="modal-card">
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <span class="modal-icon">💬</span>
+                    <div>
+                        <h3>Student Feedback &amp; Suggestions</h3>
+                        <p>Found a typo, have a question request, or suggestions?</p>
+                    </div>
+                </div>
+                <button class="modal-close-btn" onclick="closeFeedbackModal()" title="Close">✕</button>
+            </div>
+            <form id="feedback-form" onsubmit="submitFeedback(event)">
+                <div class="form-group">
+                    <label>Feedback Category</label>
+                    <div class="feedback-type-pills">
+                        <label class="type-pill">
+                            <input type="radio" name="feedbackType" value="Error in Answer" checked>
+                            <span>🐞 Report Error</span>
+                        </label>
+                        <label class="type-pill">
+                            <input type="radio" name="feedbackType" value="Question Request">
+                            <span>📝 Request Question</span>
+                        </label>
+                        <label class="type-pill">
+                            <input type="radio" name="feedbackType" value="Feature Suggestion">
+                            <span>💡 Suggestion</span>
+                        </label>
+                        <label class="type-pill">
+                            <input type="radio" name="feedbackType" value="Appreciation">
+                            <span>❤️ Appreciation</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="feedback-subject">Subject</label>
+                    <select id="feedback-subject" class="form-select">
+                        <option value="General">General / Website</option>
+                        <option value="Science">Science</option>
+                        <option value="Social Science">Social Science (SST)</option>
+                        <option value="Mathematics">Mathematics</option>
+                        <option value="English">English</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Rating</label>
+                    <div class="rating-stars" id="rating-stars">
+                        <span class="star selected" data-value="1" onclick="setRating(1)">★</span>
+                        <span class="star selected" data-value="2" onclick="setRating(2)">★</span>
+                        <span class="star selected" data-value="3" onclick="setRating(3)">★</span>
+                        <span class="star selected" data-value="4" onclick="setRating(4)">★</span>
+                        <span class="star selected" data-value="5" onclick="setRating(5)">★</span>
+                    </div>
+                    <input type="hidden" id="feedback-rating" value="5">
+                </div>
+                <div class="form-group">
+                    <label for="feedback-message">Your Comments / Details <span class="required">*</span></label>
+                    <textarea id="feedback-message" class="form-textarea" rows="3" required placeholder="Tell us which chapter or question, what's wrong, or how we can improve..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="feedback-email">Name / Email (Optional)</label>
+                    <input type="text" id="feedback-email" class="form-input" placeholder="e.g. rahul@example.com">
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn-cancel" onclick="closeFeedbackModal()">Cancel</button>
+                    <button type="submit" class="btn-submit-feedback">Send Feedback 🚀</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
     <!-- ========================================== -->
     <!-- PRIVACY POLICY LAYER                       -->
     <!-- ========================================== -->
     <div id="privacy-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <button class="btn-back" onclick="showLayer('homepage-view')">← Back to Homepage</button>
+            <button class="btn-back" onclick="showLayer('subject-view')">← Back to Subjects</button>
         </div>
         <div class="solution-card" style="margin-top: 1rem; background: #ffffff; border: 1px solid #e2e8f0; padding: 1.8rem; border-radius: 10px;">
             <h2 style="color: #0f172a; margin-bottom: 1.5rem;">Privacy Policy</h2>
@@ -88,7 +308,7 @@
     <!-- ========================================== -->
     <div id="terms-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <button class="btn-back" onclick="showLayer('homepage-view')">← Back to Homepage</button>
+            <button class="btn-back" onclick="showLayer('subject-view')">← Back to Subjects</button>
         </div>
         <div class="solution-card" style="margin-top: 1rem; background: #ffffff; border: 1px solid #e2e8f0; padding: 1.8rem; border-radius: 10px;">
             <h2 style="color: #0f172a; margin-bottom: 1.5rem;">Terms of Service</h2>
@@ -110,7 +330,7 @@
     <!-- ========================================== -->
     <div id="contact-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <button class="btn-back" onclick="showLayer('homepage-view')">← Back to Homepage</button>
+            <button class="btn-back" onclick="showLayer('subject-view')">← Back to Subjects</button>
         </div>
         <div class="solution-card" style="margin-top: 1rem; max-width: 600px; margin: 1rem auto; border-top: 4px solid #2563eb; background: #ffffff; border-left: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; padding: 1.8rem; border-radius: 10px;">
             <h2 style="color: #0f172a; margin-bottom: 1rem; text-align: center;">Contact Us</h2>
