@@ -2425,41 +2425,6 @@ given in Table 5.5. Mixtures:
             ] }
         ]
     },
-    sanskrit: {
-        title: "Sanskrit Chapters",
-        isBranching: false,
-        chapters: [
-            { name: "Notice", solutions: [{ q: "Are solutions available?", a: `Sorry, the solutions for this subject are currently under development.` }] }
-        ]
-    },
-    hindi: {
-        title: "Hindi (हिंदी) खंड",
-        isBranching: true,
-        branches: [
-            { 
-                name: "गद्य खंड (Prose)", 
-                chapters: [
-                    { name: "1. दो बैलों की कथा (प्रेमचंद्र)", solutions: [{ q: "Q?", a: `Text.` }] }, 
-                    { name: "2. क्या लिखूँ?", solutions: [{ q: "Q?", a: `Text.` }] }, 
-                    { name: "3. संवादहीन", solutions: [{ q: "Q?", a: `Text.` }] }, 
-                    { name: "4. ऐसी भी बातें होती हैं", solutions: [{ q: "Q?", a: `Text.` }] }, 
-                    { name: "5. आखिरी चट्टान तक", solutions: [{ q: "Q?", a: `Text.` }] }, 
-                    { name: "6. रीढ़ की हड्डी", solutions: [{ q: "Q?", a: `Text.` }] }, 
-                    { name: "7. मैं और मेरा देश", solutions: [{ q: "Q?", a: `Text.` }] }
-                ] 
-            },
-            { 
-                name: "काव्य खंड (Poetry)", 
-                chapters: [
-                    { name: "8. पद (रैदास)", solutions: [{ q: "Q?", a: `Text.` }] }, 
-                    { name: "9. राम-लक्ष्मण-परशुराम संवाद", solutions: [{ q: "Q?", a: `Text.` }] }, 
-                    { name: "10. भारति, जय, विजयकरे!", solutions: [{ q: "Q?", a: `Text.` }] }, 
-                    { name: "11. झाँसी की रानी", solutions: [{ q: "Q?", a: `Text.` }] }, 
-                    { name: "12. घर की याद", solutions: [{ q: "Q?", a: `Text.` }] }
-                ] 
-            }
-        ]
-    },
     english: {
         title: "English Sections",
         isBranching: true,
@@ -2681,90 +2646,137 @@ given in Table 5.5. Mixtures:
             {
                 name: "Geography",
                 chapters: [
-                    { name: "Chapter 1: Understanding Social Science", solutions: [{ q: "No QNAs", a: `No Excersises in This chapter!` }] },
-                    { name: "Chapter 2: Shaping of the Earth’s Surface", solutions: [{ q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
-    <p style="margin: 0; color: #333; font-weight: bold;">What are the sources of energy that are required to cause movements associated with the internal forces of the Earth?</p>
-</div>
-`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
-    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
-        <li style="margin-bottom: 5px;"><strong>Core Heat Source:</strong> The movements driven by the Earth's internal forces are powered by intense heat originating from the planet's core.</li>
-        <li style="margin-bottom: 0;"><strong>Convection Mechanism:</strong> This extreme heat warms the molten material within the mantle, creating massive, continuous convection currents where hot material rises and cooler material sinks. These strong thermal currents act as a subterranean engine that pushes and pulls the tectonic plates, causing the outer crust to shift.</li>
-    </ul>
-</div>
-` },
-                        { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
-    <p style="margin: 0; color: #333; font-weight: bold;">Relate various physiographic divisions you have studied in the earlier grades with various endogenic forces responsible for their origin.</p>
-</div>
-`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
-    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
-        <li style="margin-bottom: 5px;"><strong>Mountain Building:</strong> Internal or endogenic forces operating within the Earth—specifically plate movements like folding and faulting—are directly responsible for creating major macro-landforms such as mountains, plains, and valleys.</li>
-        <li style="margin-bottom: 0;"><strong>Tectonic Collisions:</strong> For instance, when two massive continental landmasses move toward each other at a convergent boundary, the immense pressure buckles the crust. This specific endogenic force drives the formation of majestic fold mountain ranges, a prime example being the Himalaya.</li>
-    </ul>
-</div>
-` },
-                        { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
-    <p style="margin: 0; color: #333; font-weight: bold;">Why and where do earthquakes occur frequently? Is it possible to predict earthquakes?</p>
-</div>
-`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
-    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
-        <li style="margin-bottom: 5px;"><strong>Geographic Distribution:</strong> Earthquakes occur frequently along plate boundaries—the edges where tectonic plates meet and slide past, pull apart, or crash into one another. A vast majority of these seismic events take place around the Pacific Ocean in a highly active region famously known as the Ring of Fire.</li>
-        <li style="margin-bottom: 0;"><strong>Predictability Limitations:</strong> While modern geologists study plate maps to pinpoint high-risk zones and help cities manage potential disasters, exactly predicting their timing remains incredibly difficult. Historically, scholars like Varāhamihira attempted to track environmental clues like animal behaviour, clouds, and wind changes to signal them, reflecting an early attempt to blend observation with cosmological reasoning.</li>
-    </ul>
-</div>
-` },
-                        { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
-    <p style="margin: 0; color: #333; font-weight: bold;">"Plate movements are responsible for the distribution of earthquakes and volcanoes." Explain.</p>
-</div>
-`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
-    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
-        <li style="margin-bottom: 5px;"><strong>Boundary Dynamics:</strong> Tectonic plates are in a state of slow, constant motion driven by mantle convection. The intense friction, pressure, and structural cracking that happen where these massive slabs of solid rock interact create the perfect conditions for geological instability.</li>
-        <li style="margin-bottom: 0;"><strong>Seismic Realities:</strong> When plates pull apart at divergent boundaries, magma forces its way up to create new crust, and when plates collide at convergent boundaries, tectonic activity triggers severe volcanic eruptions and earthquakes. Because these violent releases of sub-crustal energy are concentrated right along the margins where plates grind together, most of the world's volcanoes and earthquakes align perfectly with plate borders.</li>
-    </ul>
-</div>
-` },
-                        { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
-    <p style="margin: 0; color: #333; font-weight: bold;">Draw and label a diagram of a meander and a delta.</p>
-</div>
-`, a: `<div style="max-width: 600px; margin: 20px auto; border: 1px solid #ddd; border-radius: 6px; overflow: hidden; background-color: #fff;">
-  
-
-  <div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670;">
-    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
-      <li style="margin-bottom: 5px;">
-        <strong>Meander and Delta Features:</strong> A meander is a winding curve or loop formed in the middle or lower course of a river due to lateral erosion on outer banks and sediment deposition on inner banks. A delta is a fan-shaped or triangular landform created at a river's mouth where it slows down, enters a sea or lake, and deposits its remaining load.
-      </li>
-      <li style="margin-bottom: 0;">
-        <strong>Visual Presentation:</strong> The structural configurations, layout, and labeling criteria for both of these water-formed landscape modifications are illustrated below.
-      </li>
-    </ul>
-  </div>
-
-  <div style="padding: 15px; text-align: center; background-color: #fafafa; border-top: 1px solid #eee;">
+                    { name: "Chapter 1: Understanding Social Science", solutions: [{ q: "No QNAs", a: `No exercises in this chapter!` }] },
+                    { name: "Chapter 2: Shaping of the Earth’s Surface", solutions: [
+                        { 
+                            q: "What are the sources of energy that are required to cause movements associated with the internal forces of the Earth?", 
+                            a: `<ul>
+    <li><strong>Core Heat Source:</strong> The movements driven by the Earth's internal forces are powered by intense heat originating from the planet's core.</li>
+    <li><strong>Convection Mechanism:</strong> This extreme heat warms the molten material within the mantle, creating massive, continuous convection currents where hot material rises and cooler material sinks. These strong thermal currents act as a subterranean engine that pushes and pulls the tectonic plates, causing the outer crust to shift.</li>
+</ul>` 
+                        },
+                        { 
+                            q: "Relate various physiographic divisions you have studied in the earlier grades with various endogenic forces responsible for their origin.", 
+                            a: `<ul>
+    <li><strong>Mountain Building:</strong> Internal or endogenic forces operating within the Earth—specifically plate movements like folding and faulting—are directly responsible for creating major macro-landforms such as mountains, plains, and valleys.</li>
+    <li><strong>Tectonic Collisions:</strong> For instance, when two massive continental landmasses move toward each other at a convergent boundary, the immense pressure buckles the crust. This specific endogenic force drives the formation of majestic fold mountain ranges, a prime example being the Himalaya.</li>
+</ul>` 
+                        },
+                        { 
+                            q: "Why and where do earthquakes occur frequently? Is it possible to predict earthquakes?", 
+                            a: `<ul>
+    <li><strong>Geographic Distribution:</strong> Earthquakes occur frequently along plate boundaries—the edges where tectonic plates meet and slide past, pull apart, or crash into one another. A vast majority of these seismic events take place around the Pacific Ocean in a highly active region famously known as the Ring of Fire.</li>
+    <li><strong>Predictability Limitations:</strong> While modern geologists study plate maps to pinpoint high-risk zones and help cities manage potential disasters, exactly predicting their timing remains incredibly difficult. Historically, scholars like Varāhamihira attempted to track environmental clues like animal behaviour, clouds, and wind changes to signal them, reflecting an early attempt to blend observation with cosmological reasoning.</li>
+</ul>` 
+                        },
+                        { 
+                            q: `"Plate movements are responsible for the distribution of earthquakes and volcanoes." Explain.`, 
+                            a: `<ul>
+    <li><strong>Boundary Dynamics:</strong> Tectonic plates are in a state of slow, constant motion driven by mantle convection. The intense friction, pressure, and structural cracking that happen where these massive slabs of solid rock interact create the perfect conditions for geological instability.</li>
+    <li><strong>Seismic Realities:</strong> When plates pull apart at divergent boundaries, magma forces its way up to create new crust, and when plates collide at convergent boundaries, tectonic activity triggers severe volcanic eruptions and earthquakes. Because these violent releases of sub-crustal energy are concentrated right along the margins where plates grind together, most of the world's volcanoes and earthquakes align perfectly with plate borders.</li>
+</ul>` 
+                        },
+                        { 
+                            q: "Draw and label a diagram of a meander and a delta.", 
+                            a: `<ul>
+    <li><strong>Meander and Delta Features:</strong> A meander is a winding curve or loop formed in the middle or lower course of a river due to lateral erosion on outer banks and sediment deposition on inner banks. A delta is a fan-shaped or triangular landform created at a river's mouth where it slows down, enters a sea or lake, and deposits its remaining load.</li>
+    <li><strong>Visual Presentation:</strong> The structural configurations, layout, and labeling criteria for both of these water-formed landscape modifications are illustrated below.</li>
+</ul>
+<div style="margin-top: 15px; text-align: center; background-color: #fafafa; padding: 12px; border-radius: 6px; border: 1px solid #eee;">
     <img src="images/aa.png" alt="Meander and Delta Diagram" style="max-width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 4px;">
-  </div>
-
-</div>
-`,  },
-                        { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
-    <p style="margin: 0; color: #333; font-weight: bold;">How are deforestation and erosion associated with each other? Explain.</p>
-</div>
-`, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
-    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
-        <li style="margin-bottom: 5px;"><strong>Loss of Soil Anchor:</strong> Deforestation severely accelerates surface erosion by removing the vital root networks that naturally anchor the soil together. Without this protective root system and vegetation cover, the raw land is left completely exposed and vulnerable.</li>
-        <li style="margin-bottom: 0;"><strong>Environmental Domino Effect:</strong> Once the vegetation is stripped away, natural forces like heavy rainfall and strong winds can easily wear down and sweep the fertile topsoil away. This lack of root stability on hillsides and slopes noticeably increases the risk of sudden natural disasters like landslides.</li>
-    </ul>
-</div>
-` },
-                        { q: ``, a: `` },
-                        { q: ``, a: `` },
-                        { q: ``, a: `` },
-                        { q: ``, a: `` },
-                        { q: ``, a: `` },
-                        { q: ``, a: `` },
-                        { q: ``, a: `` },
-                        { q: ``, a: `` },
-                        { q: ``, a: `` },
-
+</div>` 
+                        },
+                        { 
+                            q: "How are deforestation and erosion associated with each other? Explain.", 
+                            a: `<ul>
+    <li><strong>Loss of Soil Anchor:</strong> Deforestation severely accelerates surface erosion by removing the vital root networks that naturally anchor the soil together. Without this protective root system and vegetation cover, the raw land is left completely exposed and vulnerable.</li>
+    <li><strong>Environmental Domino Effect:</strong> Once the vegetation is stripped away, natural forces like heavy rainfall and strong winds can easily wear down and sweep the fertile topsoil away. This lack of root stability on hillsides and slopes noticeably increases the risk of sudden natural disasters like landslides.</li>
+</ul>` 
+                        },
+                        { 
+                            q: "Develop a plan to protect the land in your local area from erosion.", 
+                            a: `<ul>
+    <li><strong>Afforestation and Vegetative Cover:</strong> Plant native trees, shrubs, and grasses along exposed soil surfaces, roadsides, and riverbanks to establish root networks that bind soil particles and curb water runoff.</li>
+    <li><strong>Terracing and Bunding on Slopes:</strong> Implement step-terracing and earthen embankments along natural contour lines on elevated ground to slow down surface runoff velocity and enhance groundwater absorption.</li>
+    <li><strong>Proper Drainage Systems and Check Dams:</strong> Build structured runoff channels and check dams across gullies to minimize the gouging power of rainwater and trap dislodged topsoil.</li>
+</ul>` 
+                        },
+                        { 
+                            q: "Which disasters do you think you might experience in your region? Discuss a mitigation plan in your classroom.", 
+                            a: `<ul>
+    <li><strong>Regional Disaster Identification:</strong> Regions along river basins and coastal belts frequently experience flash floods and storm surges, hilly terrains are prone to landslides, and arid regions regularly encounter dust storms.</li>
+    <li><strong>Classroom Mitigation Strategy:</strong> Establish community early warning systems, organize regular evacuation drills, avoid unplanned construction along unstable slopes or flood lines, and construct robust protective structures such as embankments and check dams.</li>
+</ul>` 
+                        },
+                        { 
+                            q: "Prepare a model of landforms created by underground water.", 
+                            a: `<ul>
+    <li><strong>Core Landforms to Model:</strong> Illustrate a Karst limestone landscape displaying sinkholes/dolines on the surface crust, hollow cavern chambers underneath, stalactites hanging from the ceiling, stalagmites rising from the floor, joined limestone pillars, and subterranean rivers.</li>
+    <li><strong>Suggested Materials:</strong> Use clay, papier-mâché, or plaster of Paris mounted inside an open cardboard box to reveal both the surface collapse holes and the internal cavern formations.</li>
+</ul>
+<div style="display: flex; flex-direction: column; gap: 12px; margin-top: 15px; align-items: center;">
+    <img src="images/braindead.jpg" alt="Cave Landforms" style="max-width: 100%; height: auto; border-radius: 4px;">
+    <img src="images/headache.jpg" alt="Underground River" style="max-width: 100%; height: auto; border-radius: 4px;">
+</div>` 
+                        },
+                        { 
+                            q: "What precautionary measures will you take if you are staying in an earthquake-prone region?", 
+                            a: `<ul>
+    <li><strong>Structural & Home Preparedness:</strong> Construct buildings following earthquake-resistant architectural codes, firmly bolt heavy furniture and appliances to walls, and maintain an emergency kit stocked with first-aid essentials, water, and flashlights.</li>
+    <li><strong>During and Immediate Response:</strong> Practice the "Drop, Cover, and Hold On" procedure under sturdy tables away from glass windows and power lines; if outdoors, move directly into open spaces away from tall buildings, bridges, and electric poles.</li>
+</ul>` 
+                        },
+                        { 
+                            q: "Prepare a map showing landform-associated disasters that happened in the current calendar year.", 
+                            a: `<ul>
+    <li><strong>Mapping Procedure:</strong> Acquire an outline map of India or the world and categorize recent disaster incidents using distinct color-coded markers or symbols (e.g., brown triangles for landslides, blue symbols for GLOFs/floods, red dots for earthquakes, and yellow bands for dust storms).</li>
+    <li><strong>Required Information:</strong> Collect verified disaster reports from current news sources detailing the location, date, affected landform type, and recorded impact.</li>
+</ul>
+<div style="margin-top: 15px; text-align: center; background-color: #fafafa; padding: 12px; border-radius: 6px; border: 1px solid #eee;">
+    <img src="images/earthquakes-volcanoes.png" alt="Map showing the distribution of earthquakes and volcanoes" style="max-width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">
+    <p style="margin: 8px 0 0 0; font-size: 0.85rem; color: #64748b; font-style: italic;">Fig. 2.4: Reference map showing distribution of earthquake origins and volcanic activity along tectonic boundaries.</p>
+</div>` 
+                        },
+                        { 
+                            q: "Create a poster showing landforms that are considered to be sacred or important in your region, and add the folk stories associated with them.", 
+                            a: `<ul>
+    <li><strong>1. Sacred Mountain Summits (Himalayan Fold Mountains - Mt. Kailash & Nanda Devi):</strong> Revered across Himalayan folklore as the celestial axis and the cosmic abode of Lord Shiva and Goddess Parvati. Local folklore tells that the snow-clad peaks stand as divine guardians safeguarding the northern plains from freezing winds. Indigenous communities perform circumambulations (Parikrama) and consider scaling these summits forbidden, a tradition that historically protected fragile high-altitude alpine ecology from human encroachment.</li>
+    <li><strong>2. Holy River Confluence (Sangam at Prayagraj - Fluvial River Plains):</strong> In folklore and epic tradition, this is the sacred meeting point where the Ganga, Yamuna, and mythical subterranean Saraswati converge. According to the <em>Samudra Manthan</em> folk legend, celestial drops of the nectar of immortality (<em>Amrita</em>) spilled into the river here. The visibly contrasting shades—the deep emerald of the Yamuna and the silt-laden ochre of the Ganga—symbolize the harmony of natural elements, inspiring annual gatherings like the Magh and Kumbh Mela centered on river purification.</li>
+    <li><strong>3. Sacred Limestone Caverns (Karst Cave Formations - Amarnath & Gupteshwar Caves):</strong> Formed deep within carbonate rock by the persistent action of underground water dissolving and redepositing calcium carbonate into stalactites and stalagmites. In regional folklore, Lord Shiva chose this secluded cave to narrate the secret of creation and immortality (<em>Amar Katha</em>) to Goddess Parvati, where ice stalagmites form natural sacred icons each year. These legends fostered deep respect for subterranean aquifers and sacred springs among local communities.</li>
+    <li><strong>4. Community Conservation Value:</strong> Connecting sacred folklore with distinctive geological landforms is one of the world's oldest forms of community-led environmental stewardship, safeguarding mountains, riverbanks, and forests through cultural reverence.</li>
+</ul>
+<div style="margin-top: 16px; text-align: center; background-color: #fafafa; padding: 14px; border-radius: 8px; border: 1px solid #e2e8f0;">
+    <img src="images/sacred-landforms-poster.jpg" alt="Poster: Sacred Landforms of India" style="max-width: 520px; width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);">
+    <p style="margin: 10px 0 0 0; font-size: 0.88rem; color: #334155; font-weight: 700;">
+        🎨 Student Exhibition Poster: Sacred Landforms of India & Associated Folk Traditions
+    </p>
+    <p style="margin: 4px 0 0 0; font-size: 0.8rem; color: #64748b; font-style: italic;">
+        Depicting sacred Himalayan snow peaks with prayer flags, the holy river confluence (Sangam) with prayer ghats and floating lamps, and illuminated karst cave formations.
+    </p>
+</div>` 
+                        },
+                        { 
+                            q: "Document a case of a disaster that hit your region in the past, highlighting its effects on various human activities.", 
+                            a: `<ul>
+    <li><strong>Disaster Case Profile:</strong> Document a documented event (e.g., the 2001 Gujarat earthquake or the 2021 Chamoli flash flood), specifying its date, epicenter, and immediate physical trigger.</li>
+    <li><strong>Impact on Human Activities:</strong> Highlight how the event disrupted agriculture through topsoil loss, damaged transport links and bridges, paralyzed regional commerce and power grids, and affected long-term human settlements.</li>
+</ul>` 
+                        },
+                        { 
+                            q: "Translate the given poster on landslide into your native language and display it in your home.", 
+                            a: `<ul>
+    <li><strong>Translation Scope (Three Stages):</strong> Translate key instructions from the textbook landslide poster into your regional language: <em>Before</em> (grow deep-rooted trees, monitor alerts, maintain drains, avoid slope building); <em>During</em> (avoid panicking, heed crack sounds, evacuate the slip route immediately); and <em>After</em> (avoid downed power lines, render first aid cautiously, avoid untreated river water).</li>
+    <li><strong>Emergency Contact Display:</strong> Include the National Disaster Helpline (011-1078) prominently on your home notice board for emergency reference.</li>
+</ul>` 
+                        },
+                        { 
+                            q: "Divide the class into three groups. Each group will work on one project (water, wind, and glacier). The project should highlight the causes, impact on human life and the environment, and mitigation measures.", 
+                            a: `<ul>
+    <li><strong>Group 1 (Running Water & Waves):</strong> Examines river flooding, gully erosion, and coastal retreat; impacts include damaged arable land and lost property; mitigations include building embankments, check dams, and mangrove restoration.</li>
+    <li><strong>Group 2 (Wind Action):</strong> Focuses on deflation, expanding sand dunes, and dust storms in arid tracts; impacts include topsoil desertification and respiratory hazards; mitigations include shelterbelt planting, sand fence stabilization, and sustainable grazing.</li>
+    <li><strong>Group 3 (Glaciers & Ice):</strong> Covers avalanches and GLOFs driven by warming trends and moraine dam collapse; impacts include downstream flooding and infrastructure loss; mitigations include satellite lake monitoring, early warning sensors, and controlled siphon draining.</li>
+</ul>` 
+                        },
                     ]
                  },
                     { name: "Chapter 3: Atmosphere and Climate", solutions: [{ q: "Q?", a: `Text.` }] },
@@ -2774,7 +2786,275 @@ given in Table 5.5. Mixtures:
                 name: `History`,     
                 chapters: [
                 { name: "Chapter 4", solutions: [{ q: "Q?", a: `Text.` }] },
-                { name: "Chapter 5", solutions: [{ q: "Q?", a: `Text.` }] },
+                { name: "Chapter 5", solutions: [
+  // Q1 & A1
+  {
+    q: `<div class="q-block">
+  <p>1. How did political organisation change from the Vedic period to the age of large empires such as the Mauryas and the Guptas? Explain the administrative system of the early Indian states.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Shift in Political Formations:</strong> Governance initially revolved around tribal, lineage-centered units (<em>janas</em>) led by chiefs. With sedentary agriculture taking hold, territorial identities (<em>janapadas</em>) emerged and eventually consolidated into sixteen larger realms (<em>mahājanapadas</em>), which culminated in vast imperial polities like the Mauryan and Gupta realms.</li>
+    <li><strong>Administrative Setup:</strong> The monarch presided over the apparatus with help from a ministerial council (<em>mantri-parishad</em>). Governance operated across layered tiers, dividing territories into provinces (termed <em>bhuktis</em> or <em>mandalams</em>), divisions and districts (<em>vishayas</em> or <em>nādus</em>), down to local villages directed by headmen (<em>grāmikas</em>) and councils.</li>
+  </ul>
+</div>`
+  },
+
+  // Q2 & A2
+  {
+    q: `<div class="q-block">
+  <p>2. Describe the role of the king, important officers, and the methods used to govern large territories.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Responsibilities of the Ruler:</strong> The monarch was tasked with securing borders against outside incursions, keeping internal stability, running judicial systems, and commissioning vital public initiatives such as reservoir networks.</li>
+    <li><strong>Key Functionaries:</strong> Administration depended on trusted advisers and functionaries (<em>amātyas</em>), military commanders, finance overseers, tax executives, and diplomats like the Gupta-era foreign affairs officer (<em>sāndhivigrahika</em>).</li>
+    <li><strong>Methods for Broad Control:</strong> Monarchs distributed territorial supervision across provinces and districts, posted regional governors (<em>pradeśhikas</em>), collaborated with town guild dignitaries, and maintained transit corridors.</li>
+  </ul>
+</div>`
+  },
+
+  // Q3 & A3
+  {
+    q: `<div class="q-block">
+  <p>3. After studying this chapter, what do you think were the most important features of the state and society in India before 1000 CE?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Ethical Frameworks:</strong> Sovereignty and daily living were shaped by philosophical notions of righteousness (<em>dharma</em>), cosmic order (<em>rita</em>), and spiritual equality (<em>samatva</em>).</li>
+    <li><strong>Self-Sustaining Local Councils:</strong> Grassroots administration functioned through autonomous village committees and professional merchant associations (<em>shreṇīs</em>) that settled disputes, managed public property, and funded civic needs.</li>
+    <li><strong>Vibrant Cultural Intercourse:</strong> The civilization supported wide-ranging overland and oceanic commerce (<em>Uttarāpatha</em>, <em>Dakshiṇāpatha</em>), residential centers of higher learning, and evolving social customs.</li>
+  </ul>
+</div>`
+  },
+
+  // Q4 & A4
+  {
+    q: `<div class="q-block">
+  <p>4. What do early texts such as the Rigveda, Arthashastra, and the Mahābhārata reveal about political and social life?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Rigveda:</strong> Documents an early kinship-driven community featuring collective assemblies (<em>sabhā</em>, <em>samiti</em>, <em>vidhata</em>) and flexible trade pursuits within single households.</li>
+    <li><strong>Arthashastra:</strong> Sets forth a structured doctrine of pragmatic administration focused on the seven pillars of polity (<em>Saptāṃga</em>), state revenue monitoring, and economic enterprise.</li>
+    <li><strong>Mahābhārata:</strong> In the <em>Shanti Parva</em>, it explores the ruler’s ethical burden to guard society, dispense impartial justice, and sustain collective social wellbeing.</li>
+  </ul>
+</div>`
+  },
+
+  // Q5 & A5
+  {
+    q: `<div class="q-block">
+  <p>5. What can we learn from early Indian society about varna and the role of women?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Varna Arrangement:</strong> Initial classifications were functional divisions of duties rather than inherited identities at birth, permitting mobility across occupational roles.</li>
+    <li><strong>Standing of Women:</strong> In early periods, women accessed education, composed sacred hymns (such as Lopamudra and Ghoshā), and took part in public congregations. Even with later cultural constraints, royal women like Prabhāvatī Gupta exercised political regency, and southern records celebrate female bards, traders, and cultural donors.</li>
+  </ul>
+</div>`
+  },
+
+  // Q6 & A6
+  {
+    q: `<div class="q-block">
+  <p>6. Explain how assemblies like sabhā and samiti limited the power of the rājā. Which modern institutions perform similar functions today?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Checks on Chieftain Authority:</strong> The <em>sabhā</em> served as an elder council handling legal verdicts, while the <em>samiti</em> served as a popular gathering for collective political decision-making, restraining unilateral ruler actions.</li>
+    <li><strong>Contemporary Parallels:</strong> Modern parliamentary chambers and constitutional supreme courts operate with comparable oversight to keep executive heads of state accountable.</li>
+  </ul>
+</div>`
+  },
+
+  // Q7 & A7
+  {
+    q: `<div class="q-block">
+  <p>7. What do the terms varṇa and jāti refer to in early Indian society? How were they different, and what factors may have contributed to the formation of various jātis?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Distinction:</strong> <em>Varṇa</em> designated the overarching four-part functional template (Brāhmaṇa, Kshatriya, Vaishya, Shūdra), whereas <em>jāti</em> represented numerous regional, endogamous communities centered on trades.</li>
+    <li><strong>Factors of Formation:</strong> Proliferation occurred due to cross-community family unions, the conversion of trade guilds into localized social networks, migratory influxes, and the incorporation of forest societies into agricultural regions.</li>
+  </ul>
+</div>`
+  },
+  {
+    q: `<div class="q-block">
+  <p>8. Why do you think education in early India emphasised both knowledge and moral values? How might this have benefited society?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Purpose of Integrated Learning:</strong> Classical instruction nurtured technical expertise alongside ethical virtues—self-restraint, respect, and duty—to prepare students for responsible community life.</li>
+    <li><strong>Societal Benefit:</strong> Grounding students in civic duty ensured administrators, scholars, and merchants performed their trades with honesty, reinforcing social harmony and institutional stability.</li>
+  </ul>
+</div>`
+  },
+
+  // Q9 & A9 (Directly examines textbook map Fig. 5.12)
+ {
+  q: `<div class="q-block">
+  <p>9. Look at the major trade routes of early India (Fig 5.12). How do you think these routes helped people in the exchange of goods, skills, beliefs, and cultural practices?</p>
+</div>`,
+  a: `<div class="a-block">
+  <ul>
+    <li><strong>Commercial Integration:</strong> The northern <em>Uttarāpatha</em> and southern <em>Dakshiṇāpatha</em> channels connected inland trading towns with coastal ports, facilitating traffic in textiles, spices, metals, and gemstones[cite: 85, 86, 87].</li>
+    <li><strong>Cultural and Intellectual Exchange:</strong> These highways enabled traveling monks, craftspeople, and academics to share architectural methods, philosophical ideas, and literary traditions across different regions[cite: 81, 87, 88].</li>
+  </ul>
+</div>`, image: `images/figg.png`
+},
+
+  // Q10 & A10
+  {
+    q: `<div class="q-block">
+  <p>10. What might have been the advantages and challenges of ruling a large empire in the absence of modern communication systems?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Advantages:</strong> Access to rich, varied regional revenues, diverse agricultural produce, long-distance tolls, and high strategic power against external invaders.</li>
+    <li><strong>Challenges:</strong> Travel delays in relaying imperial commands across distances, risks of local rebellion or corruption among regional officials, and the continuous expense of garrisoning frontier zones.</li>
+  </ul>
+</div>`
+  },
+
+  // Q11 & A11
+  {
+    q: `<div class="q-block">
+  <p>11. Many ideas about governance come from texts composed by scholars and advisors of the king. What might be some limitations of relying only on such sources?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Elite Theoretical Lens:</strong> Works like the <em>Arthashastra</em> or royal edicts depict prescribed ideals rather than day-to-day realities experienced by ordinary subjects.</li>
+    <li><strong>Absence of Subaltern Voices:</strong> Court texts minimize perspectives from marginal groups, agricultural laborers, and lower artisanal strata, making corroboration with archaeology, copper-plate records, and folk accounts necessary.</li>
+  </ul>
+</div>`
+  },
+
+  // Q12 & A12
+  {
+    q: `<div class="q-block">
+  <p>12. Read the source and answer the questions (Nashik cave inscription of Ushavadāta):<br/>
+  a. What does this source tell us about the economic role of guilds?<br/>
+  b. Why were guilds trusted with money deposits?<br/>
+  c. Identify the donor and the donees from the given source.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>a. Economic Function:</strong> Demonstrates that guilds (<em>shreṇīs</em>) ran financial operations, took cash deposits, and paid recurring interest to fund designated endowments.</li>
+    <li><strong>b. Public Trust:</strong> Guilds were trusted due to their internal peer courts, durable trade output, and long-standing solvency, which ensured reliable returns on endowments.</li>
+    <li><strong>c. Parties Involved:</strong> The donor was Ushavadāta (son-in-law of King Nahapāna); the beneficiaries were the monastics residing in the cave complex.</li>
+  </ul>
+</div>`
+  },
+
+  // Q13 & A13 (Requires Map of India)
+  {
+    q: `<div class="q-block">
+  <p>13. Mark and locate on the map of India the following important centres: Pāțaliputra, Nāśhik, Ujjayinī, Vikramśhila, Kānchipuram, Mathurā, Rājgriha.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Location Guide for Outline Map of India:</strong>
+      <br/>• <em>Pāțaliputra:</em> Modern Patna, along the south bank of the Ganga in Bihar.
+      <br/>• <em>Nāśhik:</em> Western Maharashtra, along the upper Godavari River basin.
+      <br/>• <em>Ujjayinī:</em> Malwa plateau in modern Madhya Pradesh.
+      <br/>• <em>Vikramśhila:</em> Near modern Bhagalpur in eastern Bihar.
+      <br/>• <em>Kānchipuram:</em> Northern Tamil Nadu, southwest of Chennai.
+      <br/>• <em>Mathurā:</em> Western Uttar Pradesh, along the Yamuna River.
+      <br/>• <em>Rājgriha:</em> Modern Rajgir, Nalanda district in Bihar.
+    </li>
+  </ul>
+</div>`, image: `images/rot.png` 
+  },
+
+  // Q14 & A14 (Requires Presentation/Poster visual)
+ {
+  q: `<div class="q-block">
+  <p>14. Prepare a short presentation or poster on one of the following: a. Life in the Vedic society, b. Early education system (gurukula), c. Trade and guilds in early India, d. Role of women in early Indian society.</p>
+</div>`,
+  a: `<div class="a-block">
+  <div style="text-align: center; margin-bottom: 16px;">
+    <svg viewBox="0 0 600 320" width="100%" height="auto" style="max-width: 540px; border-radius: 8px; background: linear-gradient(to bottom, #fdfaf2, #f5ebd7); border: 1px solid #d4c2a8;">
+      <!-- Header Banner -->
+      <rect x="0" y="0" width="600" height="48" fill="#8d5b28" rx="8" ry="8"/>
+      <rect x="0" y="40" width="600" height="8" fill="#8d5b28"/>
+      <text x="300" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">GURUKULA: HOLISTIC LEARNING IN EARLY INDIA</text>
+
+      <!-- Panel 1: Guru-Shishya Parampara -->
+      <g transform="translate(20, 65)">
+        <rect width="170" height="235" rx="6" fill="#ffffff" stroke="#cfa670" stroke-width="1.5"/>
+        <rect width="170" height="28" rx="6" fill="#faede1"/>
+        <text x="85" y="19" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a3e14" text-anchor="middle">GURU-SHISHYA</text>
+        <!-- Icon: Teacher & Disciple -->
+        <circle cx="85" cy="65" r="16" fill="#cfa670"/>
+        <path d="M 65,115 C 65,92 105,92 105,115 Z" fill="#8d5b28"/>
+        <circle cx="120" cy="80" r="11" fill="#dfc09f"/>
+        <path d="M 106,115 C 106,99 134,99 134,115 Z" fill="#b07d48"/>
+        <!-- Text description -->
+        <text x="85" y="140" font-family="Arial, sans-serif" font-size="10.5" font-weight="bold" fill="#333" text-anchor="middle">Sacred Relationship</text>
+        <text x="85" y="160" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">Residential learning as part</text>
+        <text x="85" y="174" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">of the teacher's household</text>
+        <text x="85" y="196" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">Disciplined life focused on</text>
+        <text x="85" y="210" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">humility and self-control</text>
+      </g>
+
+      <!-- Panel 2: Comprehensive Curriculum -->
+      <g transform="translate(215, 65)">
+        <rect width="170" height="235" rx="6" fill="#ffffff" stroke="#cfa670" stroke-width="1.5"/>
+        <rect width="170" height="28" rx="6" fill="#faede1"/>
+        <text x="85" y="19" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a3e14" text-anchor="middle">CURRICULUM</text>
+        <!-- Icon: Manuscript / Book -->
+        <rect x="58" y="55" width="54" height="42" rx="3" fill="#e8d3b9" stroke="#8d5b28" stroke-width="1.5"/>
+        <line x1="66" y1="67" x2="104" y2="67" stroke="#8d5b28" stroke-width="1.5"/>
+        <line x1="66" y1="76" x2="104" y2="76" stroke="#8d5b28" stroke-width="1.5"/>
+        <line x1="66" y1="85" x2="94" y2="85" stroke="#8d5b28" stroke-width="1.5"/>
+        <!-- Text description -->
+        <text x="85" y="140" font-family="Arial, sans-serif" font-size="10.5" font-weight="bold" fill="#333" text-anchor="middle">Broad Discipline</text>
+        <text x="85" y="160" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">• Vedas, Philosophy & Logic</text>
+        <text x="85" y="176" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">• Mathematics & Astronomy</text>
+        <text x="85" y="192" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">• Medicine & Natural Sciences</text>
+        <text x="85" y="208" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">• Martial Arts & Archery</text>
+      </g>
+
+      <!-- Panel 3: Moral & Ethical Ideals -->
+      <g transform="translate(410, 65)">
+        <rect width="170" height="235" rx="6" fill="#ffffff" stroke="#cfa670" stroke-width="1.5"/>
+        <rect width="170" height="28" rx="6" fill="#faede1"/>
+        <text x="85" y="19" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a3e14" text-anchor="middle">VALUES & DHARMA</text>
+        <!-- Icon: Lotus of Wisdom -->
+        <circle cx="85" cy="76" r="18" fill="#f5d6bb"/>
+        <path d="M 85,62 C 72,74 74,90 85,94 C 96,90 98,74 85,62 Z" fill="#cfa670"/>
+        <!-- Text description -->
+        <text x="85" y="140" font-family="Arial, sans-serif" font-size="10.5" font-weight="bold" fill="#333" text-anchor="middle">Inner Development</text>
+        <text x="85" y="160" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">Cultivation of truth, purity</text>
+        <text x="85" y="174" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">and respect for all living beings</text>
+        <text x="85" y="196" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">Preparation for complete life</text>
+        <text x="85" y="210" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">and civic duty in society</text>
+      </g>
+    </svg>
+  </div>
+  <ul>
+    <li><strong>Guru-Shishya Paramparā:</strong> The preceptor (guru) guided pupils from ignorance to understanding within a close family setting that demanded discipline, simplicity, and mutual respect.</li>
+    <li><strong>Comprehensive Knowledge Base:</strong> Education integrated intellectual studies (Vedas, logic, astronomy, mathematics, medicine) with physical training, arts, and crafts.</li>
+    <li><strong>Guiding Ethical Mission:</strong> The system emphasized dharma, character development, inner purity, and duty toward family and community over mere career advancement.</li>
+  </ul>
+</div>`
+},
+  // Q15 & A15
+  {
+    q: `<div class="q-block">
+  <p>15. Divide the class into three groups. Each group will work on one project (water, wind, and glacier). The project should highlight the causes, impact on human life and the environment, and mitigation measures.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Group 1 – Running Water:</strong> Triggered by excessive rains and shifting stream beds; causes loss of arable land and damaged settlements; mitigated by bund construction, check dams, and hillside afforestation.</li>
+    <li><strong>Group 2 – Wind:</strong> Occurs in dry terrains through soil exposure and storms; leads to desertification and health concerns; addressed through windbreaks, shelterbelts, and sand-fixation planting.</li>
+    <li><strong>Group 3 – Glaciers:</strong> Driven by warming and weakening moraine lake barriers (GLOFs); threatens downstream river valleys; managed through satellite tracking, flow sensors, and controlled lake drainage.</li>
+  </ul>
+</div>`
+  }
+] },
                 ]
                         
             },
@@ -2807,14 +3087,54 @@ function getLayerElement(rawId) {
 }
 
 function showLayer(layerId) {
+    if (layerId === 'homepage-view') layerId = 'subject-view';
     document.querySelectorAll('.view-layer').forEach(layer => layer.classList.add('hidden'));
     const target = getLayerElement(layerId);
     if (target) target.classList.remove('hidden');
+
+    // Scroll to top on layer transition
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function goToHome() {
+    clearSearch();
+    updateActiveTab('all');
+    showLayer('subject-view');
+}
+
+/* ============================================================ */
+/* SUBJECT TABS BAR LOGIC                                       */
+/* ============================================================ */
+function updateActiveTab(tabKey) {
+    document.querySelectorAll('.nav-tab').forEach(tab => {
+        if (tab.getAttribute('data-tab') === tabKey) {
+            tab.classList.add('active');
+            tab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        } else {
+            tab.classList.remove('active');
+        }
+    });
+}
+
+function filterByTab(tabKey) {
+    updateActiveTab(tabKey);
+    clearSearch();
+    if (tabKey === 'all') {
+        showLayer('subject-view');
+    } else {
+        selectSubject(tabKey);
+    }
+}
+
+/* ============================================================ */
+/* SUBJECT & CHAPTER NAVIGATION                                 */
+/* ============================================================ */
 function selectSubject(subjectKey) {
     currentSubjectKey = subjectKey;
+    updateActiveTab(subjectKey);
     const data = ncertDatabase[subjectKey];
+    if (!data) return;
+
     document.getElementById('chapter-title-heading').innerText = data.title;
     const grid = getLayerElement('chapters-list-grid');
     if (!grid) return;
@@ -2822,11 +3142,11 @@ function selectSubject(subjectKey) {
     
     if (data.isBranching) {
         data.branches.forEach((branch, index) => {
-            grid.innerHTML += `<button class="chapter-select-btn" style="border-left: 5px solid #2563eb;" onclick="selectBranch('${index}')"> ✅ ${branch.name}</button>`;
+            grid.innerHTML += `<button class="chapter-select-btn" style="border-left: 5px solid #2563eb;" onclick="selectBranch('${index}')">📁 ${branch.name}</button>`;
         });
     } else {
         data.chapters.forEach((chapter, index) => {
-            grid.innerHTML += `<button class="chapter-select-btn" onclick="selectChapter(${index})">${chapter.name}</button>`;
+            grid.innerHTML += `<button class="chapter-select-btn" onclick="selectChapter(${index})">📖 ${chapter.name}</button>`;
         });
     }
     showLayer('chapter-view');
@@ -2839,7 +3159,7 @@ function selectBranch(branchIndex) {
     if (!grid) return;
     grid.innerHTML = '';
     branchData.chapters.forEach((chapter, index) => {
-        grid.innerHTML += `<button class="chapter-select-btn" onclick="selectBranchChapter(${branchIndex}, ${index})">${chapter.name}</button>`;
+        grid.innerHTML += `<button class="chapter-select-btn" onclick="selectBranchChapter(${branchIndex}, ${index})">📖 ${chapter.name}</button>`;
     });
 }
 
@@ -2853,10 +3173,18 @@ function selectBranchChapter(branchIndex, chapterIndex) {
     chapterData.solutions.forEach((sol, idx) => {
         const uniqueId = `ans-branch-${idx}`;
         stack.innerHTML += `
-            <div class="solution-card">
-                <div class="question-text"><span>Q${idx + 1}.</span> ${sol.q}</div>
+            <div class="solution-card" id="card-branch-${idx}">
+                <div class="card-question-header">
+                    <span class="q-badge">Q${idx + 1}</span>
+                    <div class="question-text">${sol.q}</div>
+                </div>
+                ${sol.image ? `<img src="${sol.image}" class="question-image" alt="Diagram">` : ''}
                 <div id="${uniqueId}" class="answer-text">${sol.a}</div>
-                <button class="btn-back" style="margin-top: 1rem; font-size: 0.85rem; padding: 0.4rem 0.8rem;" onclick="copyTextToClipboard('${uniqueId}', this)">📋 Copy Answer</button>
+                <div class="card-actions-bar">
+                    <button class="btn-copy-solution" onclick="copyTextToClipboard('${uniqueId}', this)">
+                        <span>📋</span> Copy Answer
+                    </button>
+                </div>
             </div>
         `;
     });
@@ -2873,46 +3201,317 @@ function selectChapter(chapterIndex) {
     chapterData.solutions.forEach((sol, idx) => {
         const uniqueId = `ans-std-${idx}`;
         stack.innerHTML += `
-            <div class="solution-card">
-                <div class="question-text">
-                    <span>Q${idx + 1}.</span> ${sol.q}
+            <div class="solution-card" id="card-std-${idx}">
+                <div class="card-question-header">
+                    <span class="q-badge">Q${idx + 1}</span>
+                    <div class="question-text">${sol.q}</div>
                 </div>
-                ${sol.image ? `
-                    <img 
-                        src="${sol.image}" 
-                        class="question-image"
-                        alt="Question diagram"
-                    >
-                ` : ''}
+                ${sol.image ? `<img src="${sol.image}" class="question-image" alt="Question diagram">` : ''}
                 <div id="${uniqueId}" class="answer-text">${sol.a}</div>
-                <button 
-                    class="btn-back" 
-                    style="margin-top: 1rem; font-size: 0.85rem; padding: 0.4rem 0.8rem;" 
-                    onclick="copyTextToClipboard('${uniqueId}', this)"
-                >
-                    📋 Copy Answer
-                </button>
+                <div class="card-actions-bar">
+                    <button class="btn-copy-solution" onclick="copyTextToClipboard('${uniqueId}', this)">
+                        <span>📋</span> Copy Answer
+                    </button>
+                </div>
             </div>
         `;
     });
     showLayer('solution-view');
 }
 
+/* ============================================================ */
+/* COPY ACTION & NOTIFICATIONS                                  */
+/* ============================================================ */
 function copyTextToClipboard(elementId, buttonElement) {
-    const textToCopy = document.getElementById(elementId).innerText;
+    const el = document.getElementById(elementId);
+    if (!el) return;
+    const textToCopy = el.innerText;
     navigator.clipboard.writeText(textToCopy).then(() => {
-        const originalText = buttonElement.innerHTML;
-        buttonElement.innerHTML = "✅ Copied!";
-        buttonElement.style.backgroundColor = "#10b981";
-        buttonElement.style.color = "#ffffff";
-        buttonElement.style.borderColor = "#10b981";
+        const originalContent = buttonElement.innerHTML;
+        buttonElement.innerHTML = "<span>✅</span> Copied!";
+        buttonElement.classList.add('btn-copied');
+        showToast("Answer copied to clipboard!", "success");
         setTimeout(() => {
-            buttonElement.innerHTML = originalText;
-            buttonElement.style.backgroundColor = "";
-            buttonElement.style.color = "";
-            buttonElement.style.borderColor = "";
+            buttonElement.innerHTML = originalContent;
+            buttonElement.classList.remove('btn-copied');
         }, 2000);
     }).catch(err => {
         console.error('Failed to copy text: ', err);
+        showToast("Could not copy answer automatically", "error");
     });
 }
+
+function showToast(message, type = "info") {
+    const container = document.getElementById('toast-container');
+    if (!container) return;
+    const toast = document.createElement('div');
+    toast.className = `toast-item toast-${type}`;
+    toast.innerHTML = `<span>${type === 'success' ? '✓' : 'ℹ'}</span> ${message}`;
+    container.appendChild(toast);
+    setTimeout(() => {
+        toast.classList.add('show');
+    }, 10);
+    setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => toast.remove(), 300);
+    }, 3000);
+}
+
+/* ============================================================ */
+/* LIVE SEARCH ENGINE                                           */
+/* ============================================================ */
+function stripHtml(html) {
+    const tmp = document.createElement("DIV");
+    tmp.innerHTML = html || "";
+    return tmp.textContent || tmp.innerText || "";
+}
+
+function highlightMatch(text, query) {
+    if (!query) return text;
+    const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(${escaped})`, 'gi');
+    return text.replace(regex, '<mark class="search-highlight">$1</mark>');
+}
+
+function handleSearch(val) {
+    const query = val.trim();
+    const clearBtn = document.getElementById('search-clear-btn');
+    const container = document.getElementById('search-results-container');
+    const list = document.getElementById('search-results-list');
+    const countEl = document.getElementById('search-results-count');
+
+    if (clearBtn) clearBtn.classList.toggle('hidden', query.length === 0);
+
+    if (query.length < 2) {
+        if (container) container.classList.add('hidden');
+        return;
+    }
+
+    const results = [];
+    const lowerQuery = query.toLowerCase();
+
+    // Iterate through all subjects in ncertDatabase
+    for (const [subKey, subData] of Object.entries(ncertDatabase)) {
+        const subjectDisplayName = subData.title.replace(' Section', '').replace(' Chapters', '');
+        
+        if (subData.isBranching) {
+            subData.branches.forEach((branch, bIdx) => {
+                branch.chapters.forEach((chap, cIdx) => {
+                    chap.solutions.forEach((sol, qIdx) => {
+                        const qClean = stripHtml(sol.q);
+                        const aClean = stripHtml(sol.a);
+                        if (
+                            qClean.toLowerCase().includes(lowerQuery) ||
+                            aClean.toLowerCase().includes(lowerQuery) ||
+                            chap.name.toLowerCase().includes(lowerQuery) ||
+                            branch.name.toLowerCase().includes(lowerQuery)
+                        ) {
+                            results.push({
+                                subjectKey: subKey,
+                                subjectName: subjectDisplayName,
+                                branchName: branch.name,
+                                branchIndex: bIdx,
+                                chapterName: chap.name,
+                                chapterIndex: cIdx,
+                                isBranching: true,
+                                questionIndex: qIdx,
+                                question: qClean,
+                                answer: aClean.slice(0, 160) + (aClean.length > 160 ? '...' : '')
+                            });
+                        }
+                    });
+                });
+            });
+        } else {
+            subData.chapters.forEach((chap, cIdx) => {
+                chap.solutions.forEach((sol, qIdx) => {
+                    const qClean = stripHtml(sol.q);
+                    const aClean = stripHtml(sol.a);
+                    if (
+                        qClean.toLowerCase().includes(lowerQuery) ||
+                        aClean.toLowerCase().includes(lowerQuery) ||
+                        chap.name.toLowerCase().includes(lowerQuery)
+                    ) {
+                        results.push({
+                            subjectKey: subKey,
+                            subjectName: subjectDisplayName,
+                            branchName: '',
+                            branchIndex: -1,
+                            chapterName: chap.name,
+                            chapterIndex: cIdx,
+                            isBranching: false,
+                            questionIndex: qIdx,
+                            question: qClean,
+                            answer: aClean.slice(0, 160) + (aClean.length > 160 ? '...' : '')
+                        });
+                    }
+                });
+            });
+        }
+    }
+
+    if (container && list) {
+        container.classList.remove('hidden');
+        if (results.length === 0) {
+            countEl.innerText = `No results found for "${query}"`;
+            list.innerHTML = `
+                <div class="search-empty-state">
+                    <p>No questions or solutions matched your search. Try searching for terms like <strong>"cell"</strong>, <strong>"erosion"</strong>, <strong>"nitrogen cycle"</strong>, or <strong>"meander"</strong>.</p>
+                </div>
+            `;
+        } else {
+            countEl.innerText = `Found ${results.length} result${results.length > 1 ? 's' : ''} for "${query}"`;
+            list.innerHTML = results.slice(0, 30).map(r => `
+                <div class="search-result-card" onclick="jumpToSearchResult('${r.subjectKey}', ${r.isBranching}, ${r.branchIndex}, ${r.chapterIndex}, ${r.questionIndex})">
+                    <div class="search-result-meta">
+                        <span class="badge-sub badge-${r.subjectKey}">${r.subjectName}</span>
+                        ${r.branchName ? `<span class="badge-branch">${r.branchName}</span>` : ''}
+                        <span class="search-result-chap">${r.chapterName}</span>
+                    </div>
+                    <div class="search-result-q">
+                        <strong>Q${r.questionIndex + 1}:</strong> ${highlightMatch(r.question.slice(0, 130), query)}
+                    </div>
+                    <div class="search-result-a">
+                        ${highlightMatch(r.answer, query)}
+                    </div>
+                </div>
+            `).join('');
+        }
+    }
+}
+
+function clearSearch() {
+    const input = document.getElementById('global-search-input');
+    if (input) input.value = '';
+    const clearBtn = document.getElementById('search-clear-btn');
+    if (clearBtn) clearBtn.classList.add('hidden');
+    const container = document.getElementById('search-results-container');
+    if (container) container.classList.add('hidden');
+}
+
+function focusSearch() {
+    showLayer('subject-view');
+    const input = document.getElementById('global-search-input');
+    if (input) {
+        input.focus();
+        input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+}
+
+function jumpToSearchResult(subKey, isBranching, branchIdx, chapIdx, qIdx) {
+    clearSearch();
+    currentSubjectKey = subKey;
+    updateActiveTab(subKey);
+
+    if (isBranching) {
+        selectBranchChapter(branchIdx, chapIdx);
+        setTimeout(() => {
+            const card = document.getElementById(`card-branch-${qIdx}`);
+            if (card) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                card.classList.add('highlight-target');
+                setTimeout(() => card.classList.remove('highlight-target'), 2500);
+            }
+        }, 150);
+    } else {
+        selectChapter(chapIdx);
+        setTimeout(() => {
+            const card = document.getElementById(`card-std-${qIdx}`);
+            if (card) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                card.classList.add('highlight-target');
+                setTimeout(() => card.classList.remove('highlight-target'), 2500);
+            }
+        }, 150);
+    }
+}
+
+/* ============================================================ */
+/* FEEDBACK MODAL SYSTEM                                        */
+/* ============================================================ */
+function openFeedbackModal() {
+    const modal = document.getElementById('feedback-modal');
+    if (modal) modal.classList.remove('hidden');
+}
+
+function closeFeedbackModal() {
+    const modal = document.getElementById('feedback-modal');
+    if (modal) modal.classList.add('hidden');
+}
+
+function closeFeedbackOnOverlay(event) {
+    if (event.target.id === 'feedback-modal') {
+        closeFeedbackModal();
+    }
+}
+
+function setRating(val) {
+    document.getElementById('feedback-rating').value = val;
+    document.querySelectorAll('#rating-stars .star').forEach(star => {
+        const starVal = parseInt(star.getAttribute('data-value'), 10);
+        if (starVal <= val) {
+            star.classList.add('selected');
+        } else {
+            star.classList.remove('selected');
+        }
+    });
+}
+
+function submitFeedback(event) {
+    event.preventDefault();
+    const type = document.querySelector('input[name="feedbackType"]:checked')?.value || "General";
+    const subject = document.getElementById('feedback-subject').value;
+    const rating = document.getElementById('feedback-rating').value;
+    const message = document.getElementById('feedback-message').value;
+    const email = document.getElementById('feedback-email').value;
+
+    const feedbackObj = {
+        type,
+        subject,
+        rating,
+        message,
+        email,
+        date: new Date().toISOString()
+    };
+
+    try {
+        const existing = JSON.parse(localStorage.getItem('ncert_feedback_list') || '[]');
+        existing.push(feedbackObj);
+        localStorage.setItem('ncert_feedback_list', JSON.stringify(existing));
+    } catch (e) {
+        console.warn('LocalStorage error:', e);
+    }
+
+    closeFeedbackModal();
+    document.getElementById('feedback-form').reset();
+    setRating(5);
+    showToast("🎉 Thank you! Your feedback has been received.", "success");
+}
+
+/* ============================================================ */
+/* SCROLL TO TOP & GLOBAL SHORTCUTS                             */
+/* ============================================================ */
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+window.addEventListener('scroll', () => {
+    const btn = document.getElementById('back-to-top-btn');
+    if (btn) {
+        btn.classList.toggle('hidden', window.scrollY < 300);
+    }
+});
+
+// Shortcut listeners (Ctrl + K or / to search, Escape to close)
+window.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        focusSearch();
+    } else if (e.key === 'Escape') {
+        clearSearch();
+        closeFeedbackModal();
+    } else if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+        e.preventDefault();
+        focusSearch();
+    }
+});
