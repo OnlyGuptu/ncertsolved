@@ -7,7 +7,7 @@ const ncertDatabase = {
             {
                 name: "Chapter 1: Exploration: Entering the World of Secondary Science",
                 solutions: [
-                    { q: "Notice", a: `Sorry, there are no questions in this chapter.` }
+                    { q: "Notice", a: `Sorry, there are no questions in this chapter.` } 
                 ]
             },
             {
